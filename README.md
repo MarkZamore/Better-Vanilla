@@ -28,3 +28,7 @@ python -B tools/generate_manifest.py --pack <pack-path> --out <dist-path> --laun
 python -B tools/multiplayer_warning_policy.py prepare --pack .
 python -B tools/network_logging_policy.py prepare --pack .
 ```
+
+## Изменения состава
+
+Inventory Profiles Next и его отдельная библиотека libIPN исключены по запросу пользователя. Точные исключённые SHA-256 закреплены в tools/mod-overlay-lock.json. Исходный архив и upstream-lock.json сохраняют авторский состав. Материализация и генератор выпуска проверяют слой исключений. Остальные 74 исходных JAR сохраняют свои байты.

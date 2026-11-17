@@ -10,6 +10,7 @@ import subprocess
 import sys
 import zipfile
 
+from materialize import mod_inputs
 import multiplayer_warning_policy
 import network_logging_policy
 
@@ -36,8 +37,8 @@ def payload_files(pack: Path) -> dict:
     support = read_json(SOURCE / "tools/distribution-support-lock.json")
     require(json.loads((pack / "portable-pack.json").read_bytes()) ==
             read_json(SOURCE / "portable-pack.json"), "Unexpected runtime descriptor")
-    rows = [row for row in inputs["inputFiles"] if row["path"].startswith("mods/")]
-    rows += inputs["requestedShaders"] + support["files"]
+    originals, added = mod_inputs()
+    rows = originals + added + inputs["requestedShaders"] + support["files"]
     files = {row["path"]: {key: row[key] for key in ("sizeBytes", "sha256")} for row in rows}
     for path, expected in files.items():
         require(fingerprint(pack / path) == expected, f"Changed input: {path}")

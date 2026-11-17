@@ -5,9 +5,29 @@ import argparse
 import hashlib
 import json
 from pathlib import Path
+from urllib.request import Request, urlopen
 import zipfile
 
 SOURCE = Path(__file__).resolve().parents[1]
+
+
+def mod_inputs() -> tuple[list[dict], list[dict]]:
+    upstream = json.loads((SOURCE / "upstream-lock.json").read_bytes())
+    overlay = json.loads((SOURCE / "tools/mod-overlay-lock.json").read_bytes())
+    originals = {row["path"]: row for row in upstream["inputFiles"] if row["path"].startswith("mods/")}
+    for row in overlay["remove"]:
+        path = row["path"]
+        if path not in originals or originals[path]["sha256"] != row["sha256"]:
+            raise ValueError(f"Excluded author JAR changed: {path}")
+        del originals[path]
+    added = overlay["add"]
+    seen = set(originals)
+    for row in added:
+        path = Path(row["path"])
+        if path.parent != Path("mods") or path.suffix != ".jar" or row["path"] in seen:
+            raise ValueError(f"Invalid added JAR path: {path}")
+        seen.add(row["path"])
+    return list(originals.values()), added
 
 
 def main() -> None:
@@ -20,13 +40,17 @@ def main() -> None:
     with args.original.open("rb") as stream:
         if hashlib.file_digest(stream, "sha256").hexdigest() != lock["inputArchive"]["sha256"]:
             raise ValueError("The original archive SHA-256 differs from the source lock")
-    rows = [row for row in lock["inputFiles"] if row["path"].startswith("mods/")]
+    rows, added = mod_inputs()
     with zipfile.ZipFile(args.original) as archive:
         payload = {row["path"]: archive.read("Better Vanilla/" + row["path"]) for row in rows}
     source_rows = lock["requestedShaders"] + support["files"]
     for row in source_rows:
         payload[row["path"]] = (SOURCE / row["path"]).read_bytes()
-    for row in rows + source_rows:
+    for row in added:
+        request = Request(row["downloadUrl"], headers={"User-Agent": "Better-Vanilla/1.0 (MarkZamore)"})
+        with urlopen(request, timeout=60) as response:
+            payload[row["path"]] = response.read(row["sizeBytes"] + 1)
+    for row in rows + source_rows + added:
         path = Path(row["path"])
         data = payload[row["path"]]
         if (path.is_absolute() or ".." in path.parts or len(data) != row["sizeBytes"] or

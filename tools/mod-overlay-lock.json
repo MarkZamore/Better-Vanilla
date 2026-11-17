@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "add": [],
+  "remove": [
+    {
+      "path": "mods/InventoryProfilesNext-fabric-26.3-2.3.8.jar",
+      "sha256": "d7e4a0a21427db27d723a48c66af9693cb7f9eddbdcec9a8d32a6bd3dab946b3",
+      "reason": "User requested removal of Inventory Profiles Next. libIPN has no remaining dependents."
+    },
+    {
+      "path": "mods/libIPN-fabric-26.3-6.9.0.jar",
+      "sha256": "da8cee972731b25921897c55239793ac27729a57438bcf31a32a2e23036c3da0",
+      "reason": "User requested removal of Inventory Profiles Next. libIPN has no remaining dependents."
+    }
+  ]
+}

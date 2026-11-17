@@ -17,7 +17,6 @@
     "mods/ImmediatelyFast-Fabric-1.17.1+26.3.jar": "4b346661cd0811d98a6df8c9faeb8fafd9326ab88248430e8bec845ef1ff6dca",
     "mods/Incendium_26.3_v5.5.4+26.3.jar": "eab237c9f5a7e6896a584a6776a54e960f4d8d5714f052fe5d0dc3ece1d37b10",
     "mods/InvMove-0.9.6+26.3-Fabric.jar": "d2fa09f584a66cefbc5603bd36b6eb04396950c9a499c1b84c59209f02a8265e",
-    "mods/InventoryProfilesNext-fabric-26.3-2.3.8.jar": "d7e4a0a21427db27d723a48c66af9693cb7f9eddbdcec9a8d32a6bd3dab946b3",
     "mods/ItemBorders-26.3-fabric-1.3.3.jar": "954a772493561a86f96513cc7480dd614eb1ec085844ee9a5dda2be307f1863d",
     "mods/Jade-mc26.3-Fabric-26.3.5.jar": "4899d6c60afa2af859b3a7e0824d0ef6b404f26458f831e3d877faa36be9af1c",
     "mods/Prism-26.3-fabric-1.1.3.jar": "2abadba0325de2e50d428f6275d7c21a67c6b4a3fa3020f06c127f0523e0dbb5",
@@ -52,7 +51,6 @@
     "mods/iris-fabric-1.11.7+mc26.3.jar": "83ab4d3013dd56ac05ae503a2f596968911001c4ef3d82c59c5c79e64c34dd98",
     "mods/jei-26.3-fabric-31.14.0.72.jar": "79d222604dd70517d2bd4c7e9cc3687ea5e777e0e249f4e9de6f0965bb0856fc",
     "mods/lambdynamiclights-4.13.0+26.3.jar": "b7550288423affed86370acd80d064876d7e256f5489461b7ff7941627552ab2",
-    "mods/libIPN-fabric-26.3-6.9.0.jar": "da8cee972731b25921897c55239793ac27729a57438bcf31a32a2e23036c3da0",
     "mods/lithium-fabric-0.26.3+mc26.3.jar": "103b6aab3932f119155565254a3f33b1be0da26b9bf7a5eec24851542144fc78",
     "mods/lithostitched-2.0.6-fabric-26.3.jar": "31c5fff53420a2af5aa231a7620af089054456d9a0cfc763e571332e0253872b",
     "mods/mcw-furniture-3.4.2-mc26.3fabric.jar": "cf5cd30cb19976260803427b6ff47a8dfbf770bab2fd15863bdf29a3fc1a36af",
@@ -690,11 +688,6 @@
       "version": "5.5.4+26.3"
     },
     {
-      "id": "inventoryprofilesnext",
-      "name": "Inventory Profiles Next",
-      "version": "2.3.8"
-    },
-    {
       "id": "invmove",
       "name": "InvMove",
       "version": "0.9.6"
@@ -738,11 +731,6 @@
       "id": "lambdynlights_api",
       "name": "LambDynamicLights (API)",
       "version": "4.13.0+26.3"
-    },
-    {
-      "id": "libipn",
-      "name": "libIPN",
-      "version": "6.9.0"
     },
     {
       "id": "lithium",

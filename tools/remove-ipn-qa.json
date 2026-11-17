@@ -1,0 +1,21 @@
+{
+  "status": "STATIC PASS",
+  "scope": "Removal of Inventory Profiles Next 2.3.8 and libIPN 6.9.0 only",
+  "removed": [
+    {
+      "path": "mods/InventoryProfilesNext-fabric-26.3-2.3.8.jar",
+      "sha256": "d7e4a0a21427db27d723a48c66af9693cb7f9eddbdcec9a8d32a6bd3dab946b3",
+      "reason": "User requested removal of Inventory Profiles Next. libIPN has no remaining dependents."
+    },
+    {
+      "path": "mods/libIPN-fabric-26.3-6.9.0.jar",
+      "sha256": "da8cee972731b25921897c55239793ac27729a57438bcf31a32a2e23036c3da0",
+      "reason": "User requested removal of Inventory Profiles Next. libIPN has no remaining dependents."
+    }
+  ],
+  "remainingOriginalJars": 74,
+  "baseRelease": "c7477c8e9fee29acfc74600fed8d00e87626656d",
+  "nativeGameplay": "NOT RUN. Previous native inventory filtered only by the two removed root mod IDs. All remaining JAR hashes preserved.",
+  "dependencyInspection": "No remaining root Fabric mod requires libipn or inventoryprofilesnext.",
+  "personalData": "No installed files, settings or worlds changed."
+}

@@ -8,6 +8,8 @@ from pathlib import Path
 import re
 import sys
 
+from materialize import mod_inputs
+
 ROOT = Path(__file__).resolve().parents[1]
 PLATFORM_IDS = {"fabricloader", "minecraft", "java", "mixinextras"}
 
@@ -22,9 +24,9 @@ def main() -> None:
     from pack_library import read_mods
 
     descriptor = json.loads((ROOT / "portable-pack.json").read_bytes())
-    rows = json.loads((ROOT / "upstream-lock.json").read_bytes())["inputFiles"]
+    originals, added = mod_inputs()
     by_id, digests = {}, {}
-    for row in (r for r in rows if r["path"].startswith("mods/")):
+    for row in originals + added:
         source = args.pack / row["path"]
         blob = source.read_bytes()
         digest = hashlib.sha256(blob).hexdigest()
