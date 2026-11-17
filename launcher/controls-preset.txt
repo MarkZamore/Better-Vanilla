@@ -76,3 +76,4 @@ key_key.travelersbackpack.inventory:key.keyboard.v
 key_key.travelersbackpack.cycle_tool:key.keyboard.h
 key_zoomify.key.zoom:key.keyboard.i
 key_zoomify.key.zoom.secondary:key.keyboard.unknown
+key_key.shouldersurfing.swap_shoulder:key.keyboard.comma

@@ -1,2 +1,2 @@
 -Dlog4j.configurationFile=config/log4j2.xml
--javaagent:config/better-vanilla/cinematic-warning-policy.jar
+-javaagent:config/better-vanilla/inventory-defaults.jar

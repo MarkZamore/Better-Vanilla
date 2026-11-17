@@ -79,11 +79,13 @@
     "mods/xaeroworldmap-fabric-26.3-1.47.2.jar": "815fbfd7da1e0c3b6a7a05227b7b342c7857fe6ab0fe42f072e14f8dfc19e1f8",
     "mods/yet_another_config_lib_v3-3.9.7+26.3-fabric.jar": "c52d41d444522d9abba994cd4c4ee2e71a065d7c31010f92a9959b80ccb4b0f5",
     "mods/zoomify-2.17.0+mc26.3-universal.jar": "134edcc2992d2f6c3793746101dec1aba3ef02f046024fd280afb09094593027",
-    "mods/Cinematic.Interaction-Fabric-26.3-0.18.28.jar": "71ffd95cbdd3a56d5c4d381556f6cebada9af3386188290ff752c68e8092ad84",
     "mods/entity_model_features-3.3.12-26.3-fabric.jar": "4a8b04d26c94909a3ba9f08972fb475e7d39f715f666f99a294017baaa37cb69",
     "mods/entity_texture_features-7.2.7-26.3-fabric.jar": "3c9d7640d53e01f4f09ac10547b02bd66aaf552c49b77581de0daa214cd36223",
     "mods/jamlib-fabric-2.3.3-26.3.x.jar": "bac9fa1b7aa0338854a5484422410ae278c21027cdd34650a3e8ac3709d8eb88",
-    "mods/rightclickharvest-fabric-4.7.1-26.3.x.jar": "7c0e24bc51d624fa98df696adc1a8b21d20bba996cec91f7ef6061aa7d634b54"
+    "mods/rightclickharvest-fabric-4.7.1-26.3.x.jar": "7c0e24bc51d624fa98df696adc1a8b21d20bba996cec91f7ef6061aa7d634b54",
+    "mods/InventoryProfilesNext-fabric-26.3-2.3.8.jar": "d7e4a0a21427db27d723a48c66af9693cb7f9eddbdcec9a8d32a6bd3dab946b3",
+    "mods/libIPN-fabric-26.3-6.9.0.jar": "da8cee972731b25921897c55239793ac27729a57438bcf31a32a2e23036c3da0",
+    "mods/ShoulderSurfing-Fabric-26.3-5.3.1.jar": "0f9af70b73121c65e20e5fcbffd21f46727e79039a2d87d95278e276758dc8bc"
   },
   "mods": [
     {
@@ -245,11 +247,6 @@
       "id": "chatanimation",
       "name": "ChatAnimation",
       "version": "1.3.5"
-    },
-    {
-      "id": "cinematic",
-      "name": "Cinematic Interactions",
-      "version": "0.18.28"
     },
     {
       "id": "cloth-basic-math",
@@ -707,6 +704,11 @@
       "version": "5.5.4+26.3"
     },
     {
+      "id": "inventoryprofilesnext",
+      "name": "Inventory Profiles Next",
+      "version": "2.3.8"
+    },
+    {
       "id": "invmove",
       "name": "InvMove",
       "version": "0.9.6"
@@ -755,6 +757,11 @@
       "id": "lambdynlights_api",
       "name": "LambDynamicLights (API)",
       "version": "4.13.0+26.3"
+    },
+    {
+      "id": "libipn",
+      "name": "libIPN",
+      "version": "6.9.0"
     },
     {
       "id": "lithium",
@@ -985,6 +992,11 @@
       "id": "shatterlib",
       "name": "ShatterLib",
       "version": "0.7.0-beta.5+26.3"
+    },
+    {
+      "id": "shouldersurfing",
+      "name": "Shoulder Surfing Reloaded",
+      "version": "5.3.1"
     },
     {
       "id": "shulkerboxtooltip",

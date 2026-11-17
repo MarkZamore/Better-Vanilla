@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "files": [
     {
-      "path": "config/better-vanilla/cinematic-warning-policy.jar",
-      "sizeBytes": 2412,
-      "sha256": "777ded477f0d3a950cd79010f81157460cfa1ed49be5a9a821d65965f9b5d6cd"
+      "path": "config/better-vanilla/inventory-defaults.jar",
+      "sizeBytes": 2563,
+      "sha256": "0518e77c10b8e6fed653908bb51302296d1c04dbd36e5d00700df4c937b54712"
     },
     {
       "path": "config/log4j2.xml",
@@ -13,13 +13,13 @@
     },
     {
       "path": "launcher/controls-preset.txt",
-      "sizeBytes": 3051,
-      "sha256": "e580c241c8eb4edfce59c5188b25621446dd8091e3e77a371139fcd1cca4aade"
+      "sizeBytes": 3108,
+      "sha256": "c437c6cee502cb7520c304462ffcfac1d254ec671e6d9f7a08f23c849c64f462"
     },
     {
       "path": "launcher/jvm-args.txt",
-      "sizeBytes": 106,
-      "sha256": "79c75e2af8ae6140191067bbc134a22c98dcaad191782d82644e99497ae9df64"
+      "sizeBytes": 100,
+      "sha256": "8dee3578e6d6cae3ed940b7d80c24512f899d5bd7b0dc8e9058d3224113ac612"
     },
     {
       "path": "launcher/options-default.txt",
@@ -28,13 +28,28 @@
     },
     {
       "path": "launcher/pack-owned.txt",
-      "sizeBytes": 69,
-      "sha256": "c4dfd68a837fe60861171c1f880150f74ca17cd6361782b4cb61370c9e19694c"
+      "sizeBytes": 63,
+      "sha256": "01e4511aa0d583288844d306b1d8d441e78a1796053e0f5094a5bfd8376c09cb"
+    },
+    {
+      "path": "launcher/resourcepacks-default.txt",
+      "sizeBytes": 40,
+      "sha256": "2d06adc26d306ab170c7122b60746af7902393b113a471b73f4ce6967598daa9"
     },
     {
       "path": "portable-pack.json",
       "sizeBytes": 146,
       "sha256": "a275c59d4f44f8be00d594e4f3535428305fe62b7fb2bc1ce874c6836945c94f"
+    },
+    {
+      "path": "resourcepacks/FreshAnimations_v1.11.2_26.1+.NOTICE.txt",
+      "sizeBytes": 2497,
+      "sha256": "8a20f37929127a2ba0df6aa032b3e8b69f0a815adff3974bdbca68090ed329ae"
+    },
+    {
+      "path": "resourcepacks/FreshAnimations_v1.11.2_26.1+.zip",
+      "sizeBytes": 778725,
+      "sha256": "8df24af99d185e49612b16f8f7a5bfc637997728a8e9746d3349b1a44f901e05"
     },
     {
       "path": "shaderpacks/MakeUp-UltraFast-9.6.NOTICE.txt",

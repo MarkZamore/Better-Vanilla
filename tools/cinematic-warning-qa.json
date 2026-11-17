@@ -26,5 +26,378 @@
   ],
   "launcherExceptions": "None. Policy and JVM argument belong to the pack.",
   "gameplay": "NOT RUN, user requested no computer-use",
-  "publication": "Pending public asset verification"
+  "publication": {
+    "status": "PASS",
+    "revision": "92e39174ff42bd1d789fa281f3d31c3fe3862073",
+    "manifestSha256": "baeb3f5d097ec15fb1c5cc7e6f1fefa9f77d373c59637eae7e34358f0a28b796",
+    "fullBodyDownloads": 73,
+    "downloadedBytes": 196035670,
+    "assets": [
+      {
+        "name": "c-a275c59d4f44-portable-pack.json",
+        "sha256": "a275c59d4f44f8be00d594e4f3535428305fe62b7fb2bc1ce874c6836945c94f",
+        "sizeBytes": 146
+      },
+      {
+        "name": "r-07f070fbb8e6-mods.c107.zip",
+        "sha256": "07f070fbb8e6829c1d99d846249175bab63440d9dcffa99ce3e6a86e8530e0ef",
+        "sizeBytes": 1113190
+      },
+      {
+        "name": "r-0da4368ddded-mods.c091.zip",
+        "sha256": "0da4368ddded3318d2712d59c08045c5b0bf4c5f4e44ab0c3e950e9cd9454ca0",
+        "sizeBytes": 390711
+      },
+      {
+        "name": "r-0e85834dbc3a-mods.c106.zip",
+        "sha256": "0e85834dbc3a4d5206cf4df31267ff940419ae3f4118aa797885c8e5ca6d7e72",
+        "sizeBytes": 4637173
+      },
+      {
+        "name": "r-11dc8944503d-mods.c016.zip",
+        "sha256": "11dc8944503deb862b939b9edcdec4eb354584d8c4385e4beb0d2b1548b2ec8e",
+        "sizeBytes": 1488849
+      },
+      {
+        "name": "r-1390f74e832b-mods.c185.zip",
+        "sha256": "1390f74e832b5d8523482b279a0ebc22c54799d6afd18506fcad0b82cac7f2e3",
+        "sizeBytes": 2690979
+      },
+      {
+        "name": "r-1be79d841599-mods.c225.zip",
+        "sha256": "1be79d841599d9b587545765bb7c4ad3e439091d7e32ca7ed22f14b912ada288",
+        "sizeBytes": 1135181
+      },
+      {
+        "name": "r-20a6b8d22a68-mods.c159.zip",
+        "sha256": "20a6b8d22a68cea6c7634da90afee5e73ab2e6670d5459651ed252c103ff6c11",
+        "sizeBytes": 279603
+      },
+      {
+        "name": "r-2789a55ffc99-mods.c204.zip",
+        "sha256": "2789a55ffc999626673e412c0cbacbf2a0c69f51a4b20648f1d912b96122b324",
+        "sizeBytes": 1483969
+      },
+      {
+        "name": "r-2cc31d3fe624-mods.c250.zip",
+        "sha256": "2cc31d3fe624483a67b1f7de0a9e58815b4866e4f1d2a0e3020db22e2b19554b",
+        "sizeBytes": 6022374
+      },
+      {
+        "name": "r-30f3c8232a6f-mods.c083.zip",
+        "sha256": "30f3c8232a6f7f37349ad8707b2a654bf3805a18a8b1a83d32d01523da9af48b",
+        "sizeBytes": 5710425
+      },
+      {
+        "name": "r-32b16c0b6cbd-mods.c099.zip",
+        "sha256": "32b16c0b6cbdbc42d5e3110f04e5c92b82400162fb42d4c09c111f4eb9d9fa8d",
+        "sizeBytes": 748384
+      },
+      {
+        "name": "r-34c68b15c095-mods.c158.zip",
+        "sha256": "34c68b15c095b05185d53efe86032f5e83f48e40f28fe3133b02a7c25391089e",
+        "sizeBytes": 84825283
+      },
+      {
+        "name": "r-359ea965b9d3-mods.c181.zip",
+        "sha256": "359ea965b9d34b5e4e43d41822c2220b7d15c204862b8b28d883eb274745a996",
+        "sizeBytes": 2851104
+      },
+      {
+        "name": "r-3f0561c91714-mods.c018.zip",
+        "sha256": "3f0561c91714521b6106a2d9614629ede8a9947a8ea43abf31a9ca82d5c081e3",
+        "sizeBytes": 23184
+      },
+      {
+        "name": "r-43c32b085e99-mods.c228.zip",
+        "sha256": "43c32b085e996e2eef160be497e7cab2c6ed74bf144bab12da3239f9757ef112",
+        "sizeBytes": 11406948
+      },
+      {
+        "name": "r-4643a97f571f-mods.c197.zip",
+        "sha256": "4643a97f571fc59434dc2181cae4306dde1e8c6fbd1b7266d0594ff69e8d8a28",
+        "sizeBytes": 862905
+      },
+      {
+        "name": "r-46ff7c505a7a-mods.c116.zip",
+        "sha256": "46ff7c505a7a70af4fb178ceb20d39ce8a72ec848a3d2e0f19e09bae1bbfcd38",
+        "sizeBytes": 118496
+      },
+      {
+        "name": "r-475c9a210dfe-mods.c045.zip",
+        "sha256": "475c9a210dfeaaa92b6909338cd45e67537ca874bfe8204e146dd48c22594b16",
+        "sizeBytes": 103879
+      },
+      {
+        "name": "r-4c18328a23ea-mods.c060.zip",
+        "sha256": "4c18328a23ea8c43cb9111afc0ee7632d7c074e3e62e1738cff54f3e91e9e3b8",
+        "sizeBytes": 3482438
+      },
+      {
+        "name": "r-583f83f8ae9e-mods.c109.zip",
+        "sha256": "583f83f8ae9e803f871e8e65f8d7eb7ab9ed08b60314bca5b48c84a2f766b487",
+        "sizeBytes": 482153
+      },
+      {
+        "name": "r-5991f635e119-mods.c134.zip",
+        "sha256": "5991f635e1197e40546037c2c9a43906068a8e84188d70a742f8de26d1d58181",
+        "sizeBytes": 196278
+      },
+      {
+        "name": "r-5aff17761d81-mods.c043.zip",
+        "sha256": "5aff17761d81022f62215438dcafc6b5d320edf41e664fb1038b0b930110d326",
+        "sizeBytes": 425027
+      },
+      {
+        "name": "r-5e9c784d4837-mods.c028.zip",
+        "sha256": "5e9c784d4837b37e451ad7faa2defcf6fdacaf28a053b83d4df9d03a93d7ffed",
+        "sizeBytes": 265686
+      },
+      {
+        "name": "r-63786cf8cc98-mods.c130.zip",
+        "sha256": "63786cf8cc988b2e95e4a29c4398a3ecc5b5a55bd0e0d569d0a2c3fdf6b8999c",
+        "sizeBytes": 1797685
+      },
+      {
+        "name": "r-662711fed7b0-shaderpacks.zip",
+        "sha256": "662711fed7b08e3b38a6b12dda2719d8410870958ee9dd499d803b4cd5ae6de9",
+        "sizeBytes": 2587807
+      },
+      {
+        "name": "r-66c68041da02-mods.c012.zip",
+        "sha256": "66c68041da02192428eb42b946f441fc4f0266920d488609b600057ec2871243",
+        "sizeBytes": 8143080
+      },
+      {
+        "name": "r-6c2d743c1494-mods.c221.zip",
+        "sha256": "6c2d743c1494d6373119d7a0307898bc81e4d88ca2047be5ba245f41ffb9133e",
+        "sizeBytes": 390226
+      },
+      {
+        "name": "r-6da9f2dfd981-mods.c155.zip",
+        "sha256": "6da9f2dfd98183bd0b80fc244caac5a08ad052d206aa7b4eac9d6591c3cd1ac8",
+        "sizeBytes": 1382876
+      },
+      {
+        "name": "r-6f39ebfd129e-mods.c253.zip",
+        "sha256": "6f39ebfd129ea8031840308ac06ad6dea058990f1f52e29a1fa6b05f17db7af3",
+        "sizeBytes": 1227382
+      },
+      {
+        "name": "r-6fc7097bae47-mods.c103.zip",
+        "sha256": "6fc7097bae47279e3193f269b15097e0aa6096430872a0362259492f3a5c303d",
+        "sizeBytes": 117658
+      },
+      {
+        "name": "r-70d610ba210c-mods.c029.zip",
+        "sha256": "70d610ba210cc0340b80195cd2046b32a5260e4ea64f101b0f9e92769be9a9b9",
+        "sizeBytes": 1980853
+      },
+      {
+        "name": "r-720428b27e0e-mods.c153.zip",
+        "sha256": "720428b27e0e9dd0753199e8a0597766e1751bf558028ecc3aa633332c88a7c1",
+        "sizeBytes": 1210109
+      },
+      {
+        "name": "r-77a683d6b150-mods.c047.zip",
+        "sha256": "77a683d6b15053dcc77c6592281dbdc1d5f43c2b83e39000c6556a22aae77669",
+        "sizeBytes": 4087353
+      },
+      {
+        "name": "r-77d88b1571cf-mods.c168.zip",
+        "sha256": "77d88b1571cf521bc673775a7b702ba8aa5dfbe4e2aa8d58d11c54e7f5cbd805",
+        "sizeBytes": 440909
+      },
+      {
+        "name": "r-7b2124b95781-mods.c133.zip",
+        "sha256": "7b2124b95781c81185855133922326d30ab647a0d27116b6b3a62d8fdd2af5a0",
+        "sizeBytes": 3544267
+      },
+      {
+        "name": "r-8107db5d06ee-mods.c006.zip",
+        "sha256": "8107db5d06eeeb636ed4c0aa0a021f8d83baf4814f546a2f4ef8f8ccf5a297c5",
+        "sizeBytes": 99770
+      },
+      {
+        "name": "r-823938a29050-mods.c137.zip",
+        "sha256": "823938a2905038744b4ff6ea6dd886ecbc6caa3552415b76bdec2ca86cdbd196",
+        "sizeBytes": 221664
+      },
+      {
+        "name": "r-8398788aa8e7-mods.c036.zip",
+        "sha256": "8398788aa8e773d59f13e7938125c48e4aedba75a376a9ade163f216868650d7",
+        "sizeBytes": 374720
+      },
+      {
+        "name": "r-8743cdef856b-mods.c236.zip",
+        "sha256": "8743cdef856b7403dc42518644c98a1c2e40589640ba126a3220a80eb7920868",
+        "sizeBytes": 1168950
+      },
+      {
+        "name": "r-88c9062e5a8e-mods.c056.zip",
+        "sha256": "88c9062e5a8e77c998e76895632bcdb32057d37003f597bc72de73c6ed759527",
+        "sizeBytes": 920064
+      },
+      {
+        "name": "r-9851048dd160-mods.c200.zip",
+        "sha256": "9851048dd1605f8423d6c46929b008f9990e939dcb703e3d279e8c1d8cfe487f",
+        "sizeBytes": 2375583
+      },
+      {
+        "name": "r-9c229e0f4303-mods.c017.zip",
+        "sha256": "9c229e0f43036eb157d8b05b526df9af6b23f5aa16ecc9998527cad5be33e9bd",
+        "sizeBytes": 1908236
+      },
+      {
+        "name": "r-9c8d70584dcf-mods.c112.zip",
+        "sha256": "9c8d70584dcfef2b318955f409402367d56bdbad26e6af4328fe5c840927bf29",
+        "sizeBytes": 433708
+      },
+      {
+        "name": "r-9d3e422c0668-mods.c093.zip",
+        "sha256": "9d3e422c06686b19fa63de275d3270360068787049871794bf89c6f1e2ece3d4",
+        "sizeBytes": 997270
+      },
+      {
+        "name": "r-a92faeed3a83-mods.c191.zip",
+        "sha256": "a92faeed3a83a00fbb9944315c89709fe5481cd1a1d42217173c33f17fc56cc5",
+        "sizeBytes": 255127
+      },
+      {
+        "name": "r-b797fef20c82-mods.c196.zip",
+        "sha256": "b797fef20c827c1750c62e579a66ff4168db3113ea28994c0ab402517a117755",
+        "sizeBytes": 202371
+      },
+      {
+        "name": "r-b96a23cb8b7b-mods.c009.zip",
+        "sha256": "b96a23cb8b7b5115abe9f88797b1057f18d34e75912536a1c8cb5faeb4f544dc",
+        "sizeBytes": 1026941
+      },
+      {
+        "name": "r-bf1b6e7f32ed-mods.c110.zip",
+        "sha256": "bf1b6e7f32ed480cd9198a68a04da056555ba1965c25612643b12a58aaa99200",
+        "sizeBytes": 3234389
+      },
+      {
+        "name": "r-c159e1c71a71-mods.c206.zip",
+        "sha256": "c159e1c71a7145cd2c99a32423db5dc11fab21c86f18c682a466e1865b623178",
+        "sizeBytes": 568989
+      },
+      {
+        "name": "r-c85e2db1c279-mods.c171.zip",
+        "sha256": "c85e2db1c279ebbf4ebb7427f2b23063625777857f3fadaabd4f5b95469b2e75",
+        "sizeBytes": 1576240
+      },
+      {
+        "name": "r-c867b596da0e-mods.c121.zip",
+        "sha256": "c867b596da0ebf21d5dcf582bf86f59d6e19d6aae41d3b9e894929c16b931a03",
+        "sizeBytes": 1092851
+      },
+      {
+        "name": "r-c8d96589a1c7-mods.c114.zip",
+        "sha256": "c8d96589a1c78912973c52b47f0db2117c6bc5960e7db326585761d72ea55531",
+        "sizeBytes": 494008
+      },
+      {
+        "name": "r-cfa845396ae8-mods.c084.zip",
+        "sha256": "cfa845396ae8a2f3c14c42f997fdf334d777f880f8a30fa03a501044304c83da",
+        "sizeBytes": 47192
+      },
+      {
+        "name": "r-d42f6216c098-mods.c104.zip",
+        "sha256": "d42f6216c098a263848ed5d44897b341e104729bf1b2afe8447e3a5353cdac64",
+        "sizeBytes": 180370
+      },
+      {
+        "name": "r-d6681d811dee-mods.c129.zip",
+        "sha256": "d6681d811dee5079a04c8288c7758c67508b588c0abde5ff6fd1dc8dabf7af06",
+        "sizeBytes": 420162
+      },
+      {
+        "name": "r-d7d33b9901b7-mods.c230.zip",
+        "sha256": "d7d33b9901b73114c07077e9204c3726fe42ea2900d1d4ea35068da5fc32b27e",
+        "sizeBytes": 292282
+      },
+      {
+        "name": "r-d8e6482fee28-mods.c199.zip",
+        "sha256": "d8e6482fee2899d216ae752f2234c9414b0f8ae8b9235c0fb5ffc3c78d6e60a9",
+        "sizeBytes": 3198395
+      },
+      {
+        "name": "r-db6962000b38-mods.c164.zip",
+        "sha256": "db6962000b38407d2686064c63c5ddca44a7ade723e6b04b67bf29694e7e8f20",
+        "sizeBytes": 1345889
+      },
+      {
+        "name": "r-de172691ca96-mods.c062.zip",
+        "sha256": "de172691ca96d6207e9c288ce4f3410144a904326281db1f396669d498ba41e3",
+        "sizeBytes": 609774
+      },
+      {
+        "name": "r-df4e3f54070a-mods.c019.zip",
+        "sha256": "df4e3f54070aac5b0a0be13df9a5570529c340b9b441e86077b37325c3d4885e",
+        "sizeBytes": 2411150
+      },
+      {
+        "name": "r-e56d8bb9b00c-mods.c042.zip",
+        "sha256": "e56d8bb9b00c0f6e757c40a0fee8ff04c31d06a7af23bb1e8041ad1cb8e17767",
+        "sizeBytes": 622710
+      },
+      {
+        "name": "r-e6e79121a43a-mods.c113.zip",
+        "sha256": "e6e79121a43afe3bf5e29667aeab2319ec0a39653d58aa277524bb4724f28177",
+        "sizeBytes": 210203
+      },
+      {
+        "name": "r-e7e20d548897-launcher.zip",
+        "sha256": "e7e20d548897eb31e3d838a37d41c8c61cfa6e902b1aea4f15fe1d46e30925a6",
+        "sizeBytes": 1605
+      },
+      {
+        "name": "r-f3b272d5d6df-mods.c122.zip",
+        "sha256": "f3b272d5d6df539c4eb6a06dd0dba488cbc3a6b8ca931b35d7ce4c77912baa25",
+        "sizeBytes": 1867170
+      },
+      {
+        "name": "r-f6cc2ad47e2a-mods.c002.zip",
+        "sha256": "f6cc2ad47e2af16622712f75836a4cd02c24bfaa6db551d6ba5f28c8e8d66a74",
+        "sizeBytes": 628421
+      },
+      {
+        "name": "r-f8b855c6fd20-mods.c095.zip",
+        "sha256": "f8b855c6fd20394377ef81e14c59e32bfd2790599b8874c5b05feaccea1d3b9b",
+        "sizeBytes": 106697
+      },
+      {
+        "name": "r-f9ac33c6cdfc-mods.c252.zip",
+        "sha256": "f9ac33c6cdfc40c24dfec9d6880295336777c9ba93f382c7ad69f98c2a802047",
+        "sizeBytes": 72841
+      },
+      {
+        "name": "r-fb490422ac53-config.zip",
+        "sha256": "fb490422ac53a6378bcf3f64ce5f0325519ebf81e870bda0de2299bf1ffa3bbb",
+        "sizeBytes": 4508
+      },
+      {
+        "name": "library-a18e9c306898e794e9a0949c4a9ebf295dda243f4aa44ff3bd0a6e3ee7ccf9a8.zip",
+        "sha256": "a18e9c306898e794e9a0949c4a9ebf295dda243f4aa44ff3bd0a6e3ee7ccf9a8",
+        "sizeBytes": 659203
+      },
+      {
+        "name": "entity_model_features-source-45b0211f22b91ef76b62f0acd30b393f536df144.zip",
+        "sha256": "db962b0c8b443df75d5149399a50313832aa8dbfb23dcca46c6ee05671a95aec",
+        "sizeBytes": 686950
+      },
+      {
+        "name": "entity_texture_features-source-3f3a8a75138d96223f2ddfbd8bcff8327c1b7f59.zip",
+        "sha256": "7274154a93ff31f9a72f4da348b7a7e77c8fa3e43d1a6e1dff7879ed0b951fc2",
+        "sizeBytes": 8031983
+      },
+      {
+        "name": "mod-licenses-6a582b1bc70821edd497665f655f3e3526ca68d971fc56791b3b23c04d66cf13.zip",
+        "sha256": "6a582b1bc70821edd497665f655f3e3526ca68d971fc56791b3b23c04d66cf13",
+        "sizeBytes": 32714
+      }
+    ]
+  }
 }

@@ -4,7 +4,9 @@ Better Vanilla для библиотеки LANMinecraft. Minecraft 26.3, Fabric 
 
 ## Состав
 
-В `upstream-lock.json` закреплены SHA-256 входного архива, точные версии 76 авторских JAR и их источники. [Слой правок](tools/mod-overlay-lock.json) фиксирует пять добавленных JAR и исключает Shoulder Surfing Reloaded, камера которого перекрывает сцены Cinematic Interactions. Добавлены Entity Texture Features 7.2.7, Entity Model Features 3.3.12, RightClickHarvest 4.7.1, его зависимость JamLib 2.3.3 и Cinematic Interactions 0.18.28 beta. RightClickHarvest собирает созревший урожай по ПКМ и пересаживает его. Cinematic Interactions добавляет сцены от первого лица у верстака, печи и других рабочих блоков.
+В `upstream-lock.json` закреплены 76 исходных авторских JAR. Все они активны, включая Inventory Profiles Next 2.3.8, libIPN 6.9.0 и Shoulder Surfing Reloaded 5.3.1. Слой правок tools/mod-overlay-lock.json добавляет Entity Texture Features 7.2.7, Entity Model Features 3.3.12, RightClickHarvest 4.7.1 и JamLib 2.3.3. Cinematic Interactions удалён по запросу пользователя. Всего 80 JAR и 206 компонентов Fabric.
+
+Fresh Animations 1.11.2 от FreshLX добавляет анимации жителям и другим существам. Оригинальный ZIP для Minecraft 26.3 закреплён в tools/resourcepacks-lock.json и включён в поставку с разрешения официальных условий на использование в модпаках. launcher/resourcepacks-default.txt включает пакет при первом предложении и сохраняет последующий выбор игрока. Not Enough Animations продолжает отвечать за анимации действий игрока.
 
 JAR выпускаются в исходных байтах. Соответствующие исходники добавлений указаны в слое правок, лицензии и атрибуция сохранены в [tools/mod-licenses](tools/mod-licenses). Шейдеры поставляются в оригинальных ZIP и выбираются вручную в Iris. Поставка сохраняет выбор игрока, настройки дальности и графического бэкенда.
 
@@ -16,7 +18,7 @@ JAR выпускаются в исходных байтах. Соответст�
 
 ## Подготовка поставки
 
-Используйте неизменённый исходный ZIP и актуальные инструменты LANMinecraft. Материализация скачивает пять добавлений из официальных источников и сверяет их размеры и SHA-256 перед записью.
+Используйте неизменённый исходный ZIP и актуальные инструменты LANMinecraft. Материализация скачивает четыре добавления из официальных источников и сверяет их размеры и SHA-256 перед записью.
 
 ```powershell
 python -B tools/materialize.py --original <Better-Vanilla.zip> --out <novel-pack-path>
@@ -31,12 +33,14 @@ python -B tools/multiplayer_warning_policy.py prepare --pack .
 python -B tools/network_logging_policy.py prepare --pack .
 ```
 
-## Изменения состава
+## Настройки и изменения состава
 
-Предупреждение Cinematic Interactions при открытии списка серверов отключено штатным флагом `multiplayer.serverHintSeen`. Небольшой pack-owned Java-agent из `config/better-vanilla/cinematic-warning-policy.jar` перед загрузкой игры записывает только этот флаг в личный `config/cinematic-client.json`. Остальные значения, включая клиентский режим, сохраняются. Ошибочный JSON сохраняется с диагностикой. Повторный запуск с установленным флагом не записывает файл. Исходники и проверка находятся в `tools/cinematic-warning`.
+Inventory Profiles Next возвращён с отключёнными значками автопополнения в слотах и хотбаре. Небольшой pack-owned агент config/better-vanilla/inventory-defaults.jar применяет эти два значения при первом запуске этой ревизии. Сортировка, автопополнение, прочие настройки и горячие клавиши сохраняются. Личная метка config/better-vanilla/ipn-arrow-defaults-v1.applied сохраняет последующие изменения игрока. При повреждённом JSON файл сохраняется с диагностикой, а применение повторяется после его исправления.
 
-Для воспроизводимой сборки агента используется `python -B tools/cinematic-warning/build.py --jdk <JDK-25.0.2> --gson <gson-2.14.0.jar> --out <agent.jar>`. Проверка без Minecraft выполняется через `tools/cinematic-warning/verify.py` с аргументами `--jdk`, `--gson`, `--agent` и `--out <new-qa-directory>`. При обновлении Cinematic Interactions повторно сверить назначение этого флага и работу его загрузчика настроек.
+Исходники агента и проверка без игры находятся в tools/inventory-defaults. Сборка выполняется командой build.py --jdk <JDK-25.0.2> --gson <gson-2.14.0.jar> --out <agent.jar>. Проверка verify.py использует те же --jdk и --gson, а также --agent <agent.jar> и --out <new-test-directory>.
 
-Inventory Profiles Next и его отдельная библиотека libIPN исключены по запросу пользователя. Также исключён Shoulder Surfing Reloaded для работы камеры Cinematic Interactions. Точные исключённые SHA-256 закреплены в tools/mod-overlay-lock.json. Исходный архив и upstream-lock.json сохраняют авторский состав. Материализация и генератор выпуска проверяют слой исключений. Поставка содержит 73 исходных JAR и пять добавлений, всего 78 JAR и 204 фактически загружаемых компонента Fabric.
+Сетевое предупреждение удалено вместе с Cinematic Interactions. Его прежний агент больше не входит в поставку. Возвращён Shoulder Surfing Reloaded с назначением смены плеча на запятую.
 
-Полная проверка опубликованной поставки выполняется инструментом tools/verify_public_release.py с аргументами --staged <dist>/pack-manifest.json и --out <new-public-check-path>. Инструмент скачивает игровые файлы, библиотеку, исходники ETF/EMF и лицензии, затем сверяет размеры и SHA-256. Отчёт приёмки сохранён в tools/mod-additions-qa.json.
+Прямого пересечения Fresh Animations с оставшимися модами по моделям не найдено. Fresh Animations не содержит модели игрока, Fancy World Animations меняет блоки, Cosy Critters добавляет собственных декоративных существ. Визуальная проверка и запуск игры не выполнялись по указанию пользователя.
+
+Полная проверка публичных файлов выполняется tools/verify_public_release.py --staged <dist>/pack-manifest.json --out <new-public-check-directory>. Приёмка этой ревизии находится в tools/animation-and-inventory-qa.json.

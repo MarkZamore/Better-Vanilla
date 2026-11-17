@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "path": "resourcepacks/FreshAnimations_v1.11.2_26.1+.zip",
+      "sizeBytes": 778725,
+      "sha256": "8df24af99d185e49612b16f8f7a5bfc637997728a8e9746d3349b1a44f901e05",
+      "version": "1.11.2",
+      "modrinthVersionId": "xfE3qfr5",
+      "downloadUrl": "https://cdn.modrinth.com/data/50dA9Sha/versions/xfE3qfr5/FreshAnimations_v1.11.2_26.1%2B.zip",
+      "websiteUrl": "https://www.curseforge.com/minecraft/texture-packs/fresh-animations",
+      "creator": "FreshLX",
+      "distributionPermission": "Official terms permit inclusion in a modpack or server. Original ZIP is included unchanged as part of Better Vanilla."
+    }
+  ]
+}

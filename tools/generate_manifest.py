@@ -38,11 +38,12 @@ def payload_files(pack: Path) -> dict:
     require(json.loads((pack / "portable-pack.json").read_bytes()) ==
             read_json(SOURCE / "portable-pack.json"), "Unexpected runtime descriptor")
     originals, added = mod_inputs()
-    rows = originals + added + inputs["requestedShaders"] + support["files"]
+    resources = read_json(SOURCE / "tools/resourcepacks-lock.json")["files"]
+    rows = originals + added + inputs["requestedShaders"] + support["files"] + resources
     files = {row["path"]: {key: row[key] for key in ("sizeBytes", "sha256")} for row in rows}
     for path, expected in files.items():
         require(fingerprint(pack / path) == expected, f"Changed input: {path}")
-    for directory in ("mods", "shaderpacks", "config", "launcher"):
+    for directory in ("mods", "shaderpacks", "resourcepacks", "config", "launcher"):
         expected = {path for path in files if path.startswith(directory + "/")}
         actual = {path.relative_to(pack).as_posix() for path in (pack / directory).rglob("*") if path.is_file()}
         require(actual == expected, f"Unexpected files in {directory}")

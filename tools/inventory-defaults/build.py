@@ -10,13 +10,13 @@ parser.add_argument('--jdk', required=True, type=Path)
 parser.add_argument('--gson', required=True, type=Path)
 parser.add_argument('--out', required=True, type=Path)
 args = parser.parse_args()
-source = Path(__file__).with_name('CinematicWarningPolicy.java')
+source = Path(__file__).with_name('InventoryProfilesDefaults.java')
 args.out.parent.mkdir(parents=True, exist_ok=True)
-with tempfile.TemporaryDirectory(prefix='cinematic-policy-', dir=args.out.parent) as temp:
+with tempfile.TemporaryDirectory(prefix='inventory-defaults-', dir=args.out.parent) as temp:
     classes = Path(temp)
     subprocess.run([str(args.jdk / 'bin/javac.exe'), '--release', '25', '-encoding', 'UTF-8',
                     '-cp', str(args.gson.resolve()), '-d', str(classes), str(source.resolve())], check=True)
-    manifest = b'Manifest-Version: 1.0\r\nPremain-Class: bettervanilla.CinematicWarningPolicy\r\n\r\n'
+    manifest = b'Manifest-Version: 1.0\r\nPremain-Class: bettervanilla.InventoryProfilesDefaults\r\n\r\n'
     entries = [('META-INF/MANIFEST.MF', manifest)]
     entries += [(p.relative_to(classes).as_posix(), p.read_bytes()) for p in sorted(classes.rglob('*.class'))]
     with zipfile.ZipFile(args.out, 'w', compression=zipfile.ZIP_DEFLATED) as archive:

@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "checks": [
+    "new: only arrow visibility changed, keybinds and other settings retained",
+    "new: idempotent startup",
+    "new: later player choice retained",
+    "existing: only arrow visibility changed, keybinds and other settings retained",
+    "existing: idempotent startup",
+    "existing: later player choice retained",
+    "malformed settings preserved without migration marker"
+  ],
+  "count": 7,
+  "minecraftStarted": false,
+  "rootModJars": 80,
+  "resolvedComponents": 206,
+  "inventoryEvidence": "Previous native inventory for byte-identical original IPN, libIPN and Shoulder Surfing merged with the verified additions inventory. No new gameplay run.",
+  "freshAnimations": {
+    "path": "resourcepacks/FreshAnimations_v1.11.2_26.1+.zip",
+    "sizeBytes": 778725,
+    "sha256": "8df24af99d185e49612b16f8f7a5bfc637997728a8e9746d3349b1a44f901e05",
+    "version": "1.11.2",
+    "modrinthVersionId": "xfE3qfr5",
+    "downloadUrl": "https://cdn.modrinth.com/data/50dA9Sha/versions/xfE3qfr5/FreshAnimations_v1.11.2_26.1%2B.zip",
+    "websiteUrl": "https://www.curseforge.com/minecraft/texture-packs/fresh-animations",
+    "creator": "FreshLX",
+    "distributionPermission": "Official terms permit inclusion in a modpack or server. Original ZIP is included unchanged as part of Better Vanilla."
+  },
+  "resourceDefault": "?file/FreshAnimations_v1.11.2_26.1+.zip",
+  "cinematic": "Removed at user request, including its startup flag agent. Shoulder Surfing restored.",
+  "conflictReview": "No same-path custom entity model intersections with installed mods. NEA affects players, FWA affects blocks, Cosy Critters adds its own creatures. Visual compatibility not tested.",
+  "launcherExceptions": "None, all data and startup policy belong to Better Vanilla.",
+  "gameplay": "NOT RUN, user requested no computer-use",
+  "publication": "Pending",
+  "customModelPathCheck": "PASS, Fresh Animations JEM/JPM files do not collide with the 80 installed mod JARs"
+}

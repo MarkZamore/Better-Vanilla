@@ -2,17 +2,6 @@
   "schemaVersion": 1,
   "add": [
     {
-      "path": "mods/Cinematic.Interaction-Fabric-26.3-0.18.28.jar",
-      "sizeBytes": 1227184,
-      "sha256": "71ffd95cbdd3a56d5c4d381556f6cebada9af3386188290ff752c68e8092ad84",
-      "modId": "cinematic",
-      "modVersion": "0.18.28",
-      "downloadUrl": "https://github.com/xiaocraftt/CinematicInteractions/releases/download/v0.18.28-fabric-26.3-beta/Cinematic.Interaction-Fabric-26.3-0.18.28.jar",
-      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cinematic-interactions",
-      "license": "MIT",
-      "sourceUrl": "https://github.com/xiaocraftt/CinematicInteractions/tree/ff00fa9077470ae326bfa07b71108585bce5ad59"
-    },
-    {
       "path": "mods/entity_model_features-3.3.12-26.3-fabric.jar",
       "sizeBytes": 665386,
       "sha256": "4a8b04d26c94909a3ba9f08972fb475e7d39f715f666f99a294017baaa37cb69",
@@ -69,21 +58,13 @@
       "sourceUrl": "https://github.com/JamCoreModding/right-click-harvest/tree/525116a6270dde26f5e22dfca179b998d3bf3a05"
     }
   ],
-  "remove": [
+  "remove": [],
+  "removedAdditions": [
     {
-      "path": "mods/ShoulderSurfing-Fabric-26.3-5.3.1.jar",
-      "sha256": "0f9af70b73121c65e20e5fcbffd21f46727e79039a2d87d95278e276758dc8bc",
-      "reason": "Cinematic Interactions controls the camera during workstation scenes. Shoulder Surfing Reloaded can keep its third-person camera active and obscure the scene."
-    },
-    {
-      "path": "mods/InventoryProfilesNext-fabric-26.3-2.3.8.jar",
-      "sha256": "d7e4a0a21427db27d723a48c66af9693cb7f9eddbdcec9a8d32a6bd3dab946b3",
-      "reason": "User requested removal of Inventory Profiles Next. libIPN has no remaining dependents."
-    },
-    {
-      "path": "mods/libIPN-fabric-26.3-6.9.0.jar",
-      "sha256": "da8cee972731b25921897c55239793ac27729a57438bcf31a32a2e23036c3da0",
-      "reason": "User requested removal of Inventory Profiles Next. libIPN has no remaining dependents."
+      "id": "cinematic",
+      "path": "mods/Cinematic.Interaction-Fabric-26.3-0.18.28.jar",
+      "sha256": "71ffd95cbdd3a56d5c4d381556f6cebada9af3386188290ff752c68e8092ad84",
+      "reason": "User requested removal and restoration of Shoulder Surfing."
     }
   ]
 }
