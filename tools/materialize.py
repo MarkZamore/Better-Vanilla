@@ -49,7 +49,13 @@ def main() -> None:
     for row in added:
         request = Request(row["downloadUrl"], headers={"User-Agent": "Better-Vanilla/1.0 (MarkZamore)"})
         with urlopen(request, timeout=60) as response:
-            payload[row["path"]] = response.read(row["sizeBytes"] + 1)
+            data = response.read(row.get("upstreamSizeBytes", row["sizeBytes"]) + 1)
+            if patch := row.get("patch"):
+                if patch != "restore-mojang-logo-v1":
+                    raise ValueError(f"Unknown pack patch: {patch}")
+                import intro_logo_patch
+                data = intro_logo_patch.apply(data)
+            payload[row["path"]] = data
     for row in rows + source_rows + added:
         path = Path(row["path"])
         data = payload[row["path"]]

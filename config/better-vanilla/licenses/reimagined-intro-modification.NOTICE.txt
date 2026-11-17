@@ -1,0 +1,5 @@
+Reimagined Intro 3.0.0 by NoobTrieu, CC0-1.0.
+Better Vanilla variant, 2026-11-17.
+Only LoadingOverlayMixin is removed from reimagined-intro.mixins.json to retain the vanilla Mojang loading logo before the intro. All 451 other members retain the original uncompressed bytes, including classes, videos, Fabric metadata and CC0 license.
+Reproducible recipe: tools/intro_logo_patch.py. Original and variant SHA-256 are pinned in tools/mod-overlay-lock.json.
+Official project https://www.curseforge.com/minecraft/mc-mods/reimagined-intro

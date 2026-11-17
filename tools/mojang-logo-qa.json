@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "changedMembers": [
+    "reimagined-intro.mixins.json"
+  ],
+  "unchangedMembers": 451,
+  "disabledMixin": "LoadingOverlayMixin",
+  "retainedMixins": [
+    "TitleScreenMixin",
+    "ScreenMixin",
+    "PanoramaMixin"
+  ],
+  "classVideoLicenseBytesUnchanged": true,
+  "originalSha256": "30cd1c2332a77052c0a7ffecc8c060d436923b97d16ce2ebeb9e725ae03e3826",
+  "patchedSha256": "cf366522f2ca630408af886e949032c4aaa89d795b64b39848bdbc3f91f51cec",
+  "changedUpstreamRejected": true,
+  "computerUse": false,
+  "visualVerification": "Not run",
+  "launcherChanges": false,
+  "baseline": "d027c2a61ce86adfeb9579b41958a0d732189b27",
+  "fabricResolution": {
+    "status": "PASS",
+    "minecraftMainExecuted": false,
+    "computerUse": false,
+    "gameJarSha256": "4508d006323f24fa02876310c192d739af56516eb259000ac50f0909a68c9a2d",
+    "logSha256": "4105be8786c3b30599e97344227f56c1cb6c67eb1450f6490d8980e03642ed74"
+  },
+  "rootJars": 85,
+  "loadedPackComponents": 212
+}
