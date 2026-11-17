@@ -1,2 +1,3 @@
 -Dlog4j.configurationFile=config/log4j2.xml
 -javaagent:config/better-vanilla/inventory-defaults.jar
+-javaagent:config/lanminecraft/experimental-world-confirmation.jar
