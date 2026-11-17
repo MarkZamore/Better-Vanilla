@@ -37,7 +37,6 @@
     "mods/coolrain-1.4.0-26.3.jar": "dc0eedebaf731ce628f2d6b0257b9b86c7f767b7db2da3fdcaece2827eda9f78",
     "mods/cosycritters-0.3.3+26.2-fabric.jar": "261f82b884949375a6d69afd311ef9a52395932749ee9b91a051178dcd2ad54a",
     "mods/culturaldelights-26.3-0.19.8.4-refabricated.jar": "908425f0f5660d9bea77fa40ab1e44c9f4aaea2a0d1320f6d77260c69d2b4a9c",
-    "mods/dark-loading-screen-1.6.20.jar": "e36cf157318c114a88128f0eaa5c901bfc880bd440051e21a80dfd182e638748",
     "mods/delightlib-26.09.16-26.3-fabric.jar": "6cc84add129b15dce423f261947200ed8d30dccb053727cfa220fb67c7835710",
     "mods/display-delight-1.8.5-mc26.3.jar": "25b209e8cdd534380cbe147f2af9ce6ab9441d3f70b58a465ea05fa00f03235a",
     "mods/easegui-fabric-1.0.0+26.3.jar": "52c18009c5dd57a4aef216dbb212f95fe7a301010ed2ff121c48ba963a388248",
@@ -82,14 +81,16 @@
     "mods/xaeroworldmap-fabric-26.3-1.47.2.jar": "815fbfd7da1e0c3b6a7a05227b7b342c7857fe6ab0fe42f072e14f8dfc19e1f8",
     "mods/yet_another_config_lib_v3-3.9.7+26.3-fabric.jar": "c52d41d444522d9abba994cd4c4ee2e71a065d7c31010f92a9959b80ccb4b0f5",
     "mods/zoomify-2.17.0+mc26.3-universal.jar": "134edcc2992d2f6c3793746101dec1aba3ef02f046024fd280afb09094593027",
+    "mods/cicada-lib-0.15.3+26.3.jar": "40c665fe447216bbd89c211facdffd9733d8b336c7f5b1637cad4c094b7bc53e",
+    "mods/do_a_barrel_roll-fabric-3.8.5+26.3.jar": "68a52f38e076cdd6c4fde60e59e65eae71bf22f2d87b873193e10312028d3b55",
     "mods/emf_compat_core_fabric_26.3_2.4.0.jar": "badb7bc69a01bd03f19e551d22c75b59e690ed7b128df8265b01691a61a91130",
     "mods/emf_compat_not_enough_animations_fabric_26.3_1.2.1.jar": "29a7a6ad055d58c749d72d85a5a2183bf5553914ed717fb74467ff38fc72b453",
     "mods/entity_model_features-3.3.12-26.3-fabric.jar": "4a8b04d26c94909a3ba9f08972fb475e7d39f715f666f99a294017baaa37cb69",
     "mods/entity_texture_features-7.2.7-26.3-fabric.jar": "3c9d7640d53e01f4f09ac10547b02bd66aaf552c49b77581de0daa214cd36223",
-    "mods/firstperson-fabric-2.7.3-mc26.3.jar": "c6ee8b85b7d99b5c311b00255898f550bb37a9f274df0e335657ffc035b28361",
     "mods/jamlib-fabric-2.3.3-26.3.x.jar": "bac9fa1b7aa0338854a5484422410ae278c21027cdd34650a3e8ac3709d8eb88",
     "mods/reimagined-intro-fabric-26.3-3.0.0.jar": "30cd1c2332a77052c0a7ffecc8c060d436923b97d16ce2ebeb9e725ae03e3826",
-    "mods/rightclickharvest-fabric-4.7.1-26.3.x.jar": "7c0e24bc51d624fa98df696adc1a8b21d20bba996cec91f7ef6061aa7d634b54"
+    "mods/rightclickharvest-fabric-4.7.1-26.3.x.jar": "7c0e24bc51d624fa98df696adc1a8b21d20bba996cec91f7ef6061aa7d634b54",
+    "mods/waveycapes-fabric-1.11.3-mc26.3.jar": "3aa1122e150b4dc21c39cd418b48aeea9e2183cefac0faa6f8d1528b67daaf7e"
   },
   "mods": [
     {
@@ -253,6 +254,11 @@
       "version": "1.3.5"
     },
     {
+      "id": "cicada",
+      "name": "CICADA",
+      "version": "0.15.2+26.3"
+    },
+    {
       "id": "cloth-basic-math",
       "name": "cloth-basic-math",
       "version": "0.6.1"
@@ -358,11 +364,6 @@
       "version": "0.19.8.4-refabricated"
     },
     {
-      "id": "dark-loading-screen",
-      "name": "Dark Loading Screen",
-      "version": "1.6.20"
-    },
-    {
       "id": "de_marhali_json5-java",
       "name": "json5-java",
       "version": "3.0.0"
@@ -376,6 +377,11 @@
       "id": "displaydelight",
       "name": "Display Delight",
       "version": "1.8.5-mc26.3"
+    },
+    {
+      "id": "do_a_barrel_roll",
+      "name": "Do a Barrel Roll",
+      "version": "3.8.5"
     },
     {
       "id": "easegui",
@@ -678,11 +684,6 @@
       "version": "0.7.5+26.3"
     },
     {
-      "id": "firstperson",
-      "name": "FirstPerson",
-      "version": "2.7.3"
-    },
-    {
       "id": "folk_sisby_kaleido-config",
       "name": "kaleido-config",
       "version": "0.3.3+1.3.2"
@@ -963,6 +964,11 @@
       "version": "1.0.4"
     },
     {
+      "id": "org_yaml_snakeyaml",
+      "name": "snakeyaml",
+      "version": "2.2"
+    },
+    {
       "id": "packed_packs",
       "name": "Packed Packs",
       "version": "2.4.0+26.3"
@@ -1096,6 +1102,11 @@
       "id": "wakes",
       "name": "Wakes",
       "version": "0.7.3+26.3"
+    },
+    {
+      "id": "waveycapes",
+      "name": "WaveyCapes",
+      "version": "1.11.3"
     },
     {
       "id": "xaerolib",

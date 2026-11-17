@@ -1,0 +1,77 @@
+{
+  "status": "PASS for dependency and delivery checks; visual compatibility unverified",
+  "rootJars": 85,
+  "loadedPackComponents": 212,
+  "fabricResolution": {
+    "status": "PASS",
+    "minecraftMainExecuted": false,
+    "computerUse": false,
+    "gameJarSha256": "4508d006323f24fa02876310c192d739af56516eb259000ac50f0909a68c9a2d",
+    "logSha256": "89fa2acebbdcafba21eff623aa2d6db9421b47d36012f57d2ef2224bb92b13d3"
+  },
+  "policyTests": {
+    "status": "PASS",
+    "count": 10
+  },
+  "added": [
+    {
+      "path": "mods/cicada-lib-0.15.3+26.3.jar",
+      "sizeBytes": 360542,
+      "sha256": "40c665fe447216bbd89c211facdffd9733d8b336c7f5b1637cad4c094b7bc53e",
+      "modId": "cicada",
+      "modVersion": "0.15.2+26.3",
+      "modrinthVersionId": "f5sDzSl6",
+      "downloadUrl": "https://cdn.modrinth.com/data/IwCkru1D/versions/f5sDzSl6/cicada-lib-0.15.3%2B26.3.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cicada",
+      "license": "MIT",
+      "sourceUrl": "https://codeberg.org/enjarai/cicada-lib/src/commit/0118066706dcb2afa115d83814b7cdbf452d0668"
+    },
+    {
+      "path": "mods/do_a_barrel_roll-fabric-3.8.5+26.3.jar",
+      "sizeBytes": 560685,
+      "sha256": "68a52f38e076cdd6c4fde60e59e65eae71bf22f2d87b873193e10312028d3b55",
+      "modId": "do_a_barrel_roll",
+      "modVersion": "3.8.5",
+      "modrinthVersionId": "fmAJrjVS",
+      "downloadUrl": "https://cdn.modrinth.com/data/6FtRfnLg/versions/fmAJrjVS/do_a_barrel_roll-fabric-3.8.5%2B26.3.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/do-a-barrel-roll",
+      "license": "GPL-3.0-only",
+      "sourceUrl": "https://codeberg.org/enjarai/do-a-barrel-roll/src/commit/642378fde4eb5edc562db7e7dde4f1c33a4e6d6b",
+      "correspondingSource": {
+        "url": "https://codeberg.org/enjarai/do-a-barrel-roll/archive/642378fde4eb5edc562db7e7dde4f1c33a4e6d6b.zip",
+        "releaseAsset": "do-a-barrel-roll-source-642378fde4eb5edc562db7e7dde4f1c33a4e6d6b.zip",
+        "sizeBytes": 60496437,
+        "sha256": "129d3125cb3a79b643e79fa6e8526de4fc20d14dc0483d10150c94b46d17392c"
+      }
+    },
+    {
+      "path": "mods/waveycapes-fabric-1.11.3-mc26.3.jar",
+      "sizeBytes": 1764922,
+      "sha256": "3aa1122e150b4dc21c39cd418b48aeea9e2183cefac0faa6f8d1528b67daaf7e",
+      "modId": "waveycapes",
+      "modVersion": "1.11.3",
+      "modrinthVersionId": "HzJI5xeL",
+      "downloadUrl": "https://cdn.modrinth.com/data/kYuIpRLv/versions/HzJI5xeL/waveycapes-fabric-1.11.3-mc26.3.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/waveycapes",
+      "license": "tr7zw Protective License",
+      "sourceUrl": "https://github.com/tr7zw/WaveyCapes",
+      "distributionPermission": "Pack owner confirmed separate author permission for redistribution in Better Vanilla GitHub Releases on 2026-11-17."
+    }
+  ],
+  "removed": [
+    "firstperson",
+    "dark-loading-screen"
+  ],
+  "resourcepackOrder": [
+    "FreshAnimations_v1.11.2_26.1+.zip",
+    "FA+All_Extensions-v1.10.1.zip",
+    "FA+Player-v1.1.zip"
+  ],
+  "limitations": [
+    "No rendering, world interaction, intro playback or camera flight test.",
+    "Do a Barrel Roll / Shoulder Surfing visual compatibility unverified. Older upstream issue and PR206 remain relevant.",
+    "Minecraft resource initialization precedes Reimagined Intro; removal of Dark Loading Screen does not remove it."
+  ],
+  "launcherChanges": false,
+  "computerUse": false
+}

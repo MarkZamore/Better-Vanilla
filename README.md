@@ -4,7 +4,7 @@ Better Vanilla для библиотеки LANMinecraft. Minecraft 26.3, Fabric 
 
 ## Состав
 
-В `upstream-lock.json` закреплены 76 исходных авторских JAR. Все они активны, включая Inventory Profiles Next 2.3.8, libIPN 6.9.0 и Shoulder Surfing Reloaded 5.3.1. Слой правок tools/mod-overlay-lock.json добавляет Entity Texture Features 7.2.7, Entity Model Features 3.3.12, RightClickHarvest 4.7.1 и JamLib 2.3.3. Cinematic Interactions удалён по запросу пользователя. С Player Extension, First-person Model, EMF Compat и Reimagined Intro состав содержит 84 JAR и 210 компонентов Fabric.
+В `upstream-lock.json` закреплены 76 исходных авторских JAR. Dark Loading Screen исключён по запросу пользователя. Остальные активны, включая Inventory Profiles Next 2.3.8, libIPN 6.9.0 и Shoulder Surfing Reloaded 5.3.1. Слой правок tools/mod-overlay-lock.json добавляет Entity Texture Features 7.2.7, Entity Model Features 3.3.12, RightClickHarvest 4.7.1 и JamLib 2.3.3. Cinematic Interactions удалён по запросу пользователя. С Player Extension, EMF Compat, Reimagined Intro, Wavey Capes, Do a Barrel Roll и CICADA состав содержит 85 JAR и 212 компонентов Fabric. First-person Model удалён по запросу пользователя.
 
 Fresh Animations 1.11.2 от FreshLX добавляет анимации жителям и другим существам. Оригинальный ZIP для Minecraft 26.3 закреплён в tools/resourcepacks-lock.json и включён в поставку с разрешения официальных условий на использование в модпаках. launcher/resourcepacks-default.txt включает пакет при первом предложении и сохраняет последующий выбор игрока. Not Enough Animations продолжает отвечать за анимации действий игрока.
 
@@ -18,7 +18,7 @@ JAR выпускаются в исходных байтах. Соответст�
 
 ## Подготовка поставки
 
-Используйте неизменённый исходный ZIP и актуальные инструменты LANMinecraft. Материализация скачивает четыре добавления из официальных источников и сверяет их размеры и SHA-256 перед записью.
+Используйте неизменённый исходный ZIP и актуальные инструменты LANMinecraft. Материализация скачивает закреплённые добавления из официальных источников и сверяет их размеры и SHA-256 перед записью.
 
 ```powershell
 python -B tools/materialize.py --original <Better-Vanilla.zip> --out <novel-pack-path>
@@ -47,14 +47,28 @@ Inventory Profiles Next возвращён с отключёнными знач�
 
 ## Анимации игрока и интро
 
-Добавлены Fresh Animations: Player Extension 1.1.0 от FreshLX, First-person Model 2.7.3 от tr7zw, EMF Compat: Not Enough Animations 1.2.1 и его обязательная библиотека EMF Compat Core 2.4.0 от STRadaT. Player Extension выбирается после базового Fresh Animations. Выбор пакетов включён по умолчанию с сохранением последующего решения игрока.
+Добавлены Fresh Animations: Player Extension 1.1.0 от FreshLX, EMF Compat: Not Enough Animations 1.2.1 и его обязательная библиотека EMF Compat Core 2.4.0 от STRadaT. Player Extension выбирается после базового Fresh Animations. Выбор пакетов включён по умолчанию с сохранением последующего решения игрока.
 
 Pack-owned агент в tools/inventory-defaults применяет четыре обязательных значения к config/notenoughanimations.json. enableAnimationSmoothing=false, disableLegSmoothing=true, enableLadderAnimation=false, bowAnimation=VANILLA. Прочие параметры и неизвестные поля сохраняются, некорректный JSON остаётся без перезаписи. Миграция стрелочек IPN сохраняет прежнюю однократную семантику.
 
 Reimagined Intro 3.0.0 показывает авторскую последовательность перед главным меню. Esc пропускает её. Изначальные настройки воспроизведения и громкости принадлежат моду. Исходные байты JAR закреплены в tools/mod-overlay-lock.json.
 
-Лицензия First-person Model в метаданных называется tr7zw Protective License. Точный опубликованный JAR содержит MIT License с разрешением на распространение. Этот текст сохранён в tools/mod-licenses/firstperson.LICENSE.txt и входит в поставку. Reimagined Intro в своём JAR содержит CC0-1.0, текст также включён в поставку. Полные соответствующие исходники обоих модулей EMF Compat приложены к выпуску, их SHA-256 и URL закреплены в overlay.
+Reimagined Intro содержит CC0-1.0, текст включён в поставку. Полные соответствующие исходники обоих модулей EMF Compat приложены к выпуску, их SHA-256 и URL закреплены в overlay.
 
 Проверка зависимостей через tools/native-qa/resolve.py --run <agent-run> --jdk <JDK-25> запускает настоящий Fabric, но QA-agent заменяет только точку входа Minecraft на немедленное завершение. Окно игры, мир, рендер и ввод пользователя не запускаются. Полученный журнал привязывается к SHA клиентского JAR и используется snapshot_fabric_inventory.py. Агент проверки не входит в игровую поставку.
 
 Приёмка этой ревизии записана в tools/player-animations-qa.json. Отображение анимаций, внутриигровое поведение и видео интро не проверялись по указанию пользователя.
+
+## Плащи, полёт и расширения Fresh Animations
+
+Добавлены Wavey Capes 1.11.3, Do a Barrel Roll 3.8.5 и обязательная CICADA 0.15.3 для Fabric 26.3. Владелец сборки 17 ноября 2026 года отдельно подтвердил разрешение автора Wavey Capes на распространение точного JAR в GitHub Releases Better Vanilla. Не переносить это разрешение на другие проекты или файлы. Лицензии включены в config/better-vanilla/licenses, полный исходный код Do a Barrel Roll на закреплённом коммите приложен к выпуску.
+
+Оригинальный FA+All_Extensions-v1.10.1.zip от FreshLX включён без изменения с официальными условиями. Порядок по умолчанию снизу вверх — Fresh Animations, All Extensions, Player Extension. Последующий выбор игрока сохраняется. Четыре обязательные настройки NEA и скрытые по умолчанию стрелочки IPN сохранены.
+
+Wavey Capes использует исправление привязки плаща к корню анимированного игрока, введённое автором после issue #123. Fancy World Animations сохраняется. В Objects Add-on видимая крышка сундука lid2 имеет собственную анимацию, исходная lid используется для определения состояния, а не повторного применения её угла. Проверено по оригинальному chest_animations.jpm и ChestLidControllerMixin в точных входных файлах.
+
+Do a Barrel Roll и Shoulder Surfing оставлены со штатными параметрами. У авторов есть сообщение о проблемах камеры на старых версиях и незавершённое исправление PR #206. В 3.8.5 setRoll складывает угол с исходным значением, но совместимость текущей пары в полёте без рендера не подтверждена. При проблемах камеры используйте вид от первого лица для полётов. Не считать разрешение зависимостей проверкой визуальной совместимости.
+
+Dark Loading Screen и First-person Model исключены из активной поставки. Reimagined Intro 3.0.0 остаётся с авторскими настройками. Его LoadingOverlayMixin скрывает логотип Mojang при enableIntro=true. В ModConfig отсутствует более ранний этап запуска заставки. Удаление Dark Loading Screen не пропускает обязательную инициализацию ресурсов Minecraft и не гарантирует отсутствие паузы перед видео.
+
+Актуальная приёмка находится в tools/flight-capes-qa.json. Рендер, анимации в мире, камера в полёте и фактическое воспроизведение интро не проверены. Computer-use не применялся. Все изменения принадлежат сборке, новых исключений в лаунчере нет.

@@ -7,19 +7,29 @@
       "sha256": "a13ebf0cc40cee8c9082c835f1fad56d97b1e8833a93ffa3eb22ab7baf137968"
     },
     {
+      "path": "config/better-vanilla/licenses/cicada.LICENSE.txt",
+      "sizeBytes": 1085,
+      "sha256": "cf9910534c7267ccf79f030cf9bd0bb64150927076bfbeed744d80a5a4b9663b"
+    },
+    {
+      "path": "config/better-vanilla/licenses/do-a-barrel-roll.LICENSE.txt",
+      "sizeBytes": 35821,
+      "sha256": "81cbae84a29ce7e770bf2bc7b178e50bda0ce8de6067aba661b0bc7b05b562f8"
+    },
+    {
       "path": "config/better-vanilla/licenses/emf-compat.LICENSE.txt",
       "sizeBytes": 35149,
       "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
     },
     {
-      "path": "config/better-vanilla/licenses/firstperson.LICENSE.txt",
-      "sizeBytes": 1062,
-      "sha256": "23ca602dcd4036ac2a6b60be062cf2057b6e5512359ad788b297116f208d35e2"
-    },
-    {
       "path": "config/better-vanilla/licenses/reimagined-intro.LICENSE.txt",
       "sizeBytes": 7047,
       "sha256": "6d489af6292662d9e36d34ce49423784984a5f6e41d7b58f49b01264df59fa03"
+    },
+    {
+      "path": "config/better-vanilla/licenses/waveycapes.LICENSE.txt",
+      "sizeBytes": 988,
+      "sha256": "0e054ee82bb6043aef310490d783e8376f4ae57968ab215ef656620bd7cb5f56"
     },
     {
       "path": "config/log4j2.xml",
@@ -48,13 +58,23 @@
     },
     {
       "path": "launcher/resourcepacks-default.txt",
-      "sizeBytes": 65,
-      "sha256": "87799d1efbd9e09267d78fd332d9fad65801efcc52ba2aea307c3ab48ed1a447"
+      "sizeBytes": 101,
+      "sha256": "edeff05f3cf3d3d4a8ed819bb1b27e7cc99ed0972b736291679a7cb6cdb9f15f"
     },
     {
       "path": "portable-pack.json",
       "sizeBytes": 146,
       "sha256": "a275c59d4f44f8be00d594e4f3535428305fe62b7fb2bc1ce874c6836945c94f"
+    },
+    {
+      "path": "resourcepacks/FA+All_Extensions-v1.10.1.NOTICE.txt",
+      "sizeBytes": 2527,
+      "sha256": "e46811c38f4a392ae75f7f9dedd1ab5bf31fb59c3d81ae6bac8f165ba9d11402"
+    },
+    {
+      "path": "resourcepacks/FA+All_Extensions-v1.10.1.zip",
+      "sizeBytes": 548952,
+      "sha256": "10bcd8cfec9c70694ceaf37ec52e4b69f3a9b2fcab2ba67f202d6cbfcb7a38c9"
     },
     {
       "path": "resourcepacks/FA+Player-v1.1.NOTICE.txt",
