@@ -1,0 +1,1418 @@
+{
+  "schemaVersion": 1,
+  "pack": "Better Vanilla",
+  "descriptor": {
+    "schemaVersion": 1,
+    "minecraftVersion": "26.3",
+    "loader": {
+      "type": "fabric",
+      "version": "0.20.1"
+    }
+  },
+  "inputArchive": {
+    "fileName": "Better Vanilla.zip",
+    "sha256": "95204faaf901b8cde2f4b7130605603c1452d289a5f63ffb472120b8fe278328"
+  },
+  "shaderArchive": {
+    "fileName": "Shaderpacks.zip",
+    "sha256": "d2c633a35a44498044f029ec12465b9a1cf994cc579645d57a7fa39940fff520"
+  },
+  "inputFiles": [
+    {
+      "path": "mods/AdvancementPlaques-26.3-fabric-1.7.3.jar",
+      "sizeBytes": 196090,
+      "sha256": "fe1b6bc1de2ef3c94f3155a47443a74bbe41f562a155c056fd6171850f815382",
+      "sha1": "cfe3e213ad29d4d91ba8b9ea05311a0f05e94f72",
+      "modId": "advancementplaques",
+      "modVersion": "1.7.3",
+      "embeddedLicense": "CC BY-NC-ND 4.0",
+      "modrinthVersionId": "CWKBEIsY",
+      "fileUrl": "https://modrinth.com/mod/advancement-plaques/version/CWKBEIsY",
+      "upstreamDownload": "https://cdn.modrinth.com/data/9NM0dXub/versions/CWKBEIsY/AdvancementPlaques-26.3-fabric-1.7.3.jar",
+      "modrinthLicense": {
+        "id": "CC-BY-NC-ND-4.0",
+        "name": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/AHilyard/AdvancementPlaques/"
+    },
+    {
+      "path": "mods/AmbientSounds_FABRIC_v6.3.11_mc26.3.jar",
+      "sizeBytes": 84825097,
+      "sha256": "5e9677b06ed2ada8108b42e1d78355853b5193565d61af3c9509981344fa1a73",
+      "sha1": "fff553cf5aef69026b1b25d1435da39e9097a2f3",
+      "modId": "ambientsounds",
+      "modVersion": "6.3.11",
+      "embeddedLicense": "LGPL-3.0-only",
+      "modrinthVersionId": "LFUkYKC1",
+      "fileUrl": "https://modrinth.com/mod/ambientsounds/version/LFUkYKC1",
+      "upstreamDownload": "https://cdn.modrinth.com/data/fM515JnW/versions/LFUkYKC1/AmbientSounds_FABRIC_v6.3.11_mc26.3.jar",
+      "modrinthLicense": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/CreativeMD/AmbientSounds"
+    },
+    {
+      "path": "mods/CreativeCore_FABRIC_v2.14.25_mc26.3.jar",
+      "sizeBytes": 1422746,
+      "sha256": "65d3dbfd869d884c3952970f9162363afcd81f7d265b1190c4bdf603a4442179",
+      "sha1": "4d28a1ccab6a6d6709472ee3fb23c6e06f291830",
+      "modId": "creativecore",
+      "modVersion": "2.14.25",
+      "embeddedLicense": "LGPL-3.0-only",
+      "modrinthVersionId": "pB8O6fTf",
+      "fileUrl": "https://modrinth.com/mod/creativecore/version/pB8O6fTf",
+      "upstreamDownload": "https://cdn.modrinth.com/data/OsZiaDHq/versions/pB8O6fTf/CreativeCore_FABRIC_v2.14.25_mc26.3.jar",
+      "modrinthLicense": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/CreativeMD/CreativeCore"
+    },
+    {
+      "path": "mods/Ecologics-NeoFab-26.3-2.7.3.jar",
+      "sizeBytes": 3198225,
+      "sha256": "7c96e84b2a320e3389d1a5a3dcc3b6fe81ff5b1264407626e5e959a72293c0bf",
+      "sha1": "9185edb3d99c233fdfa0e43c132dce73e0da7f8b",
+      "modId": "ecologics",
+      "modVersion": "2.7.3",
+      "embeddedLicense": "MIT",
+      "modrinthVersionId": "vt145UCJ",
+      "fileUrl": "https://modrinth.com/mod/ecologics/version/vt145UCJ",
+      "upstreamDownload": "https://cdn.modrinth.com/data/NCKpPR0Z/versions/vt145UCJ/Ecologics-NeoFab-26.3-2.7.3.jar",
+      "modrinthLicense": {
+        "id": "LicenseRef-Multiple",
+        "name": "",
+        "url": "https://github.com/samedifferent/Ecologics/blob/1.19-crossplatform/LICENSE"
+      },
+      "sourceUrl": "https://github.com/samedifferent/Ecologics"
+    },
+    {
+      "path": "mods/FallingTree-26.3-25.jar",
+      "sizeBytes": 493854,
+      "sha256": "5b72a390877840dbb7fdda9e43181e25278d53e47968c588e64a62e6b73a7406",
+      "sha1": "11bcce6062aff1880db3caab87db9b778907dca5",
+      "modId": "fallingtree",
+      "modVersion": "25",
+      "embeddedLicense": "LGPL-3.0",
+      "modrinthVersionId": "8f8067Sq",
+      "fileUrl": "https://modrinth.com/mod/fallingtree/version/8f8067Sq",
+      "upstreamDownload": "https://cdn.modrinth.com/data/Fb4jn8m6/versions/8f8067Sq/FallingTree-26.3-25.jar",
+      "modrinthLicense": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/RakambdaOrg/FallingTree"
+    },
+    {
+      "path": "mods/FarmersDelight-26.3-3.6.30+refabricated.jar",
+      "sizeBytes": 3482244,
+      "sha256": "930dcbc51aa2435d4345955aee7b2bbb5bc43c94c8d0859da703c645e9587269",
+      "sha1": "691967a54ec63e012c7447ff3960eb595ca31d13",
+      "modId": "farmersdelight",
+      "modVersion": "26.3-3.6.30+refabricated",
+      "embeddedLicense": "MIT License",
+      "modrinthVersionId": "dRScyUeE",
+      "fileUrl": "https://modrinth.com/mod/farmers-delight-refabricated/version/dRScyUeE",
+      "upstreamDownload": "https://cdn.modrinth.com/data/7vxePowz/versions/dRScyUeE/FarmersDelight-26.3-3.6.30%2Brefabricated.jar",
+      "modrinthLicense": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/MehVahdJukaar/FarmersDelightRefabricated"
+    },
+    {
+      "path": "mods/ForgeConfigAPIPort-v26.3.1-mc26.3.x-Fabric.jar",
+      "sizeBytes": 609574,
+      "sha256": "95cc2bd7a943f910a54baf2f65acde301dcfb3d8aeff2c989c04c416d5a4a1cd",
+      "sha1": "a0d802d2cb010a5054c72f1ccf248433b6e0bafb",
+      "modId": "forgeconfigapiport",
+      "modVersion": "26.3.1",
+      "embeddedLicense": "MPL-2.0",
+      "modrinthVersionId": "JpKvrr9J",
+      "fileUrl": "https://modrinth.com/mod/forge-config-api-port/version/JpKvrr9J",
+      "upstreamDownload": "https://cdn.modrinth.com/data/ohNO6lps/versions/JpKvrr9J/ForgeConfigAPIPort-v26.3.1-mc26.3.x-Fabric.jar",
+      "modrinthLicense": {
+        "id": "MPL-2.0",
+        "name": "Mozilla Public License 2.0",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/Fuzss/forgeconfigapiport"
+    },
+    {
+      "path": "mods/Iceberg-26.3-fabric-1.4.3.1.jar",
+      "sizeBytes": 361211,
+      "sha256": "9d725cc2790c072619bf58846089f33615292af914bcd7b195cda4c5ae07387e",
+      "sha1": "e65d856fdfa925045b99283b60ba002dcca7e332",
+      "modId": "iceberg",
+      "modVersion": "1.4.3.1",
+      "embeddedLicense": "CC BY-NC-ND 4.0",
+      "modrinthVersionId": "zhVGUJyW",
+      "fileUrl": "https://modrinth.com/mod/iceberg/version/zhVGUJyW",
+      "upstreamDownload": "https://cdn.modrinth.com/data/5faXoLqX/versions/zhVGUJyW/Iceberg-26.3-fabric-1.4.3.1.jar",
+      "modrinthLicense": {
+        "id": "CC-BY-NC-ND-4.0",
+        "name": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/AHilyard/Iceberg/"
+    },
+    {
+      "path": "mods/ImmediatelyFast-Fabric-1.17.1+26.3.jar",
+      "sizeBytes": 99586,
+      "sha256": "4b346661cd0811d98a6df8c9faeb8fafd9326ab88248430e8bec845ef1ff6dca",
+      "sha1": "f565bbeb201f2305e81761429d3f1f47e1c3a321",
+      "modId": "immediatelyfast",
+      "modVersion": "1.17.1+26.3",
+      "embeddedLicense": "LGPL-3.0-or-later",
+      "modrinthVersionId": "3MP9UR23",
+      "fileUrl": "https://modrinth.com/mod/immediatelyfast/version/3MP9UR23",
+      "upstreamDownload": "https://cdn.modrinth.com/data/5ZwdcRci/versions/3MP9UR23/ImmediatelyFast-Fabric-1.17.1%2B26.3.jar",
+      "modrinthLicense": {
+        "id": "LGPL-3.0-or-later",
+        "name": "GNU Lesser General Public License v3.0 or later",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/RaphiMC/ImmediatelyFast"
+    },
+    {
+      "path": "mods/Incendium_26.3_v5.5.4+26.3.jar",
+      "sizeBytes": 4087185,
+      "sha256": "eab237c9f5a7e6896a584a6776a54e960f4d8d5714f052fe5d0dc3ece1d37b10",
+      "sha1": "b1abc09560d5b94deaa2c16a9898bc1a4cb8385e",
+      "modId": "incendium",
+      "modVersion": "5.5.4+26.3",
+      "embeddedLicense": "Stardust Labs License",
+      "modrinthVersionId": "D4vWUd23",
+      "fileUrl": "https://modrinth.com/mod/incendium/version/D4vWUd23",
+      "upstreamDownload": "https://cdn.modrinth.com/data/ZVzW5oNS/versions/D4vWUd23/Incendium_26.3_v5.5.4%2B26.3.jar",
+      "modrinthLicense": {
+        "id": "LicenseRef-Stardust-Labs-License",
+        "name": "",
+        "url": "https://github.com/Stardust-Labs-MC/license/blob/main/license.txt"
+      },
+      "sourceUrl": "https://github.com/Stardust-Labs-MC/Incendium"
+    },
+    {
+      "path": "mods/InvMove-0.9.6+26.3-Fabric.jar",
+      "sizeBytes": 84265,
+      "sha256": "d2fa09f584a66cefbc5603bd36b6eb04396950c9a499c1b84c59209f02a8265e",
+      "sha1": "c0a354ebdd86dfd920e7ffda22215e0a3a007be6",
+      "modId": "invmove",
+      "modVersion": "0.9.6",
+      "embeddedLicense": "LGPL-3.0-only",
+      "modrinthVersionId": "wjZzQM0p",
+      "fileUrl": "https://modrinth.com/mod/invmove/version/wjZzQM0p",
+      "upstreamDownload": "https://cdn.modrinth.com/data/REfW2AEX/versions/wjZzQM0p/InvMove-0.9.6%2B26.3-Fabric.jar",
+      "modrinthLicense": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/PieKing1215/InvMove"
+    },
+    {
+      "path": "mods/InventoryProfilesNext-fabric-26.3-2.3.8.jar",
+      "sizeBytes": 1485260,
+      "sha256": "d7e4a0a21427db27d723a48c66af9693cb7f9eddbdcec9a8d32a6bd3dab946b3",
+      "sha1": "2e0c90e7a1e7aab6cd6d65349f55b69f79995a9e",
+      "modId": "inventoryprofilesnext",
+      "modVersion": "2.3.8",
+      "embeddedLicense": "AGPL-3",
+      "modrinthVersionId": "y8vT21Sb",
+      "fileUrl": "https://modrinth.com/mod/inventory-profiles-next/version/y8vT21Sb",
+      "upstreamDownload": "https://cdn.modrinth.com/data/O7RBXm3n/versions/y8vT21Sb/InventoryProfilesNext-fabric-26.3-2.3.8.jar",
+      "modrinthLicense": {
+        "id": "AGPL-3.0-or-later",
+        "name": "GNU Affero General Public License v3.0 or later",
+        "url": null
+      },
+      "sourceUrl": "https://codeberg.org/Inventory-Profiles-Next-Mod/IPN"
+    },
+    {
+      "path": "mods/ItemBorders-26.3-fabric-1.3.3.jar",
+      "sizeBytes": 23010,
+      "sha256": "954a772493561a86f96513cc7480dd614eb1ec085844ee9a5dda2be307f1863d",
+      "sha1": "9ef1cf7e86deae89425bdbbad10429eacc3246ff",
+      "modId": "itemborders",
+      "modVersion": "1.3.3",
+      "embeddedLicense": "CC BY-NC-ND 4.0",
+      "modrinthVersionId": "pVZMoGZS",
+      "fileUrl": "https://modrinth.com/mod/item-borders/version/pVZMoGZS",
+      "upstreamDownload": "https://cdn.modrinth.com/data/b1fMg6sH/versions/pVZMoGZS/ItemBorders-26.3-fabric-1.3.3.jar",
+      "modrinthLicense": {
+        "id": "CC-BY-NC-ND-4.0",
+        "name": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/AHilyard/ItemBorders/"
+    },
+    {
+      "path": "mods/Jade-mc26.3-Fabric-26.3.5.jar",
+      "sizeBytes": 1092685,
+      "sha256": "4899d6c60afa2af859b3a7e0824d0ef6b404f26458f831e3d877faa36be9af1c",
+      "sha1": "da61413c586c8918c14e2bbfdc808ce2d56ea9df",
+      "modId": "jade",
+      "modVersion": "26.3.5+fabric",
+      "embeddedLicense": "CC-BY-NC-SA-4.0",
+      "modrinthVersionId": "71CTWqdE",
+      "fileUrl": "https://modrinth.com/mod/jade/version/71CTWqdE",
+      "upstreamDownload": "https://cdn.modrinth.com/data/nvQzSEkH/versions/71CTWqdE/Jade-mc26.3-Fabric-26.3.5.jar",
+      "modrinthLicense": {
+        "id": "CC-BY-NC-SA-4.0",
+        "name": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/Snownee/Jade"
+    },
+    {
+      "path": "mods/Prism-26.3-fabric-1.1.3.jar",
+      "sizeBytes": 60462,
+      "sha256": "2abadba0325de2e50d428f6275d7c21a67c6b4a3fa3020f06c127f0523e0dbb5",
+      "sha1": "91852e4f48ccc0bffe216ba000115c10a4afd84a",
+      "modId": "prism",
+      "modVersion": "1.1.3",
+      "embeddedLicense": "CC BY-NC-ND 4.0",
+      "modrinthVersionId": "ETN2U7Rc",
+      "fileUrl": "https://modrinth.com/mod/prism-lib/version/ETN2U7Rc",
+      "upstreamDownload": "https://cdn.modrinth.com/data/1OE8wbN0/versions/ETN2U7Rc/Prism-26.3-fabric-1.1.3.jar",
+      "modrinthLicense": {
+        "id": "CC-BY-NC-ND-4.0",
+        "name": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/AHilyard/Prism/"
+    },
+    {
+      "path": "mods/ResourcefulLib-6.0.1.jar",
+      "sizeBytes": 458351,
+      "sha256": "c4b4169d01966780e3e058d42ca31b9c9ba172e26f5c0c2ac59751639324ac48",
+      "sha1": "825dce0c0be393b766ec6cc788e57952f7d266ad",
+      "modId": "resourcefullib",
+      "modVersion": "6.0.1",
+      "embeddedLicense": "MIT",
+      "modrinthVersionId": "P6Jq77km",
+      "fileUrl": "https://modrinth.com/mod/resourceful-lib/version/P6Jq77km",
+      "upstreamDownload": "https://cdn.modrinth.com/data/G1hIVOrD/versions/P6Jq77km/ResourcefulLib-6.0.1.jar",
+      "modrinthLicense": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/Team-Resourceful/ResourcefulLib"
+    },
+    {
+      "path": "mods/ShoulderSurfing-Fabric-26.3-5.3.1.jar",
+      "sizeBytes": 386421,
+      "sha256": "0f9af70b73121c65e20e5fcbffd21f46727e79039a2d87d95278e276758dc8bc",
+      "sha1": "e985bc7235a9854e3bb179299b53241ecdbbe396",
+      "modId": "shouldersurfing",
+      "modVersion": "5.3.1",
+      "embeddedLicense": "MIT",
+      "modrinthVersionId": "N8UWreTM",
+      "fileUrl": "https://modrinth.com/mod/shoulder-surfing-reloaded/version/N8UWreTM",
+      "upstreamDownload": "https://cdn.modrinth.com/data/kepjj2sy/versions/N8UWreTM/ShoulderSurfing-Fabric-26.3-5.3.1.jar",
+      "modrinthLicense": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/Exopandora/ShoulderSurfing"
+    },
+    {
+      "path": "mods/SubtleEffects-fabric-26.3-1.15.2.jar",
+      "sizeBytes": 3544087,
+      "sha256": "bcbb85705961a35aace97377be21d5a046746fd73e8c4dee2a146103421451f8",
+      "sha1": "df154aeac7a39c70fea21ccbc1b2fe091cb4a2b9",
+      "modId": "subtle_effects",
+      "modVersion": "1.15.2",
+      "embeddedLicense": "All rights reserved",
+      "modrinthVersionId": "BMMtEpDv",
+      "fileUrl": "https://modrinth.com/mod/subtle-effects/version/BMMtEpDv",
+      "upstreamDownload": "https://cdn.modrinth.com/data/4q8UOK1d/versions/BMMtEpDv/SubtleEffects-fabric-26.3-1.15.2.jar",
+      "modrinthLicense": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/MincraftEinstein/SubtleEffects"
+    },
+    {
+      "path": "mods/Terralith_26.3_v2.6.5+26.3.jar",
+      "sizeBytes": 2954218,
+      "sha256": "ad953bdd258d23b85c6e5955d14fed89a525e50c68a80ac5cd652573068d0ca4",
+      "sha1": "725bd469bc72d6e366ecbf4818e0438524ca5741",
+      "modId": "terralith",
+      "modVersion": "2.6.5",
+      "embeddedLicense": "MIT",
+      "modrinthVersionId": "aGE3hYAA",
+      "fileUrl": "https://modrinth.com/mod/terralith/version/aGE3hYAA",
+      "upstreamDownload": "https://cdn.modrinth.com/data/8oi3bsk5/versions/aGE3hYAA/Terralith_26.3_v2.6.5%2B26.3.jar",
+      "modrinthLicense": {
+        "id": "LicenseRef-Stardust-Labs-License",
+        "name": "",
+        "url": "https://github.com/Stardust-Labs-MC/license/blob/main/license.txt"
+      },
+      "sourceUrl": "https://github.com/Stardust-Labs-MC/Terralith"
+    },
+    {
+      "path": "mods/advancednetherite-fabric-2.4.4-26.3.jar",
+      "sizeBytes": 568803,
+      "sha256": "fbe6c57b6125534562ef4067f8e19b7ff2ee313466f5e4a7d4ef7cfda1c86f9e",
+      "sha1": "4b23c4cd3ebee5c2bed8ef10ac497eaa1e71d528",
+      "modId": "advancednetherite",
+      "modVersion": "2.4.4-26.3",
+      "embeddedLicense": "GNU General Public License v3.0",
+      "modrinthVersionId": "B1BwWD6L",
+      "fileUrl": "https://modrinth.com/mod/advanced-netherite/version/B1BwWD6L",
+      "upstreamDownload": "https://cdn.modrinth.com/data/CFX9ftUJ/versions/B1BwWD6L/advancednetherite-fabric-2.4.4-26.3.jar",
+      "modrinthLicense": {
+        "id": "LicenseRef-Custom",
+        "name": "",
+        "url": "https://github.com/Autovw/AdvancedNetherite/blob/1.18.X/LICENSE"
+      },
+      "sourceUrl": "https://github.com/Autovw/AdvancedNetherite"
+    },
+    {
+      "path": "mods/animatica-0.6.3+26.3.jar",
+      "sizeBytes": 117502,
+      "sha256": "2093464d69f2e4ed1dc11e03b68d11e8449fedf8d8d2fac65958b4344e9cd9e2",
+      "sha1": "c24b269d5cb523800bce90920de13ce7f042ba80",
+      "modId": "animatica",
+      "modVersion": "0.6.3+26.3",
+      "embeddedLicense": "LGPLv3",
+      "modrinthVersionId": "doj27VCh",
+      "fileUrl": "https://modrinth.com/mod/animaticarefabricated/version/doj27VCh",
+      "upstreamDownload": "https://cdn.modrinth.com/data/xEyZuswh/versions/doj27VCh/animatica-0.6.3%2B26.3.jar",
+      "modrinthLicense": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/coredex-source/AnimaticaRefabricated"
+    },
+    {
+      "path": "mods/appleskin-fabric-mc26.3-3.0.10.jar",
+      "sizeBytes": 180194,
+      "sha256": "cb05087c39f0d860611aa1fae7cf63560214d1b71378a7c903c18dc370b5c3ce",
+      "sha1": "3d19e40c5f97186857db98e622c01c2cd0030497",
+      "modId": "appleskin",
+      "modVersion": "3.0.10+mc26.3",
+      "embeddedLicense": "Unlicense",
+      "modrinthVersionId": "PHjDtQay",
+      "fileUrl": "https://modrinth.com/mod/appleskin/version/PHjDtQay",
+      "upstreamDownload": "https://cdn.modrinth.com/data/EsAfCjCV/versions/PHjDtQay/appleskin-fabric-mc26.3-3.0.10.jar",
+      "modrinthLicense": {
+        "id": "Unlicense",
+        "name": "The Unlicense",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/squeek502/AppleSkin"
+    },
+    {
+      "path": "mods/architectury-fabric-22.0.5.jar",
+      "sizeBytes": 622542,
+      "sha256": "c6a60979f75fdf07a97971711b42529bc84cd7e4c873625d2ce0faf34278ecda",
+      "sha1": "8c5f566e32bd47fbb80be4932b9be1cfa97c4e3a",
+      "modId": "architectury",
+      "modVersion": "22.0.5",
+      "embeddedLicense": "LGPL-3",
+      "modrinthVersionId": "1pMaB6So",
+      "fileUrl": "https://modrinth.com/mod/architectury-api/version/1pMaB6So",
+      "upstreamDownload": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1pMaB6So/architectury-fabric-22.0.5.jar",
+      "modrinthLicense": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/architectury/architectury"
+    },
+    {
+      "path": "mods/baguettelib-26.3-Fabric-2.0.8.jar",
+      "sizeBytes": 106523,
+      "sha256": "b7e635eab1e659764e1968dbbd31107e0ecaa08c8afb50acd315b34fcd5826c7",
+      "sha1": "9a7395f94864ee022de8fa00c5506690652320fd",
+      "modId": "baguettelib",
+      "modVersion": "2.0.8",
+      "embeddedLicense": "MIT",
+      "modrinthVersionId": "T7PHIuOE",
+      "fileUrl": "https://modrinth.com/mod/baguettelib/version/T7PHIuOE",
+      "upstreamDownload": "https://cdn.modrinth.com/data/OfKzpbRU/versions/T7PHIuOE/baguettelib-26.3-Fabric-2.0.8.jar",
+      "modrinthLicense": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "sourceUrl": null
+    },
+    {
+      "path": "mods/c2me-fabric-mc26.3-0.4.2-alpha.0.119.jar",
+      "sizeBytes": 4484613,
+      "sha256": "a53701df116c1d02441be8855a76935c5621c354522b6b54315f7487fd085039",
+      "sha1": "d57f378cc3fe63d4f48506929bba07395cd7bd86",
+      "modId": "c2me",
+      "modVersion": "0.4.2-alpha.0.119+26.3",
+      "embeddedLicense": "LGPL-3.0-only",
+      "modrinthVersionId": "W9HllAiU",
+      "fileUrl": "https://modrinth.com/mod/c2me-fabric/version/W9HllAiU",
+      "upstreamDownload": "https://cdn.modrinth.com/data/VSNURh3q/versions/W9HllAiU/c2me-fabric-mc26.3-0.4.2-alpha.0.119.jar",
+      "modrinthLicense": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/RelativityMC/C2ME-fabric"
+    },
+    {
+      "path": "mods/carryon-fabric-26.3-2.12.2.jar",
+      "sizeBytes": 380139,
+      "sha256": "a7cb979ba66e7e4542a93676899336d239782cb7ed0ea81e88b94548e6ce9d5d",
+      "sha1": "d9b2a58314ac174d34c98e6ed9d3816bf06d5789",
+      "modId": "carryon",
+      "modVersion": "2.12.2",
+      "embeddedLicense": "GNU LGPLv3",
+      "modrinthVersionId": "9UKSKr1K",
+      "fileUrl": "https://modrinth.com/mod/carry-on/version/9UKSKr1K",
+      "upstreamDownload": "https://cdn.modrinth.com/data/joEfVgkn/versions/9UKSKr1K/carryon-fabric-26.3-2.12.2.jar",
+      "modrinthLicense": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/Tschipp/CarryOn"
+    },
+    {
+      "path": "mods/chatanimation-fabric-1.3.5+mc26.3.jar",
+      "sizeBytes": 433526,
+      "sha256": "912ca51796cf72c12109c4fe851ea14a0781872bcaad8db34e75e823d407dcad",
+      "sha1": "760a2863d27662b8dcfdf844b495c922fa6a4cae",
+      "modId": "chatanimation",
+      "modVersion": "1.3.5",
+      "embeddedLicense": "MIT",
+      "modrinthVersionId": "QZcotIcS",
+      "fileUrl": "https://modrinth.com/mod/chatanimation/version/QZcotIcS",
+      "upstreamDownload": "https://cdn.modrinth.com/data/DnNYdJsx/versions/QZcotIcS/chatanimation-fabric-1.3.5%2Bmc26.3.jar",
+      "modrinthLicense": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/Ezzenix/ChatAnimation"
+    },
+    {
+      "path": "mods/cloth-config-fabric-26.3.159.jar",
+      "sizeBytes": 1135009,
+      "sha256": "1716b9964f90d2b885f9bd3887f8824b71b55c32a4123a5853486e722f7c2e4b",
+      "sha1": "9a5cce069380a2047250831dcb19f4ef1b15872d",
+      "modId": "cloth-config",
+      "modVersion": "26.3.159",
+      "embeddedLicense": "GNU LGPLv3",
+      "modrinthVersionId": "fg2uyxOW",
+      "fileUrl": "https://modrinth.com/mod/cloth-config/version/fg2uyxOW",
+      "upstreamDownload": "https://cdn.modrinth.com/data/9s6osm5g/versions/fg2uyxOW/cloth-config-fabric-26.3.159.jar",
+      "modrinthLicense": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/shedaniel/ClothConfig/"
+    },
+    {
+      "path": "mods/coolrain-1.4.0-26.3.jar",
+      "sizeBytes": 4140002,
+      "sha256": "dc0eedebaf731ce628f2d6b0257b9b86c7f767b7db2da3fdcaece2827eda9f78",
+      "sha1": "07f9724c04e0e8050cff2d07e4503462b983184a",
+      "modId": "coolrain",
+      "modVersion": "unspecified",
+      "embeddedLicense": "ARR",
+      "modrinthVersionId": "K9R06E1l",
+      "fileUrl": "https://modrinth.com/mod/coolrain/version/K9R06E1l",
+      "upstreamDownload": "https://cdn.modrinth.com/data/iDyqnQLT/versions/K9R06E1l/coolrain-1.4.0-26.3.jar",
+      "modrinthLicense": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/Jaiz15/CoolRain"
+    },
+    {
+      "path": "mods/cosycritters-0.3.3+26.2-fabric.jar",
+      "sizeBytes": 103703,
+      "sha256": "261f82b884949375a6d69afd311ef9a52395932749ee9b91a051178dcd2ad54a",
+      "sha1": "860807019ce141c63e49284bdccf953c6fdaec10",
+      "modId": "cosycritters",
+      "modVersion": "0.3.2",
+      "embeddedLicense": "MIT",
+      "modrinthVersionId": "BrSfHZnf",
+      "fileUrl": "https://modrinth.com/mod/cosy-critters/version/BrSfHZnf",
+      "upstreamDownload": "https://cdn.modrinth.com/data/61PI8Hzj/versions/BrSfHZnf/cosycritters-0.3.3%2B26.2-fabric.jar",
+      "modrinthLicense": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/PigCart/cosy-critters"
+    },
+    {
+      "path": "mods/culturaldelights-26.3-0.19.8.4-refabricated.jar",
+      "sizeBytes": 1209907,
+      "sha256": "908425f0f5660d9bea77fa40ab1e44c9f4aaea2a0d1320f6d77260c69d2b4a9c",
+      "sha1": "c47a843c7e7ccef3223533c8532949acc4af9bd6",
+      "modId": "culturaldelights",
+      "modVersion": "0.19.8.4-refabricated",
+      "embeddedLicense": "All Rights Reserved",
+      "modrinthVersionId": "Tm0VloHM",
+      "fileUrl": "https://modrinth.com/mod/cultural-delights/version/Tm0VloHM",
+      "upstreamDownload": "https://cdn.modrinth.com/data/YttyNOFA/versions/Tm0VloHM/culturaldelights-26.3-0.19.8.4-refabricated.jar",
+      "modrinthLicense": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/Baisylia/Cultural-Delights-1.19.2"
+    },
+    {
+      "path": "mods/dark-loading-screen-1.6.20.jar",
+      "sizeBytes": 47024,
+      "sha256": "e36cf157318c114a88128f0eaa5c901bfc880bd440051e21a80dfd182e638748",
+      "sha1": "713ad165047e153fe85a8a20d59c133eec966da2",
+      "modId": "dark-loading-screen",
+      "modVersion": "1.6.20",
+      "embeddedLicense": "LGPL-3.0-or-later",
+      "modrinthVersionId": "Srg7X61T",
+      "fileUrl": "https://modrinth.com/mod/dark-loading-screen/version/Srg7X61T",
+      "upstreamDownload": "https://cdn.modrinth.com/data/h3XWIuzM/versions/Srg7X61T/dark-loading-screen-1.6.20.jar",
+      "modrinthLicense": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/A5b84/dark-loading-screen"
+    },
+    {
+      "path": "mods/delightlib-26.09.16-26.3-fabric.jar",
+      "sizeBytes": 60881,
+      "sha256": "6cc84add129b15dce423f261947200ed8d30dccb053727cfa220fb67c7835710",
+      "sha1": "393b42752dd42463b8bfea99ebb615742b0ad00b",
+      "modId": "delightlib",
+      "modVersion": "26.09.16-26.3-fabric",
+      "embeddedLicense": "MIT",
+      "modrinthVersionId": "dABf1m0k",
+      "fileUrl": "https://modrinth.com/mod/delight-lib/version/dABf1m0k",
+      "upstreamDownload": "https://cdn.modrinth.com/data/rmDY6fYt/versions/dABf1m0k/delightlib-26.09.16-26.3-fabric.jar",
+      "modrinthLicense": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": "https://github.com/axperty/delightlib/blob/1.3.1/1.21-neoforge/LICENSE"
+      },
+      "sourceUrl": "https://github.com/axperty/delightlib"
+    },
+    {
+      "path": "mods/display-delight-1.8.5-mc26.3.jar",
+      "sizeBytes": 1382704,
+      "sha256": "25b209e8cdd534380cbe147f2af9ce6ab9441d3f70b58a465ea05fa00f03235a",
+      "sha1": "e10be5850c464a794734f3e2a19799b712844a05",
+      "modId": "displaydelight",
+      "modVersion": "1.8.5-mc26.3",
+      "embeddedLicense": "LGPL-3.0",
+      "modrinthVersionId": "1NU2weOx",
+      "fileUrl": "https://modrinth.com/mod/display-delight-fabric/version/1NU2weOx",
+      "upstreamDownload": "https://cdn.modrinth.com/data/jK2xMxSG/versions/1NU2weOx/display-delight-1.8.5-mc26.3.jar",
+      "modrinthLicense": {
+        "id": "LGPL-3.0-or-later",
+        "name": "GNU Lesser General Public License v3.0 or later",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/cargocats/DisplayDelight"
+    },
+    {
+      "path": "mods/easegui-fabric-1.0.0+26.3.jar",
+      "sizeBytes": 279437,
+      "sha256": "52c18009c5dd57a4aef216dbb212f95fe7a301010ed2ff121c48ba963a388248",
+      "sha1": "af65d493c870579dfd8a285230f2ffc22bf0c9ad",
+      "modId": "easegui",
+      "modVersion": "1.0.0+26.3",
+      "embeddedLicense": "LGPLv3",
+      "modrinthVersionId": "Tsxi4hHV",
+      "fileUrl": "https://modrinth.com/mod/easegui/version/Tsxi4hHV",
+      "upstreamDownload": "https://cdn.modrinth.com/data/zS8uflwP/versions/Tsxi4hHV/easegui-fabric-1.0.0%2B26.3.jar",
+      "modrinthLicense": {
+        "id": "LGPL-3.0-or-later",
+        "name": "GNU Lesser General Public License v3.0 or later",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/Weyne1/EaseGUI"
+    },
+    {
+      "path": "mods/entityculling-fabric-1.12.1-mc26.3.jar",
+      "sizeBytes": 1522184,
+      "sha256": "60b9a5490a0eba5caa9bcb679b1a1e700a5d63dcd82d721e0d238477c0dfaf0f",
+      "sha1": "de9005580599906b55ff241bdf8cb27da999939a",
+      "modId": "entityculling",
+      "modVersion": "1.12.1",
+      "embeddedLicense": "tr7zw Protective License",
+      "modrinthVersionId": "UWpkLRV5",
+      "fileUrl": "https://modrinth.com/mod/entityculling/version/UWpkLRV5",
+      "upstreamDownload": "https://cdn.modrinth.com/data/NNAgCjsB/versions/UWpkLRV5/entityculling-fabric-1.12.1-mc26.3.jar",
+      "modrinthLicense": {
+        "id": "LicenseRef-tr7zw-Protective-License",
+        "name": "",
+        "url": "https://github.com/tr7zw/EntityCulling/blob/1.18/LICENSE-EntityCulling"
+      },
+      "sourceUrl": "https://github.com/tr7zw/EntityCulling"
+    },
+    {
+      "path": "mods/explosive-enhancement-1.4.2-26.2.jar",
+      "sizeBytes": 118316,
+      "sha256": "8d1031d1599384f114a2ed0e40a7d64ee1913df2933a00f4cc1c18a6ce7cdd1f",
+      "sha1": "18214af634d37a211c5dd1c2d2136ee9cd2a7df7",
+      "modId": "explosiveenhancement",
+      "modVersion": "1.4.2-26.2",
+      "embeddedLicense": "MIT",
+      "modrinthVersionId": "q9vZmPqg",
+      "fileUrl": "https://modrinth.com/mod/explosive-enhancement/version/q9vZmPqg",
+      "upstreamDownload": "https://cdn.modrinth.com/data/OSQ8mw2r/versions/q9vZmPqg/explosive-enhancement-1.4.2-26.2.jar",
+      "modrinthLicense": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/Superkat32/Explosive-Enhancement"
+    },
+    {
+      "path": "mods/fabric-api-0.166.2+26.3.jar",
+      "sizeBytes": 1797523,
+      "sha256": "e8acacc7836f39237c83c2a664b039647ee36f93822797acc40cda44666002ea",
+      "sha1": "65636253571429971f25f5619692e6c1a6362028",
+      "modId": "fabric-api",
+      "modVersion": "0.166.2+26.3",
+      "embeddedLicense": "Apache-2.0",
+      "modrinthVersionId": "Zns5SSRA",
+      "fileUrl": "https://modrinth.com/mod/fabric-api/version/Zns5SSRA",
+      "upstreamDownload": "https://cdn.modrinth.com/data/P7dR8mSH/versions/Zns5SSRA/fabric-api-0.166.2%2B26.3.jar",
+      "modrinthLicense": {
+        "id": "Apache-2.0",
+        "name": "Apache License 2.0",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/FabricMC/fabric-api"
+    },
+    {
+      "path": "mods/fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar",
+      "sizeBytes": 8142878,
+      "sha256": "fbdbf5286ab9d65fedb49e6e01c15e338ae303eb7b9d8c7423d0a9bcfe526ef9",
+      "sha1": "f1d4ab6ecd54d9782521333a87eb50724ecb03e0",
+      "modId": "fabric-language-kotlin",
+      "modVersion": "1.14.2+kotlin.2.4.21",
+      "embeddedLicense": "Apache-2.0",
+      "modrinthVersionId": "SKW1BTL3",
+      "fileUrl": "https://modrinth.com/mod/fabric-language-kotlin/version/SKW1BTL3",
+      "upstreamDownload": "https://cdn.modrinth.com/data/Ha28R6CL/versions/SKW1BTL3/fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar",
+      "modrinthLicense": {
+        "id": "Apache-2.0",
+        "name": "Apache License 2.0",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/FabricMC/fabric-language-kotlin/"
+    },
+    {
+      "path": "mods/ferritecore-9.0.0-fabric.jar",
+      "sizeBytes": 72677,
+      "sha256": "213966c72ed967acc7392beb28a866fba301ff56b9976c2e7801c2db7de6bf22",
+      "sha1": "eac76ff0f3753422c61b2c44487d0d195d88d4bc",
+      "modId": "ferritecore",
+      "modVersion": "9.0.0",
+      "embeddedLicense": "MIT",
+      "modrinthVersionId": "d5ddUdiB",
+      "fileUrl": "https://modrinth.com/mod/ferrite-core/version/d5ddUdiB",
+      "upstreamDownload": "https://cdn.modrinth.com/data/uXXizFIs/versions/d5ddUdiB/ferritecore-9.0.0-fabric.jar",
+      "modrinthLicense": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/malte0811/FerriteCore"
+    },
+    {
+      "path": "mods/fwa+26.3-1.3.7.jar",
+      "sizeBytes": 221520,
+      "sha256": "5aaaa81db3923380506ef167c50ca4316c3a53b0ee39c2aa38d95659a1feb2e9",
+      "sha1": "6d090bdc105fef8c8192587a1935e21fd624abea",
+      "modId": "fwa",
+      "modVersion": "1.3.7",
+      "embeddedLicense": "MIT",
+      "modrinthVersionId": "JRzSDvfy",
+      "fileUrl": "https://modrinth.com/mod/fwa/version/JRzSDvfy",
+      "upstreamDownload": "https://cdn.modrinth.com/data/IAzUFvS6/versions/JRzSDvfy/fwa%2B26.3-1.3.7.jar",
+      "modrinthLicense": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/maDU59/FancyWorldAnimations"
+    },
+    {
+      "path": "mods/fzzy_config-0.7.7+fix3+26.3.jar",
+      "sizeBytes": 2375413,
+      "sha256": "3d98c61215ae5eb2fe08db5cac6b0da08dc1b6f0a9ac082a3a9ead8eed736b2a",
+      "sha1": "373b6365bb9f447d2810c151ec2f698ee789366f",
+      "modId": "fzzy_config",
+      "modVersion": "0.7.7+fix3+26.3",
+      "embeddedLicense": "Timefall Development Licence - Modified 1.3",
+      "modrinthVersionId": "YkOumqzV",
+      "fileUrl": "https://modrinth.com/mod/fzzy-config/version/YkOumqzV",
+      "upstreamDownload": "https://cdn.modrinth.com/data/hYykXjDp/versions/YkOumqzV/fzzy_config-0.7.7%2Bfix3%2B26.3.jar",
+      "modrinthLicense": {
+        "id": "LicenseRef-TDL-M",
+        "name": "",
+        "url": "https://github.com/fzzyhmstrs/Timefall-Development-Licence-Modified"
+      },
+      "sourceUrl": "https://github.com/fzzyhmstrs/fconfig"
+    },
+    {
+      "path": "mods/immersiveui-fabric-26.3-0.3.7+26.3.jar",
+      "sizeBytes": 210019,
+      "sha256": "cb1ef2b4fcc8eefe66855b36b8da7c6bcb643efdf3e5e059c9c9073c3fd9d800",
+      "sha1": "c6c8fec12b19fa8bea3258dfd8ba3d5bf1ad4b3c",
+      "modId": "immersiveui",
+      "modVersion": "0.3.7+26.3",
+      "embeddedLicense": "All Rights Reserved",
+      "modrinthVersionId": "DSzQfCJh",
+      "fileUrl": "https://modrinth.com/mod/immersive-ui/version/DSzQfCJh",
+      "upstreamDownload": "https://cdn.modrinth.com/data/9wv7LuMc/versions/DSzQfCJh/immersiveui-fabric-26.3-0.3.7%2B26.3.jar",
+      "modrinthLicense": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/Octo-Studios/immersive-ui"
+    },
+    {
+      "path": "mods/iris-fabric-1.11.7+mc26.3.jar",
+      "sizeBytes": 2850938,
+      "sha256": "83ab4d3013dd56ac05ae503a2f596968911001c4ef3d82c59c5c79e64c34dd98",
+      "sha1": "fa03640ba1e4ef2f7ae3619c6373a06e46d0ba2c",
+      "modId": "iris",
+      "modVersion": "1.11.7+mc26.3",
+      "embeddedLicense": "LGPL-3.0-only",
+      "modrinthVersionId": "vTN4NRGW",
+      "fileUrl": "https://modrinth.com/mod/iris/version/vTN4NRGW",
+      "upstreamDownload": "https://cdn.modrinth.com/data/YL57xq9U/versions/vTN4NRGW/iris-fabric-1.11.7%2Bmc26.3.jar",
+      "modrinthLicense": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/IrisShaders/Iris"
+    },
+    {
+      "path": "mods/jei-26.3-fabric-31.14.0.72.jar",
+      "sizeBytes": 2410982,
+      "sha256": "79d222604dd70517d2bd4c7e9cc3687ea5e777e0e249f4e9de6f0965bb0856fc",
+      "sha1": "7fdf21e3d04883b8930202b454e8cae0f89e9a6b",
+      "modId": "jei",
+      "modVersion": "31.14.0.72",
+      "embeddedLicense": "The MIT License (MIT)",
+      "modrinthVersionId": "Zebwcvua",
+      "fileUrl": "https://modrinth.com/mod/jei/version/Zebwcvua",
+      "upstreamDownload": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/Zebwcvua/jei-26.3-fabric-31.14.0.72.jar",
+      "modrinthLicense": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/mezz/JustEnoughItems"
+    },
+    {
+      "path": "mods/lambdynamiclights-4.13.0+26.3.jar",
+      "sizeBytes": 1345715,
+      "sha256": "b7550288423affed86370acd80d064876d7e256f5489461b7ff7941627552ab2",
+      "sha1": "18c8ab40f03219bfcf809a83db6e3958ed8bb866",
+      "modId": "lambdynlights",
+      "modVersion": "4.13.0+26.3",
+      "embeddedLicense": "Lambda License",
+      "modrinthVersionId": "rylKnJ4M",
+      "fileUrl": "https://modrinth.com/mod/lambdynamiclights/version/rylKnJ4M",
+      "upstreamDownload": "https://cdn.modrinth.com/data/yBW8D80W/versions/rylKnJ4M/lambdynamiclights-4.13.0%2B26.3.jar",
+      "modrinthLicense": {
+        "id": "LicenseRef-Lambda-License",
+        "name": "",
+        "url": "https://github.com/LambdAurora/LambDynamicLights/blob/1.21.5/LICENSE"
+      },
+      "sourceUrl": "https://github.com/LambdAurora/LambDynamicLights"
+    },
+    {
+      "path": "mods/libIPN-fabric-26.3-6.9.0.jar",
+      "sizeBytes": 640902,
+      "sha256": "da8cee972731b25921897c55239793ac27729a57438bcf31a32a2e23036c3da0",
+      "sha1": "f989cd24ace83f73db6bfcf704cab99ad6d53d10",
+      "modId": "libipn",
+      "modVersion": "6.9.0",
+      "embeddedLicense": "AGPL-3",
+      "modrinthVersionId": "aKBFonyQ",
+      "fileUrl": "https://modrinth.com/mod/libipn/version/aKBFonyQ",
+      "upstreamDownload": "https://cdn.modrinth.com/data/onSQdWhM/versions/aKBFonyQ/libIPN-fabric-26.3-6.9.0.jar",
+      "modrinthLicense": {
+        "id": "AGPL-3.0-or-later",
+        "name": "GNU Affero General Public License v3.0 or later",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/blackd/libIPN"
+    },
+    {
+      "path": "mods/lithium-fabric-0.26.3+mc26.3.jar",
+      "sizeBytes": 919892,
+      "sha256": "103b6aab3932f119155565254a3f33b1be0da26b9bf7a5eec24851542144fc78",
+      "sha1": "2d3afe9d43bb2549e23479d8d93e644ff366bebf",
+      "modId": "lithium",
+      "modVersion": "0.26.3+mc26.3",
+      "embeddedLicense": "LGPL-3.0-only",
+      "modrinthVersionId": "fWv5bnZk",
+      "fileUrl": "https://modrinth.com/mod/lithium/version/fWv5bnZk",
+      "upstreamDownload": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/fWv5bnZk/lithium-fabric-0.26.3%2Bmc26.3.jar",
+      "modrinthLicense": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/caffeinemc/lithium-fabric"
+    },
+    {
+      "path": "mods/lithostitched-2.0.6-fabric-26.3.jar",
+      "sizeBytes": 997092,
+      "sha256": "31c5fff53420a2af5aa231a7620af089054456d9a0cfc763e571332e0253872b",
+      "sha1": "c1b73f95795985bbede0b6d43513304448bc5603",
+      "modId": "lithostitched",
+      "modVersion": "2.0.6",
+      "embeddedLicense": "MIT",
+      "modrinthVersionId": "pZgI6b2t",
+      "fileUrl": "https://modrinth.com/mod/lithostitched/version/pZgI6b2t",
+      "upstreamDownload": "https://cdn.modrinth.com/data/XaDC71GB/versions/pZgI6b2t/lithostitched-2.0.6-fabric-26.3.jar",
+      "modrinthLicense": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/Apollounknowndev/lithostitched/"
+    },
+    {
+      "path": "mods/mcw-furniture-3.4.2-mc26.3fabric.jar",
+      "sizeBytes": 2351343,
+      "sha256": "cf5cd30cb19976260803427b6ff47a8dfbf770bab2fd15863bdf29a3fc1a36af",
+      "sha1": "7d861470d63fdbf22e8080b21d8490143cc41d9e",
+      "modId": "mcwfurnitures",
+      "modVersion": "3.4.1",
+      "embeddedLicense": "All Right Reserved",
+      "modrinthVersionId": "8Z6HSCVW",
+      "fileUrl": "https://modrinth.com/mod/macaws-furniture/version/8Z6HSCVW",
+      "upstreamDownload": "https://cdn.modrinth.com/data/dtWC90iB/versions/8Z6HSCVW/mcw-furniture-3.4.2-mc26.3fabric.jar",
+      "modrinthLicense": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "sourceUrl": null
+    },
+    {
+      "path": "mods/mezz_config-26.3-fabric-0.7.1.jar",
+      "sizeBytes": 390537,
+      "sha256": "d28b3671c2f845522b8a91c9109e95ed6d6bf4682f17299a5872cec05a5cd873",
+      "sha1": "f09148f35a8c672d27160f19a0e7ded0db8ba8e8",
+      "modId": "mezz_config",
+      "modVersion": "0.7.1",
+      "embeddedLicense": "The MIT License (MIT)",
+      "modrinthVersionId": "26GXFp06",
+      "fileUrl": "https://modrinth.com/mod/mezzconfig/version/26GXFp06",
+      "upstreamDownload": "https://cdn.modrinth.com/data/7tEfOcA7/versions/26GXFp06/mezz_config-26.3-fabric-0.7.1.jar",
+      "modrinthLicense": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/mezz/MezzConfig"
+    },
+    {
+      "path": "mods/modernfix-5.27.20-build.2.jar",
+      "sizeBytes": 1168784,
+      "sha256": "f340fff04132ae9b60eae494d2de4cd177d436da8c0e525d6bd8f5b15ed141b5",
+      "sha1": "b63337e801fbf2cb420a049d69220c56e083f514",
+      "modId": "modernfix",
+      "modVersion": "5.27.20-build.2",
+      "embeddedLicense": "LGPL-3.0",
+      "modrinthVersionId": "pa9cAfYg",
+      "fileUrl": "https://modrinth.com/mod/modernfix-mvus/version/pa9cAfYg",
+      "upstreamDownload": "https://cdn.modrinth.com/data/TjSm1wrD/versions/pa9cAfYg/modernfix-5.27.20-build.2.jar",
+      "modrinthLicense": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": "https://github.com/coredex-source/ModernFix---mVUS/blob/1.21.10/LICENSE"
+      },
+      "sourceUrl": "https://github.com/coredex-source/ModernFix---mVUS"
+    },
+    {
+      "path": "mods/modmenu-21.0.1.jar",
+      "sizeBytes": 862761,
+      "sha256": "d7be5d007b1d908ee3c3109e337b208d94e6ef7dd6bd143397237a0e03579005",
+      "sha1": "884ab621735264187ccbfc87017cf55bb54d47ee",
+      "modId": "modmenu",
+      "modVersion": "21.0.1",
+      "embeddedLicense": "MIT",
+      "modrinthVersionId": "xckkBHD5",
+      "fileUrl": "https://modrinth.com/mod/modmenu/version/xckkBHD5",
+      "upstreamDownload": "https://cdn.modrinth.com/data/mOgUt4GM/versions/xckkBHD5/modmenu-21.0.1.jar",
+      "modrinthLicense": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/TerraformersMC/ModMenu"
+    },
+    {
+      "path": "mods/moreculling-fabric-26.3-1.9.1.jar",
+      "sizeBytes": 297173,
+      "sha256": "29dae8871d97b44ea353957a5b758b90753f4a9d8502d004a5308269dcdf5eb2",
+      "sha1": "2c768b910eb1cb3fcb880bcacc7dbf9c0678ce06",
+      "modId": "moreculling",
+      "modVersion": "1.9.1",
+      "embeddedLicense": "GPL-3.0-only",
+      "modrinthVersionId": "5jIORlSK",
+      "fileUrl": "https://modrinth.com/mod/moreculling/version/5jIORlSK",
+      "upstreamDownload": "https://cdn.modrinth.com/data/51shyZVL/versions/5jIORlSK/moreculling-fabric-26.3-1.9.1.jar",
+      "modrinthLicense": {
+        "id": "GPL-3.0-only",
+        "name": "GNU General Public License v3.0 only",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/fxmorin/moreculling"
+    },
+    {
+      "path": "mods/moredelight-26.09.16-26.3-fabric.jar",
+      "sizeBytes": 152214,
+      "sha256": "dbbfcf23f109ddb08eb47e3e96a0aaebbe9dafbd3bec71aa882c36b92f0e2037",
+      "sha1": "f0ec4121af9901895c4c32bbddd08d3930969ce6",
+      "modId": "moredelight",
+      "modVersion": "26.09.16-26.3-fabric",
+      "embeddedLicense": "MIT",
+      "modrinthVersionId": "pX0gsjqf",
+      "fileUrl": "https://modrinth.com/mod/more-delight/version/pX0gsjqf",
+      "upstreamDownload": "https://cdn.modrinth.com/data/znHQQtuU/versions/pX0gsjqf/moredelight-26.09.16-26.3-fabric.jar",
+      "modrinthLicense": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": "https://github.com/axperty/moredelight/blob/1.21-neoforge/LICENSE"
+      },
+      "sourceUrl": "https://github.com/axperty/moredelight"
+    },
+    {
+      "path": "mods/naturalist-2.0.7-fabric-26.3.jar",
+      "sizeBytes": 11406776,
+      "sha256": "f496cdaf1d82e6855ddca5c0c1bd670d99f78da6b76d6ab3f51959efbb3d0430",
+      "sha1": "1ede21ba19e6458c1f8c335b3425fdd07d055ccd",
+      "modId": "naturalist",
+      "modVersion": "2.0.7",
+      "embeddedLicense": "MIT",
+      "modrinthVersionId": "4SzCjLeS",
+      "fileUrl": "https://modrinth.com/mod/naturalist/version/4SzCjLeS",
+      "upstreamDownload": "https://cdn.modrinth.com/data/F8BQNPWX/versions/4SzCjLeS/naturalist-2.0.7-fabric-26.3.jar",
+      "modrinthLicense": {
+        "id": "LicenseRef-Custom",
+        "name": "",
+        "url": "https://github.com/starfish-studios/Naturalist/blob/1.19/LICENSE"
+      },
+      "sourceUrl": null
+    },
+    {
+      "path": "mods/notenoughanimations-fabric-1.12.7-mc26.3.jar",
+      "sizeBytes": 1866974,
+      "sha256": "f0c4fedede73c9455a0c437c3aebb542396d470d0beb1386b57eda7f34b7a67e",
+      "sha1": "34c07d208e1b7e35b9723322266eb415fd60f1bf",
+      "modId": "notenoughanimations",
+      "modVersion": "1.12.7",
+      "embeddedLicense": "tr7zw Protective License",
+      "modrinthVersionId": "bznXVEiI",
+      "fileUrl": "https://modrinth.com/mod/not-enough-animations/version/bznXVEiI",
+      "upstreamDownload": "https://cdn.modrinth.com/data/MPCX6s5C/versions/bznXVEiI/notenoughanimations-fabric-1.12.7-mc26.3.jar",
+      "modrinthLicense": {
+        "id": "LicenseRef-tr7zw-Protective-License",
+        "name": "",
+        "url": "https://github.com/tr7zw/NotEnoughAnimations/blob/main/LICENSE"
+      },
+      "sourceUrl": "https://github.com/tr7zw/NotEnoughAnimations"
+    },
+    {
+      "path": "mods/packed_packs-fabric-2.4.0+26.3.jar",
+      "sizeBytes": 1005437,
+      "sha256": "bf14765eb5d5e60912887796f3046d009b4c43990339948e886c499937d6093c",
+      "sha1": "799a16e0b4bc9bc229cfe7958fb673ba66a55ca8",
+      "modId": "packed_packs",
+      "modVersion": "2.4.0+26.3",
+      "embeddedLicense": "MIT",
+      "modrinthVersionId": "EK2zL5sW",
+      "fileUrl": "https://modrinth.com/mod/packed-packs/version/EK2zL5sW",
+      "upstreamDownload": "https://cdn.modrinth.com/data/8Pq6Exn2/versions/EK2zL5sW/packed_packs-fabric-2.4.0%2B26.3.jar",
+      "modrinthLicense": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": "https://github.com/fishstiz/packed_packs/blob/master/LICENSE"
+      },
+      "sourceUrl": "https://github.com/fishstiz/packed_packs"
+    },
+    {
+      "path": "mods/particlerain-4.0.3+26.3-fabric.jar",
+      "sizeBytes": 628245,
+      "sha256": "b49e1a77b5b9a2082fe95a250f63692c68cf5118bbb9ffa9173ab65865a67fb7",
+      "sha1": "7b77b734bc5cbfc48307a2876d5c4e1cb193444b",
+      "modId": "particlerain",
+      "modVersion": "4.0.3",
+      "embeddedLicense": "MIT",
+      "modrinthVersionId": "ddleyxF8",
+      "fileUrl": "https://modrinth.com/mod/particle-rain/version/ddleyxF8",
+      "upstreamDownload": "https://cdn.modrinth.com/data/nrikgvxm/versions/ddleyxF8/particlerain-4.0.3%2B26.3-fabric.jar",
+      "modrinthLicense": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/PigCart/particle-rain"
+    },
+    {
+      "path": "mods/particular-26.3-Fabric-1.6.1.jar",
+      "sizeBytes": 374548,
+      "sha256": "1a13400267b74773697d48d8f4e76ded68053fabd976eab4d0d04552516039fd",
+      "sha1": "e55f73a0ed9f0c54a6470f117b4202ffb2c1bbfd",
+      "modId": "particular",
+      "modVersion": "1.6.1",
+      "embeddedLicense": "LGPL-3.0",
+      "modrinthVersionId": "L9QVxoJh",
+      "fileUrl": "https://modrinth.com/mod/particular-reforged/version/L9QVxoJh",
+      "upstreamDownload": "https://cdn.modrinth.com/data/pYFUU6cq/versions/L9QVxoJh/particular-26.3-Fabric-1.6.1.jar",
+      "modrinthLicense": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/Leclowndu93150/Particular"
+    },
+    {
+      "path": "mods/placeholder-api-3.2.0+26.3.jar",
+      "sizeBytes": 254959,
+      "sha256": "d9a5351b42a8d79cfc2e7f2a471472f9e4dff3b13874c8d420dbb93600b91a85",
+      "sha1": "4c455faa6333dbaef72cedbb91fe4a2a03176741",
+      "modId": "placeholder-api",
+      "modVersion": "3.2.0+26.3",
+      "embeddedLicense": "LGPLv3",
+      "modrinthVersionId": "lXytLqWj",
+      "fileUrl": "https://modrinth.com/mod/placeholder-api/version/lXytLqWj",
+      "upstreamDownload": "https://cdn.modrinth.com/data/eXts2L7r/versions/lXytLqWj/placeholder-api-3.2.0%2B26.3.jar",
+      "modrinthLicense": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/Patbox/TextPlaceholderAPI"
+    },
+    {
+      "path": "mods/shatterlib-fabric-0.7.0-beta.5+26.3.jar",
+      "sizeBytes": 419976,
+      "sha256": "6ae75134565c40e48d72eb1b913b58b2514a4cdcf3526133fc216393802d9595",
+      "sha1": "aa8f665090411c55be93d86af5ed87eba78d9771",
+      "modId": "shatterlib",
+      "modVersion": "0.7.0-beta.5+26.3",
+      "embeddedLicense": "All Rights Reserved",
+      "modrinthVersionId": "yGChlg17",
+      "fileUrl": "https://modrinth.com/mod/shatterbyte-lib/version/yGChlg17",
+      "upstreamDownload": "https://cdn.modrinth.com/data/RH2KUdKJ/versions/yGChlg17/shatterlib-fabric-0.7.0-beta.5%2B26.3.jar",
+      "modrinthLicense": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/Octo-Studios/octo-lib"
+    },
+    {
+      "path": "mods/shulkerboxtooltip-fabric-5.4.3+26.3.jar",
+      "sizeBytes": 424841,
+      "sha256": "2d4a8abd7f7b66daa5073bf5ea2871b3f2d94864d2497d945f71cc961980aaa6",
+      "sha1": "e81054001c0899e5c0689418f4272977fe6b0bf6",
+      "modId": "shulkerboxtooltip",
+      "modVersion": "5.4.3+26.3",
+      "embeddedLicense": "MIT",
+      "modrinthVersionId": "60krd8u8",
+      "fileUrl": "https://modrinth.com/mod/shulkerboxtooltip/version/60krd8u8",
+      "upstreamDownload": "https://cdn.modrinth.com/data/2M01OLQq/versions/60krd8u8/shulkerboxtooltip-fabric-5.4.3%2B26.3.jar",
+      "modrinthLicense": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/MisterPeModder/ShulkerBoxTooltip"
+    },
+    {
+      "path": "mods/skinlayers3d-fabric-1.11.4-mc26.3.jar",
+      "sizeBytes": 1892299,
+      "sha256": "82450ed109221b571f60f6115c31a384f9cfb072deb5135b11c16febce672387",
+      "sha1": "1eef5b7a4b931c236c117def1c6b867be0443116",
+      "modId": "skinlayers3d",
+      "modVersion": "1.11.4",
+      "embeddedLicense": "tr7zw Protective License",
+      "modrinthVersionId": "gjM2TO0L",
+      "fileUrl": "https://modrinth.com/mod/3dskinlayers/version/gjM2TO0L",
+      "upstreamDownload": "https://cdn.modrinth.com/data/zV5r3pPn/versions/gjM2TO0L/skinlayers3d-fabric-1.11.4-mc26.3.jar",
+      "modrinthLicense": {
+        "id": "LicenseRef-tr7zw-Protective-License",
+        "name": "",
+        "url": "https://github.com/tr7zw/3d-Skin-Layers/blob/1.17/LICENSE"
+      },
+      "sourceUrl": "https://github.com/tr7zw/3d-skin-layers"
+    },
+    {
+      "path": "mods/sodium-extra-fabric-0.9.5+mc26.3.jar",
+      "sizeBytes": 481973,
+      "sha256": "486d54cd1914e8c8e49c2f02b3e760f1a0d64c0d242ae175870784582b374dc2",
+      "sha1": "f0201a1b67f3405de7152fec484228db45dcbece",
+      "modId": "sodium-extra",
+      "modVersion": "0.9.5+mc26.3",
+      "embeddedLicense": "LGPLv3",
+      "modrinthVersionId": "fs5l9Q1U",
+      "fileUrl": "https://modrinth.com/mod/sodium-extra/version/fs5l9Q1U",
+      "upstreamDownload": "https://cdn.modrinth.com/data/PtjYWJkn/versions/fs5l9Q1U/sodium-extra-fabric-0.9.5%2Bmc26.3.jar",
+      "modrinthLicense": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/FlashyReese/sodium-extra-fabric"
+    },
+    {
+      "path": "mods/sodium-fabric-0.9.2+mc26.3.jar",
+      "sizeBytes": 1908068,
+      "sha256": "87a5bb39f7e6e41106e77f122f82fc93f9d3bc0b6ebcb746b314172a446a287a",
+      "sha1": "9acfe851e36f4fb27d7c5baa224e8bd4e0334283",
+      "modId": "sodium",
+      "modVersion": "0.9.2+mc26.3",
+      "embeddedLicense": "Polyform-Shield-1.0.0",
+      "modrinthVersionId": "bAZQdGpg",
+      "fileUrl": "https://modrinth.com/mod/sodium/version/bAZQdGpg",
+      "upstreamDownload": "https://cdn.modrinth.com/data/AANobbMI/versions/bAZQdGpg/sodium-fabric-0.9.2%2Bmc26.3.jar",
+      "modrinthLicense": {
+        "id": "LicenseRef-Polyform-Shield-1.0.0",
+        "name": "",
+        "url": "https://github.com/CaffeineMC/sodium/blob/dev/LICENSE.md"
+      },
+      "sourceUrl": "https://github.com/CaffeineMC/sodium"
+    },
+    {
+      "path": "mods/sound-physics-remastered-fabric-1.5.2+26.3.jar",
+      "sizeBytes": 202171,
+      "sha256": "85b7dd0011eb22e73ab0c9b8344056a14bb17841d3c97cb113b87c0ec70b6058",
+      "sha1": "71bd05396d44481fd48171c6d24e047285a93781",
+      "modId": "sound_physics_remastered",
+      "modVersion": "1.5.2+26.3",
+      "embeddedLicense": "GPL",
+      "modrinthVersionId": "gA7nKz5g",
+      "fileUrl": "https://modrinth.com/mod/sound-physics-remastered/version/gA7nKz5g",
+      "upstreamDownload": "https://cdn.modrinth.com/data/qyVF9oeo/versions/gA7nKz5g/sound-physics-remastered-fabric-1.5.2%2B26.3.jar",
+      "modrinthLicense": {
+        "id": "GPL-3.0-only",
+        "name": "GNU General Public License v3.0 only",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/henkelmax/sound-physics-remastered"
+    },
+    {
+      "path": "mods/tectonic-3.0.32-fabric-26.3.jar",
+      "sizeBytes": 390056,
+      "sha256": "c8347238ea204f2815ed401af8290c03b39d5975da8ae2c10f3fdf5461a59f74",
+      "sha1": "0e02092d3756126354a6320147a22f9d78305929",
+      "modId": "tectonic",
+      "modVersion": "3.0.32",
+      "embeddedLicense": "MIT",
+      "modrinthVersionId": "tRBGDcCT",
+      "fileUrl": "https://modrinth.com/mod/tectonic/version/tRBGDcCT",
+      "upstreamDownload": "https://cdn.modrinth.com/data/lWDHr9jE/versions/tRBGDcCT/tectonic-3.0.32-fabric-26.3.jar",
+      "modrinthLicense": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/Apollounknowndev/tectonic"
+    },
+    {
+      "path": "mods/travelersbackpack-fabric-26.3-11.4.6.jar",
+      "sizeBytes": 1576052,
+      "sha256": "3c112a0db39525597fd987e348f5c35e98efb8a21ad120f3aa4a042de1e582c5",
+      "sha1": "02ad5297d333cf7fd8b773392e46a3568c4c2514",
+      "modId": "travelersbackpack",
+      "modVersion": "11.4.6",
+      "embeddedLicense": "GNU LESSER GENERAL PUBLIC LICENSE",
+      "modrinthVersionId": "RSmOmcy4",
+      "fileUrl": "https://modrinth.com/mod/travelersbackpack/version/RSmOmcy4",
+      "upstreamDownload": "https://cdn.modrinth.com/data/rlloIFEV/versions/RSmOmcy4/travelersbackpack-fabric-26.3-11.4.6.jar",
+      "modrinthLicense": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/Tiviacz1337/Travelers-Backpack"
+    },
+    {
+      "path": "mods/trinkets-4.2.1+26.3.jar",
+      "sizeBytes": 663821,
+      "sha256": "ded1231c616a9af0a181238ffe041727101179c8df0c52b3054d4d04403e3033",
+      "sha1": "134fa691e3afac2236bd72e8a07ebfeabaacd531",
+      "modId": "trinkets_updated",
+      "modVersion": "4.2.1+26.3",
+      "embeddedLicense": "MIT",
+      "modrinthVersionId": "lVR1OKgV",
+      "fileUrl": "https://modrinth.com/mod/trinkets-updated/version/lVR1OKgV",
+      "upstreamDownload": "https://cdn.modrinth.com/data/XaT8sLP6/versions/lVR1OKgV/trinkets-4.2.1%2B26.3.jar",
+      "modrinthLicense": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/Patbox/trinkets"
+    },
+    {
+      "path": "mods/variantsandventures-fabric-1.0.30+mc26.3.jar",
+      "sizeBytes": 1112994,
+      "sha256": "d3c1def74706b9161dcddf26ef0aaa09fdc5552986fc1e2a74baa67d3732158c",
+      "sha1": "1a0803061d7f6a2cab0764c61088664bd54f5cc9",
+      "modId": "variantsandventures",
+      "modVersion": "1.0.30",
+      "embeddedLicense": "CC-BY-NC-ND-4.0",
+      "modrinthVersionId": "BMRMNfoP",
+      "fileUrl": "https://modrinth.com/mod/variants-and-ventures/version/BMRMNfoP",
+      "upstreamDownload": "https://cdn.modrinth.com/data/lNDRiXkY/versions/BMRMNfoP/variantsandventures-fabric-1.0.30%2Bmc26.3.jar",
+      "modrinthLicense": {
+        "id": "LicenseRef-CC-BY-NC-ND-4.0",
+        "name": "",
+        "url": "https://raw.githubusercontent.com/Faboslav/variants-and-ventures/master/LICENSE.txt"
+      },
+      "sourceUrl": "https://github.com/Faboslav/variants-and-ventures"
+    },
+    {
+      "path": "mods/wakes-0.7.3+26.3.jar",
+      "sizeBytes": 292134,
+      "sha256": "66b10a00ec6188fb52ec40ad7cf03e784df7f28f8db10e5952d1c52d2d6a6a26",
+      "sha1": "749d7198b0d97e35a563c412df5a4108647187a5",
+      "modId": "wakes",
+      "modVersion": "0.7.3+26.3",
+      "embeddedLicense": "GPLv3",
+      "modrinthVersionId": "8kcYA6A0",
+      "fileUrl": "https://modrinth.com/mod/wakes/version/8kcYA6A0",
+      "upstreamDownload": "https://cdn.modrinth.com/data/dlNu0RQY/versions/8kcYA6A0/wakes-0.7.3%2B26.3.jar",
+      "modrinthLicense": {
+        "id": "GPL-3.0-only",
+        "name": "GNU General Public License v3.0 only",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/Goby56/wakes"
+    },
+    {
+      "path": "mods/xaerominimap-fabric-26.3-26.6.2.jar",
+      "sizeBytes": 2233189,
+      "sha256": "418f8b1481cfa133d366c2224ecddec79cc466152754febcb1b386137e2d5f71",
+      "sha1": "9b44e5718f9258ed32283a391e19a1d46464188a",
+      "modId": "xaerominimap",
+      "modVersion": "26.6.2",
+      "embeddedLicense": "All Rights Reserved",
+      "modrinthVersionId": "MfxfgXaO",
+      "fileUrl": "https://modrinth.com/mod/xaeros-minimap/version/MfxfgXaO",
+      "upstreamDownload": "https://cdn.modrinth.com/data/1bokaNcj/versions/MfxfgXaO/xaerominimap-fabric-26.3-26.6.2.jar",
+      "modrinthLicense": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "sourceUrl": null
+    },
+    {
+      "path": "mods/xaeroworldmap-fabric-26.3-1.47.2.jar",
+      "sizeBytes": 1488669,
+      "sha256": "815fbfd7da1e0c3b6a7a05227b7b342c7857fe6ab0fe42f072e14f8dfc19e1f8",
+      "sha1": "1282302b6c92050cfab7c1db45cf3d92d9a331c5",
+      "modId": "xaeroworldmap",
+      "modVersion": "1.47.2",
+      "embeddedLicense": "All Rights Reserved",
+      "modrinthVersionId": "VM8lNSSM",
+      "fileUrl": "https://modrinth.com/mod/xaeros-world-map/version/VM8lNSSM",
+      "upstreamDownload": "https://cdn.modrinth.com/data/NcUtCpym/versions/VM8lNSSM/xaeroworldmap-fabric-26.3-1.47.2.jar",
+      "modrinthLicense": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "sourceUrl": null
+    },
+    {
+      "path": "mods/yet_another_config_lib_v3-3.9.7+26.3-fabric.jar",
+      "sizeBytes": 1125377,
+      "sha256": "c52d41d444522d9abba994cd4c4ee2e71a065d7c31010f92a9959b80ccb4b0f5",
+      "sha1": "e54d86dd4a78f95cd6ec0309d96fae01e661c00d",
+      "modId": "yet_another_config_lib_v3",
+      "modVersion": "3.9.7+26.3-fabric",
+      "embeddedLicense": "LGPL-3.0-or-later",
+      "modrinthVersionId": "s9SjoFu1",
+      "fileUrl": "https://modrinth.com/mod/yacl/version/s9SjoFu1",
+      "upstreamDownload": "https://cdn.modrinth.com/data/1eAoo2KR/versions/s9SjoFu1/yet_another_config_lib_v3-3.9.7%2B26.3-fabric.jar",
+      "modrinthLicense": {
+        "id": "LGPL-3.0-or-later",
+        "name": "GNU Lesser General Public License v3.0 or later",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/isXander/YetAnotherConfigLib"
+    },
+    {
+      "path": "mods/zoomify-2.17.0+mc26.3-universal.jar",
+      "sizeBytes": 579146,
+      "sha256": "134edcc2992d2f6c3793746101dec1aba3ef02f046024fd280afb09094593027",
+      "sha1": "7f18090fea4a2ddae01e032d09629d14fa381d3f",
+      "modId": "zoomify",
+      "modVersion": "2.17.0+mc26.3",
+      "embeddedLicense": "LGPL-3.0-or-later",
+      "modrinthVersionId": "RUBpNu00",
+      "fileUrl": "https://modrinth.com/mod/zoomify/version/RUBpNu00",
+      "upstreamDownload": "https://cdn.modrinth.com/data/w7ThoJFB/versions/RUBpNu00/zoomify-2.17.0%2Bmc26.3-universal.jar",
+      "modrinthLicense": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "sourceUrl": "https://github.com/isXander/Zoomify"
+    },
+    {
+      "path": "portable-pack.json",
+      "sizeBytes": 128,
+      "sha256": "48372a87bfe53ff5661bf2647678b14c958c4ec204f9c6739d5139c7db041f06"
+    }
+  ],
+  "requestedShaders": [
+    {
+      "path": "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip",
+      "sizeBytes": 1791406,
+      "sha256": "f41db92acc585fe9ffe0cc124d6ecaea27cef9ded91129ebc2a8e60226947b2c",
+      "fileUrl": "https://modrinth.com/shader/bliss-shader/version/kC2Y8q1P",
+      "publicationNotes": "rehost permission not confirmed"
+    },
+    {
+      "path": "shaderpacks/ComplementaryReimagined_r5.9.3.zip",
+      "sizeBytes": 553397,
+      "sha256": "fed6c879e732cf7fc7bc6570ebb1def43235aa7e96f62859fbdbdbfa0b484b38",
+      "fileUrl": "https://modrinth.com/shader/complementary-reimagined/version/Bqen1mJX",
+      "publicationNotes": "r5.9.3 License 1.2(d) prohibits direct upload"
+    },
+    {
+      "path": "shaderpacks/MakeUp-UltraFast-9.6.zip",
+      "sizeBytes": 406830,
+      "sha256": "71319ea5d0ad114143ef1c334890e315dbf1eeb2318d6bc35f3e5021fb3c8ba8",
+      "fileUrl": "https://modrinth.com/shader/makeup-ultra-fast-shaders/version/t4YRxQug",
+      "publicationNotes": "LGPL-3.0-or-later; preserve license and source attribution"
+    }
+  ]
+}
