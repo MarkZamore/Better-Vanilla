@@ -33,6 +33,10 @@ python -B tools/network_logging_policy.py prepare --pack .
 
 ## Изменения состава
 
+Предупреждение Cinematic Interactions при открытии списка серверов отключено штатным флагом `multiplayer.serverHintSeen`. Небольшой pack-owned Java-agent из `config/better-vanilla/cinematic-warning-policy.jar` перед загрузкой игры записывает только этот флаг в личный `config/cinematic-client.json`. Остальные значения, включая клиентский режим, сохраняются. Ошибочный JSON сохраняется с диагностикой. Повторный запуск с установленным флагом не записывает файл. Исходники и проверка находятся в `tools/cinematic-warning`.
+
+Для воспроизводимой сборки агента используется `python -B tools/cinematic-warning/build.py --jdk <JDK-25.0.2> --gson <gson-2.14.0.jar> --out <agent.jar>`. Проверка без Minecraft выполняется через `tools/cinematic-warning/verify.py` с аргументами `--jdk`, `--gson`, `--agent` и `--out <new-qa-directory>`. При обновлении Cinematic Interactions повторно сверить назначение этого флага и работу его загрузчика настроек.
+
 Inventory Profiles Next и его отдельная библиотека libIPN исключены по запросу пользователя. Также исключён Shoulder Surfing Reloaded для работы камеры Cinematic Interactions. Точные исключённые SHA-256 закреплены в tools/mod-overlay-lock.json. Исходный архив и upstream-lock.json сохраняют авторский состав. Материализация и генератор выпуска проверяют слой исключений. Поставка содержит 73 исходных JAR и пять добавлений, всего 78 JAR и 204 фактически загружаемых компонента Fabric.
 
 Полная проверка опубликованной поставки выполняется инструментом tools/verify_public_release.py с аргументами --staged <dist>/pack-manifest.json и --out <new-public-check-path>. Инструмент скачивает игровые файлы, библиотеку, исходники ETF/EMF и лицензии, затем сверяет размеры и SHA-256. Отчёт приёмки сохранён в tools/mod-additions-qa.json.

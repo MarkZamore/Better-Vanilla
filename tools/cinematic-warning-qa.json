@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "checks": [
+    "new acknowledgement and settings preservation",
+    "new idempotence",
+    "existing acknowledgement and settings preservation",
+    "existing idempotence",
+    "already-set acknowledgement and settings preservation",
+    "already-set idempotence",
+    "malformed settings preserved with diagnostic"
+  ],
+  "count": 7,
+  "minecraftStarted": false,
+  "deterministicBuild": "PASS, two independent javac builds have identical JAR bytes",
+  "targetMod": {
+    "id": "cinematic",
+    "version": "0.18.28",
+    "sha256": "71ffd95cbdd3a56d5c4d381556f6cebada9af3386188290ff752c68e8092ad84",
+    "source": "https://github.com/xiaocraftt/CinematicInteractions/blob/ff00fa9077470ae326bfa07b71108585bce5ad59/fabric/26.3/src/main/java/dev/dyslexic/cinematic/client/ServerListHint.java"
+  },
+  "nativeSetting": "multiplayer.serverHintSeen=true",
+  "fullMode": "multiplayer.clientOnlyMode preserved verbatim as a JSON value",
+  "settingsScope": "Only the acknowledgement key is added or changed. Unknown keys and player choices are preserved. Malformed configuration is not overwritten.",
+  "ownership": [
+    "config/better-vanilla/cinematic-warning-policy.jar"
+  ],
+  "launcherExceptions": "None. Policy and JVM argument belong to the pack.",
+  "gameplay": "NOT RUN, user requested no computer-use",
+  "publication": "Pending public asset verification"
+}

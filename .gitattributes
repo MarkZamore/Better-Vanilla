@@ -1,4 +1,5 @@
 * text=auto eol=lf
 *.zip -text
+*.jar -text
 *.jpg -text
 config/log4j2.xml -text

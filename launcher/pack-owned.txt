@@ -1,1 +1,2 @@
 config/log4j2.xml
+config/better-vanilla/cinematic-warning-policy.jar

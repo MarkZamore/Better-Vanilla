@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "files": [
     {
-      "path": "portable-pack.json",
-      "sizeBytes": 146,
-      "sha256": "a275c59d4f44f8be00d594e4f3535428305fe62b7fb2bc1ce874c6836945c94f"
+      "path": "config/better-vanilla/cinematic-warning-policy.jar",
+      "sizeBytes": 2412,
+      "sha256": "777ded477f0d3a950cd79010f81157460cfa1ed49be5a9a821d65965f9b5d6cd"
     },
     {
       "path": "config/log4j2.xml",
@@ -18,8 +18,8 @@
     },
     {
       "path": "launcher/jvm-args.txt",
-      "sizeBytes": 44,
-      "sha256": "a1f3a734e672681e16e8db9a35ece57236720f99f95a85bac9eb2caac1e19d3c"
+      "sizeBytes": 106,
+      "sha256": "79c75e2af8ae6140191067bbc134a22c98dcaad191782d82644e99497ae9df64"
     },
     {
       "path": "launcher/options-default.txt",
@@ -28,8 +28,13 @@
     },
     {
       "path": "launcher/pack-owned.txt",
-      "sizeBytes": 18,
-      "sha256": "20b244ac6cfb89d344b37b9ac4d077bd368f5f0ac391541801d06b22464313b5"
+      "sizeBytes": 69,
+      "sha256": "c4dfd68a837fe60861171c1f880150f74ca17cd6361782b4cb61370c9e19694c"
+    },
+    {
+      "path": "portable-pack.json",
+      "sizeBytes": 146,
+      "sha256": "a275c59d4f44f8be00d594e4f3535428305fe62b7fb2bc1ce874c6836945c94f"
     },
     {
       "path": "shaderpacks/MakeUp-UltraFast-9.6.NOTICE.txt",
