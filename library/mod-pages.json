@@ -173,6 +173,7 @@
   "org_quiltmc_parsers_gson": "https://modrinth.com/mod/yacl",
   "org_quiltmc_parsers_json": "https://modrinth.com/mod/yacl",
   "org_reactivestreams_reactive-streams": "https://modrinth.com/mod/c2me-fabric",
+  "org_yaml_snakeyaml": "https://bitbucket.org/snakeyaml/snakeyaml",
   "packed_packs": "https://modrinth.com/mod/packed-packs",
   "packed_packs_api": "https://modrinth.com/mod/packed-packs",
   "particlerain": "https://modrinth.com/mod/particle-rain",
