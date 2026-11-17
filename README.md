@@ -4,7 +4,7 @@ Better Vanilla для библиотеки LANMinecraft. Minecraft 26.3, Fabric 
 
 ## Состав
 
-В `upstream-lock.json` закреплены 76 исходных авторских JAR. Все они активны, включая Inventory Profiles Next 2.3.8, libIPN 6.9.0 и Shoulder Surfing Reloaded 5.3.1. Слой правок tools/mod-overlay-lock.json добавляет Entity Texture Features 7.2.7, Entity Model Features 3.3.12, RightClickHarvest 4.7.1 и JamLib 2.3.3. Cinematic Interactions удалён по запросу пользователя. Всего 80 JAR и 206 компонентов Fabric.
+В `upstream-lock.json` закреплены 76 исходных авторских JAR. Все они активны, включая Inventory Profiles Next 2.3.8, libIPN 6.9.0 и Shoulder Surfing Reloaded 5.3.1. Слой правок tools/mod-overlay-lock.json добавляет Entity Texture Features 7.2.7, Entity Model Features 3.3.12, RightClickHarvest 4.7.1 и JamLib 2.3.3. Cinematic Interactions удалён по запросу пользователя. С Player Extension, First-person Model, EMF Compat и Reimagined Intro состав содержит 84 JAR и 210 компонентов Fabric.
 
 Fresh Animations 1.11.2 от FreshLX добавляет анимации жителям и другим существам. Оригинальный ZIP для Minecraft 26.3 закреплён в tools/resourcepacks-lock.json и включён в поставку с разрешения официальных условий на использование в модпаках. launcher/resourcepacks-default.txt включает пакет при первом предложении и сохраняет последующий выбор игрока. Not Enough Animations продолжает отвечать за анимации действий игрока.
 
@@ -44,3 +44,17 @@ Inventory Profiles Next возвращён с отключёнными знач�
 Прямого пересечения Fresh Animations с оставшимися модами по моделям не найдено. Fresh Animations не содержит модели игрока, Fancy World Animations меняет блоки, Cosy Critters добавляет собственных декоративных существ. Визуальная проверка и запуск игры не выполнялись по указанию пользователя.
 
 Полная проверка публичных файлов выполняется tools/verify_public_release.py --staged <dist>/pack-manifest.json --out <new-public-check-directory>. Приёмка этой ревизии находится в tools/animation-and-inventory-qa.json.
+
+## Анимации игрока и интро
+
+Добавлены Fresh Animations: Player Extension 1.1.0 от FreshLX, First-person Model 2.7.3 от tr7zw, EMF Compat: Not Enough Animations 1.2.1 и его обязательная библиотека EMF Compat Core 2.4.0 от STRadaT. Player Extension выбирается после базового Fresh Animations. Выбор пакетов включён по умолчанию с сохранением последующего решения игрока.
+
+Pack-owned агент в tools/inventory-defaults применяет четыре обязательных значения к config/notenoughanimations.json. enableAnimationSmoothing=false, disableLegSmoothing=true, enableLadderAnimation=false, bowAnimation=VANILLA. Прочие параметры и неизвестные поля сохраняются, некорректный JSON остаётся без перезаписи. Миграция стрелочек IPN сохраняет прежнюю однократную семантику.
+
+Reimagined Intro 3.0.0 показывает авторскую последовательность перед главным меню. Esc пропускает её. Изначальные настройки воспроизведения и громкости принадлежат моду. Исходные байты JAR закреплены в tools/mod-overlay-lock.json.
+
+Лицензия First-person Model в метаданных называется tr7zw Protective License. Точный опубликованный JAR содержит MIT License с разрешением на распространение. Этот текст сохранён в tools/mod-licenses/firstperson.LICENSE.txt и входит в поставку. Reimagined Intro в своём JAR содержит CC0-1.0, текст также включён в поставку. Полные соответствующие исходники обоих модулей EMF Compat приложены к выпуску, их SHA-256 и URL закреплены в overlay.
+
+Проверка зависимостей через tools/native-qa/resolve.py --run <agent-run> --jdk <JDK-25> запускает настоящий Fabric, но QA-agent заменяет только точку входа Minecraft на немедленное завершение. Окно игры, мир, рендер и ввод пользователя не запускаются. Полученный журнал привязывается к SHA клиентского JAR и используется snapshot_fabric_inventory.py. Агент проверки не входит в игровую поставку.
+
+Приёмка этой ревизии записана в tools/player-animations-qa.json. Отображение анимаций, внутриигровое поведение и видео интро не проверялись по указанию пользователя.

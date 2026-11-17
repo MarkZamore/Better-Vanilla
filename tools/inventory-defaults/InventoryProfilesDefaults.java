@@ -9,9 +9,10 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
 
-/** Initialize IPN arrow visibility once, preserving later player choices. */
+/** Apply required NEA compatibility values and initialize IPN arrow defaults. */
 public final class InventoryProfilesDefaults {
     public static void premain(String arguments) {
+        applyNeaCompatibility();
         Path config = Path.of("config", "inventoryprofilesnext", "inventoryprofiles.json");
         Path marker = Path.of("config", "better-vanilla", "ipn-arrow-defaults-v1.applied");
         Path pending = null;
@@ -54,6 +55,41 @@ public final class InventoryProfilesDefaults {
             settings.getAsJsonObject(key).addProperty("value", false);
         } else {
             settings.addProperty(key, false);
+        }
+    }
+
+    private static void applyNeaCompatibility() {
+        Path config = Path.of("config", "notenoughanimations.json");
+        Path pending = null;
+        try {
+            JsonObject settings = Files.exists(config)
+                ? JsonParser.parseString(Files.readString(config, StandardCharsets.UTF_8)).getAsJsonObject()
+                : new JsonObject();
+            JsonObject before = settings.deepCopy();
+            settings.addProperty("enableAnimationSmoothing", false);
+            settings.addProperty("disableLegSmoothing", true);
+            settings.addProperty("enableLadderAnimation", false);
+            settings.addProperty("bowAnimation", "VANILLA");
+            if (settings.equals(before)) return;
+            Files.createDirectories(config.getParent());
+            pending = Files.createTempFile(config.getParent(), "nea-compat-", ".tmp");
+            Files.writeString(pending, new GsonBuilder().setPrettyPrinting().create().toJson(settings) + "\n",
+                StandardCharsets.UTF_8);
+            try {
+                Files.move(pending, config, StandardCopyOption.ATOMIC_MOVE, StandardCopyOption.REPLACE_EXISTING);
+            } catch (AtomicMoveNotSupportedException unsupported) {
+                Files.move(pending, config, StandardCopyOption.REPLACE_EXISTING);
+            }
+        } catch (Exception failure) {
+            System.err.println("[Better Vanilla] Could not apply NEA compatibility settings: " + failure);
+        } finally {
+            if (pending != null) {
+                try {
+                    Files.deleteIfExists(pending);
+                } catch (Exception failure) {
+                    System.err.println("[Better Vanilla] Could not remove pending NEA settings: " + failure);
+                }
+            }
         }
     }
 }

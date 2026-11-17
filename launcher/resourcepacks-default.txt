@@ -1,1 +1,2 @@
 ?file/FreshAnimations_v1.11.2_26.1+.zip
+?file/FA+Player-v1.1.zip

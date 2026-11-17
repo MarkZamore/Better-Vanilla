@@ -2,6 +2,37 @@
   "schemaVersion": 1,
   "add": [
     {
+      "path": "mods/emf_compat_core_fabric_26.3_2.4.0.jar",
+      "sizeBytes": 182801,
+      "sha256": "badb7bc69a01bd03f19e551d22c75b59e690ed7b128df8265b01691a61a91130",
+      "modId": "emf_compat_core",
+      "modVersion": "2.4.0",
+      "modrinthVersionId": "p3tzyILe",
+      "downloadUrl": "https://cdn.modrinth.com/data/hbGct5uU/versions/p3tzyILe/emf_compat_core_fabric_26.3_2.4.0.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/emf-compat-core",
+      "license": "GPL-3.0-only",
+      "sourceUrl": "https://github.com/victorkozhokin/emf-compat/tree/925613e66dd38eb89af5c8721299eb07ca492c2f",
+      "correspondingSource": {
+        "url": "https://codeload.github.com/victorkozhokin/emf-compat/zip/925613e66dd38eb89af5c8721299eb07ca492c2f",
+        "releaseAsset": "emf-compat-source-925613e66dd38eb89af5c8721299eb07ca492c2f.zip",
+        "sizeBytes": 170347545,
+        "sha256": "d56fd71cae26bf5609486a665c1fc4d49b3e798e3230430e7a867a22f814bc39"
+      }
+    },
+    {
+      "path": "mods/emf_compat_not_enough_animations_fabric_26.3_1.2.1.jar",
+      "sizeBytes": 112994,
+      "sha256": "29a7a6ad055d58c749d72d85a5a2183bf5553914ed717fb74467ff38fc72b453",
+      "modId": "emf_compat_not_enough_animations",
+      "modVersion": "1.2.1",
+      "modrinthVersionId": "Xs6WnTQm",
+      "downloadUrl": "https://cdn.modrinth.com/data/IGCrWfL7/versions/Xs6WnTQm/emf_compat_not_enough_animations_fabric_26.3_1.2.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/emf-compat-not-enough-animations",
+      "license": "GPL-3.0-only",
+      "sourceUrl": "https://github.com/victorkozhokin/emf-compat/tree/925613e66dd38eb89af5c8721299eb07ca492c2f",
+      "correspondingSourceRef": "emf-compat-source-925613e66dd38eb89af5c8721299eb07ca492c2f.zip"
+    },
+    {
       "path": "mods/entity_model_features-3.3.12-26.3-fabric.jar",
       "sizeBytes": 665386,
       "sha256": "4a8b04d26c94909a3ba9f08972fb475e7d39f715f666f99a294017baaa37cb69",
@@ -36,6 +67,18 @@
       }
     },
     {
+      "path": "mods/firstperson-fabric-2.7.3-mc26.3.jar",
+      "sizeBytes": 1526741,
+      "sha256": "c6ee8b85b7d99b5c311b00255898f550bb37a9f274df0e335657ffc035b28361",
+      "modId": "firstperson",
+      "modVersion": "2.7.3",
+      "modrinthVersionId": "Z05WZTy2",
+      "downloadUrl": "https://cdn.modrinth.com/data/H5XMjpHi/versions/Z05WZTy2/firstperson-fabric-2.7.3-mc26.3.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/first-person-model",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/tr7zw/FirstPersonModel"
+    },
+    {
       "path": "mods/jamlib-fabric-2.3.3-26.3.x.jar",
       "sizeBytes": 265518,
       "sha256": "bac9fa1b7aa0338854a5484422410ae278c21027cdd34650a3e8ac3709d8eb88",
@@ -45,6 +88,18 @@
       "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/jamlib",
       "license": "MIT",
       "sourceUrl": "https://github.com/JamCoreModding/jam-lib/tree/57ad3b7fd7be99b756e53c350bc31e9961ed822f"
+    },
+    {
+      "path": "mods/reimagined-intro-fabric-26.3-3.0.0.jar",
+      "sizeBytes": 105459473,
+      "sha256": "30cd1c2332a77052c0a7ffecc8c060d436923b97d16ce2ebeb9e725ae03e3826",
+      "modId": "reimagined-intro",
+      "modVersion": "3.0.0",
+      "modrinthVersionId": "EFch6D0y",
+      "downloadUrl": "https://cdn.modrinth.com/data/BsnF5g7E/versions/EFch6D0y/reimagined-intro-fabric-26.3-3.0.0.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/reimagined-intro",
+      "license": "CC0-1.0",
+      "sourceUrl": "https://github.com/lehoangtrieu-dev/reimagined-intro"
     },
     {
       "path": "mods/rightclickharvest-fabric-4.7.1-26.3.x.jar",

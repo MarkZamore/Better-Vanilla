@@ -17,10 +17,12 @@
     "mods/ImmediatelyFast-Fabric-1.17.1+26.3.jar": "4b346661cd0811d98a6df8c9faeb8fafd9326ab88248430e8bec845ef1ff6dca",
     "mods/Incendium_26.3_v5.5.4+26.3.jar": "eab237c9f5a7e6896a584a6776a54e960f4d8d5714f052fe5d0dc3ece1d37b10",
     "mods/InvMove-0.9.6+26.3-Fabric.jar": "d2fa09f584a66cefbc5603bd36b6eb04396950c9a499c1b84c59209f02a8265e",
+    "mods/InventoryProfilesNext-fabric-26.3-2.3.8.jar": "d7e4a0a21427db27d723a48c66af9693cb7f9eddbdcec9a8d32a6bd3dab946b3",
     "mods/ItemBorders-26.3-fabric-1.3.3.jar": "954a772493561a86f96513cc7480dd614eb1ec085844ee9a5dda2be307f1863d",
     "mods/Jade-mc26.3-Fabric-26.3.5.jar": "4899d6c60afa2af859b3a7e0824d0ef6b404f26458f831e3d877faa36be9af1c",
     "mods/Prism-26.3-fabric-1.1.3.jar": "2abadba0325de2e50d428f6275d7c21a67c6b4a3fa3020f06c127f0523e0dbb5",
     "mods/ResourcefulLib-6.0.1.jar": "c4b4169d01966780e3e058d42ca31b9c9ba172e26f5c0c2ac59751639324ac48",
+    "mods/ShoulderSurfing-Fabric-26.3-5.3.1.jar": "0f9af70b73121c65e20e5fcbffd21f46727e79039a2d87d95278e276758dc8bc",
     "mods/SubtleEffects-fabric-26.3-1.15.2.jar": "bcbb85705961a35aace97377be21d5a046746fd73e8c4dee2a146103421451f8",
     "mods/Terralith_26.3_v2.6.5+26.3.jar": "ad953bdd258d23b85c6e5955d14fed89a525e50c68a80ac5cd652573068d0ca4",
     "mods/advancednetherite-fabric-2.4.4-26.3.jar": "fbe6c57b6125534562ef4067f8e19b7ff2ee313466f5e4a7d4ef7cfda1c86f9e",
@@ -50,6 +52,7 @@
     "mods/iris-fabric-1.11.7+mc26.3.jar": "83ab4d3013dd56ac05ae503a2f596968911001c4ef3d82c59c5c79e64c34dd98",
     "mods/jei-26.3-fabric-31.14.0.72.jar": "79d222604dd70517d2bd4c7e9cc3687ea5e777e0e249f4e9de6f0965bb0856fc",
     "mods/lambdynamiclights-4.13.0+26.3.jar": "b7550288423affed86370acd80d064876d7e256f5489461b7ff7941627552ab2",
+    "mods/libIPN-fabric-26.3-6.9.0.jar": "da8cee972731b25921897c55239793ac27729a57438bcf31a32a2e23036c3da0",
     "mods/lithium-fabric-0.26.3+mc26.3.jar": "103b6aab3932f119155565254a3f33b1be0da26b9bf7a5eec24851542144fc78",
     "mods/lithostitched-2.0.6-fabric-26.3.jar": "31c5fff53420a2af5aa231a7620af089054456d9a0cfc763e571332e0253872b",
     "mods/mcw-furniture-3.4.2-mc26.3fabric.jar": "cf5cd30cb19976260803427b6ff47a8dfbf770bab2fd15863bdf29a3fc1a36af",
@@ -79,13 +82,14 @@
     "mods/xaeroworldmap-fabric-26.3-1.47.2.jar": "815fbfd7da1e0c3b6a7a05227b7b342c7857fe6ab0fe42f072e14f8dfc19e1f8",
     "mods/yet_another_config_lib_v3-3.9.7+26.3-fabric.jar": "c52d41d444522d9abba994cd4c4ee2e71a065d7c31010f92a9959b80ccb4b0f5",
     "mods/zoomify-2.17.0+mc26.3-universal.jar": "134edcc2992d2f6c3793746101dec1aba3ef02f046024fd280afb09094593027",
+    "mods/emf_compat_core_fabric_26.3_2.4.0.jar": "badb7bc69a01bd03f19e551d22c75b59e690ed7b128df8265b01691a61a91130",
+    "mods/emf_compat_not_enough_animations_fabric_26.3_1.2.1.jar": "29a7a6ad055d58c749d72d85a5a2183bf5553914ed717fb74467ff38fc72b453",
     "mods/entity_model_features-3.3.12-26.3-fabric.jar": "4a8b04d26c94909a3ba9f08972fb475e7d39f715f666f99a294017baaa37cb69",
     "mods/entity_texture_features-7.2.7-26.3-fabric.jar": "3c9d7640d53e01f4f09ac10547b02bd66aaf552c49b77581de0daa214cd36223",
+    "mods/firstperson-fabric-2.7.3-mc26.3.jar": "c6ee8b85b7d99b5c311b00255898f550bb37a9f274df0e335657ffc035b28361",
     "mods/jamlib-fabric-2.3.3-26.3.x.jar": "bac9fa1b7aa0338854a5484422410ae278c21027cdd34650a3e8ac3709d8eb88",
-    "mods/rightclickharvest-fabric-4.7.1-26.3.x.jar": "7c0e24bc51d624fa98df696adc1a8b21d20bba996cec91f7ef6061aa7d634b54",
-    "mods/InventoryProfilesNext-fabric-26.3-2.3.8.jar": "d7e4a0a21427db27d723a48c66af9693cb7f9eddbdcec9a8d32a6bd3dab946b3",
-    "mods/libIPN-fabric-26.3-6.9.0.jar": "da8cee972731b25921897c55239793ac27729a57438bcf31a32a2e23036c3da0",
-    "mods/ShoulderSurfing-Fabric-26.3-5.3.1.jar": "0f9af70b73121c65e20e5fcbffd21f46727e79039a2d87d95278e276758dc8bc"
+    "mods/reimagined-intro-fabric-26.3-3.0.0.jar": "30cd1c2332a77052c0a7ffecc8c060d436923b97d16ce2ebeb9e725ae03e3826",
+    "mods/rightclickharvest-fabric-4.7.1-26.3.x.jar": "7c0e24bc51d624fa98df696adc1a8b21d20bba996cec91f7ef6061aa7d634b54"
   },
   "mods": [
     {
@@ -384,6 +388,16 @@
       "version": "2.7.3"
     },
     {
+      "id": "emf_compat_core",
+      "name": "EMF Compat: Core",
+      "version": "2.4.0"
+    },
+    {
+      "id": "emf_compat_not_enough_animations",
+      "name": "EMF Compat: Not Enough Animations",
+      "version": "1.2.1"
+    },
+    {
       "id": "emlib",
       "name": "EmLib",
       "version": "1.0.5"
@@ -662,6 +676,11 @@
       "id": "fidgetz",
       "name": "fidgetz",
       "version": "0.7.5+26.3"
+    },
+    {
+      "id": "firstperson",
+      "name": "FirstPerson",
+      "version": "2.7.3"
     },
     {
       "id": "folk_sisby_kaleido-config",
@@ -977,6 +996,11 @@
       "id": "prism",
       "name": "root project 'Prism'",
       "version": "1.1.3"
+    },
+    {
+      "id": "reimagined-intro",
+      "name": "Reimagined Intro",
+      "version": "3.0.0"
     },
     {
       "id": "resourcefullib",

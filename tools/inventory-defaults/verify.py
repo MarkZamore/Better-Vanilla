@@ -59,6 +59,27 @@ result = subprocess.run(command, cwd=case, capture_output=True, text=True, check
 assert config.read_bytes() == before and 'Could not apply IPN' in result.stderr
 assert not (case / 'config/better-vanilla/ipn-arrow-defaults-v1.applied').exists()
 checks.append('malformed settings preserved without migration marker')
+case = args.out / 'nea-existing'
+(case / 'config').mkdir(parents=True)
+config = case / 'config/notenoughanimations.json'
+initial = {'configVersion': 12, 'enableAnimationSmoothing': True, 'disableLegSmoothing': False,
+           'enableLadderAnimation': True, 'bowAnimation': 'CUSTOM',
+           'holdingItems': ['custom:torch'], 'unknownPlayerOption': {'keep': 42}}
+config.write_text(json.dumps(initial), encoding='utf-8')
+required = {'enableAnimationSmoothing': False, 'disableLegSmoothing': True,
+            'enableLadderAnimation': False, 'bowAnimation': 'VANILLA'}
+subprocess.run(command, cwd=case, capture_output=True, text=True, check=True)
+assert json.loads(config.read_bytes()) == {**initial, **required}
+checks.append('NEA four required compatibility values preserve all unrelated settings')
+before = config.read_bytes(), config.stat().st_mtime_ns
+subprocess.run(command, cwd=case, capture_output=True, text=True, check=True)
+assert (config.read_bytes(), config.stat().st_mtime_ns) == before
+checks.append('NEA compatibility settings are idempotent')
+config.write_text('{invalid existing NEA file', encoding='utf-8')
+before = config.read_bytes()
+result = subprocess.run(command, cwd=case, capture_output=True, text=True, check=True)
+assert config.read_bytes() == before and 'Could not apply NEA' in result.stderr
+checks.append('NEA malformed settings preserved with diagnostic')
 report = {'status': 'PASS', 'checks': checks, 'count': len(checks), 'minecraftStarted': False}
 (args.out / 'report.json').write_text(json.dumps(report, indent=2) + '\n', encoding='utf-8')
 print('PASS:', len(checks), 'checks without Minecraft')

@@ -1,0 +1,118 @@
+{
+  "status": "PASS for non-UI checks",
+  "baseline": "f27beb0fde8aaf9cde2ae0b865cadd6a9fa141e2",
+  "rootJars": 84,
+  "loadedPackComponents": 210,
+  "policyTests": {
+    "status": "PASS",
+    "checks": [
+      "new: only arrow visibility changed, keybinds and other settings retained",
+      "new: idempotent startup",
+      "new: later player choice retained",
+      "existing: only arrow visibility changed, keybinds and other settings retained",
+      "existing: idempotent startup",
+      "existing: later player choice retained",
+      "malformed settings preserved without migration marker",
+      "NEA four required compatibility values preserve all unrelated settings",
+      "NEA compatibility settings are idempotent",
+      "NEA malformed settings preserved with diagnostic"
+    ],
+    "count": 10,
+    "minecraftStarted": false
+  },
+  "fabricResolution": {
+    "status": "PASS",
+    "minecraftMainExecuted": false,
+    "computerUse": false,
+    "gameJarSha256": "4508d006323f24fa02876310c192d739af56516eb259000ac50f0909a68c9a2d",
+    "logSha256": "a482f6dfc500b6939d4a86082ba1cb55bea74600ad6fa6516c30a6667f6e39d2"
+  },
+  "added": [
+    {
+      "path": "mods/emf_compat_core_fabric_26.3_2.4.0.jar",
+      "sizeBytes": 182801,
+      "sha256": "badb7bc69a01bd03f19e551d22c75b59e690ed7b128df8265b01691a61a91130",
+      "modId": "emf_compat_core",
+      "modVersion": "2.4.0",
+      "modrinthVersionId": "p3tzyILe",
+      "downloadUrl": "https://cdn.modrinth.com/data/hbGct5uU/versions/p3tzyILe/emf_compat_core_fabric_26.3_2.4.0.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/emf-compat-core",
+      "license": "GPL-3.0-only",
+      "sourceUrl": "https://github.com/victorkozhokin/emf-compat/tree/925613e66dd38eb89af5c8721299eb07ca492c2f",
+      "correspondingSource": {
+        "url": "https://codeload.github.com/victorkozhokin/emf-compat/zip/925613e66dd38eb89af5c8721299eb07ca492c2f",
+        "releaseAsset": "emf-compat-source-925613e66dd38eb89af5c8721299eb07ca492c2f.zip",
+        "sizeBytes": 170347545,
+        "sha256": "d56fd71cae26bf5609486a665c1fc4d49b3e798e3230430e7a867a22f814bc39"
+      }
+    },
+    {
+      "path": "mods/emf_compat_not_enough_animations_fabric_26.3_1.2.1.jar",
+      "sizeBytes": 112994,
+      "sha256": "29a7a6ad055d58c749d72d85a5a2183bf5553914ed717fb74467ff38fc72b453",
+      "modId": "emf_compat_not_enough_animations",
+      "modVersion": "1.2.1",
+      "modrinthVersionId": "Xs6WnTQm",
+      "downloadUrl": "https://cdn.modrinth.com/data/IGCrWfL7/versions/Xs6WnTQm/emf_compat_not_enough_animations_fabric_26.3_1.2.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/emf-compat-not-enough-animations",
+      "license": "GPL-3.0-only",
+      "sourceUrl": "https://github.com/victorkozhokin/emf-compat/tree/925613e66dd38eb89af5c8721299eb07ca492c2f",
+      "correspondingSourceRef": "emf-compat-source-925613e66dd38eb89af5c8721299eb07ca492c2f.zip"
+    },
+    {
+      "path": "mods/firstperson-fabric-2.7.3-mc26.3.jar",
+      "sizeBytes": 1526741,
+      "sha256": "c6ee8b85b7d99b5c311b00255898f550bb37a9f274df0e335657ffc035b28361",
+      "modId": "firstperson",
+      "modVersion": "2.7.3",
+      "modrinthVersionId": "Z05WZTy2",
+      "downloadUrl": "https://cdn.modrinth.com/data/H5XMjpHi/versions/Z05WZTy2/firstperson-fabric-2.7.3-mc26.3.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/first-person-model",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/tr7zw/FirstPersonModel"
+    },
+    {
+      "path": "mods/reimagined-intro-fabric-26.3-3.0.0.jar",
+      "sizeBytes": 105459473,
+      "sha256": "30cd1c2332a77052c0a7ffecc8c060d436923b97d16ce2ebeb9e725ae03e3826",
+      "modId": "reimagined-intro",
+      "modVersion": "3.0.0",
+      "modrinthVersionId": "EFch6D0y",
+      "downloadUrl": "https://cdn.modrinth.com/data/BsnF5g7E/versions/EFch6D0y/reimagined-intro-fabric-26.3-3.0.0.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/reimagined-intro",
+      "license": "CC0-1.0",
+      "sourceUrl": "https://github.com/lehoangtrieu-dev/reimagined-intro"
+    }
+  ],
+  "resourcepack": {
+    "path": "resourcepacks/FA+Player-v1.1.zip",
+    "sizeBytes": 110203,
+    "sha256": "9ee3ae5b2fe5cd980e4041429dc66d88243f5f2420e2814e5361c746ad937f33",
+    "version": "1.1.0",
+    "modrinthVersionId": "Wj7NeGjP",
+    "downloadUrl": "https://cdn.modrinth.com/data/TAIMVZCL/versions/Wj7NeGjP/FA%2BPlayer-v1.1.zip",
+    "websiteUrl": "https://modrinth.com/resourcepack/fa-player-extension",
+    "creator": "FreshLX",
+    "distributionPermission": "Official terms permit inclusion in a modpack or server. Original ZIP included unchanged."
+  },
+  "requiredNeaSettings": {
+    "enableAnimationSmoothing": false,
+    "disableLegSmoothing": true,
+    "enableLadderAnimation": false,
+    "bowAnimation": "VANILLA"
+  },
+  "intro": {
+    "version": "3.0.0",
+    "skip": "Esc",
+    "bytecode": "IntroScreen.keyPressed compares key 41 (SDL Escape) then invokes IntroManager.skip()."
+  },
+  "safetyReview": "New content only changes client rendering, poses and title-screen playback. The shipped settings policy modifies exactly four NEA keys and retains IPN one-time defaults. No world or server permissions changed.",
+  "launcherExceptions": "None. All runtime configuration and helpers belong to Better Vanilla.",
+  "notRun": [
+    "Gameplay",
+    "Visual animation compatibility",
+    "Actual intro playback",
+    "Steam connection"
+  ],
+  "publication": "Pending"
+}
