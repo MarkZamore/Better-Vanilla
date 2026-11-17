@@ -1,0 +1,5 @@
+Better Vanilla additional mods
+
+Entity Texture Features and Entity Model Features by Traben. Unmodified binaries under GNU LGPL v3. Full corresponding source archives accompany the release at the exact upstream commits pinned in tools/mod-overlay-lock.json. GNU GPL v3 and LGPL v3 texts accompany these binaries.
+
+RightClickHarvest and JamLib by Jamalam/JamCoreModding, MIT. Cinematic Interactions by Southware/dcvke, Fabric distribution by XiaoCraft, MIT. The bundled hammer model is by RDiamonds under CC BY 4.0. See cinematic.CREDITS.md for the original model, conversion details and attribution.

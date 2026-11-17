@@ -4,7 +4,9 @@ Better Vanilla для библиотеки LANMinecraft. Minecraft 26.3, Fabric 
 
 ## Состав
 
-В `upstream-lock.json` закреплены SHA-256 входного архива, точные версии 76 JAR и авторские адреса. JAR выпускаются в исходных байтах. Шейдеры поставляются в оригинальных ZIP и выбираются вручную в Iris. Поставка сохраняет выбор игрока, настройки дальности и графического бэкенда.
+В `upstream-lock.json` закреплены SHA-256 входного архива, точные версии 76 авторских JAR и их источники. [Слой правок](tools/mod-overlay-lock.json) фиксирует пять добавленных JAR и исключает Shoulder Surfing Reloaded, камера которого перекрывает сцены Cinematic Interactions. Добавлены Entity Texture Features 7.2.7, Entity Model Features 3.3.12, RightClickHarvest 4.7.1, его зависимость JamLib 2.3.3 и Cinematic Interactions 0.18.28 beta. RightClickHarvest собирает созревший урожай по ПКМ и пересаживает его. Cinematic Interactions добавляет сцены от первого лица у верстака, печи и других рабочих блоков.
+
+JAR выпускаются в исходных байтах. Соответствующие исходники добавлений указаны в слое правок, лицензии и атрибуция сохранены в [tools/mod-licenses](tools/mod-licenses). Шейдеры поставляются в оригинальных ZIP и выбираются вручную в Iris. Поставка сохраняет выбор игрока, настройки дальности и графического бэкенда.
 
 - [Bliss 2.1.2](https://modrinth.com/shader/bliss-shader/version/kC2Y8q1P), X0nk, редакция шейдеров Chocapic13.
 - [Complementary Reimagined r5.9.3](https://modrinth.com/shader/complementary-reimagined/version/Bqen1mJX), Complementary Development.
@@ -14,7 +16,7 @@ Better Vanilla для библиотеки LANMinecraft. Minecraft 26.3, Fabric 
 
 ## Подготовка поставки
 
-Используйте неизменённый исходный ZIP и актуальные инструменты LANMinecraft. Версия совместимых инструментов для первой поставки — `5a8f986505a729f7a3749a7450e3e77c9060edb0`.
+Используйте неизменённый исходный ZIP и актуальные инструменты LANMinecraft. Материализация скачивает пять добавлений из официальных источников и сверяет их размеры и SHA-256 перед записью.
 
 ```powershell
 python -B tools/materialize.py --original <Better-Vanilla.zip> --out <novel-pack-path>
@@ -31,4 +33,4 @@ python -B tools/network_logging_policy.py prepare --pack .
 
 ## Изменения состава
 
-Inventory Profiles Next и его отдельная библиотека libIPN исключены по запросу пользователя. Точные исключённые SHA-256 закреплены в tools/mod-overlay-lock.json. Исходный архив и upstream-lock.json сохраняют авторский состав. Материализация и генератор выпуска проверяют слой исключений. Остальные 74 исходных JAR сохраняют свои байты.
+Inventory Profiles Next и его отдельная библиотека libIPN исключены по запросу пользователя. Также исключён Shoulder Surfing Reloaded для работы камеры Cinematic Interactions. Точные исключённые SHA-256 закреплены в tools/mod-overlay-lock.json. Исходный архив и upstream-lock.json сохраняют авторский состав. Материализация и генератор выпуска проверяют слой исключений. Поставка содержит 73 исходных JAR и пять добавлений, всего 78 JAR и 204 фактически загружаемых компонента Fabric.

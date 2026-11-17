@@ -21,7 +21,6 @@
     "mods/Jade-mc26.3-Fabric-26.3.5.jar": "4899d6c60afa2af859b3a7e0824d0ef6b404f26458f831e3d877faa36be9af1c",
     "mods/Prism-26.3-fabric-1.1.3.jar": "2abadba0325de2e50d428f6275d7c21a67c6b4a3fa3020f06c127f0523e0dbb5",
     "mods/ResourcefulLib-6.0.1.jar": "c4b4169d01966780e3e058d42ca31b9c9ba172e26f5c0c2ac59751639324ac48",
-    "mods/ShoulderSurfing-Fabric-26.3-5.3.1.jar": "0f9af70b73121c65e20e5fcbffd21f46727e79039a2d87d95278e276758dc8bc",
     "mods/SubtleEffects-fabric-26.3-1.15.2.jar": "bcbb85705961a35aace97377be21d5a046746fd73e8c4dee2a146103421451f8",
     "mods/Terralith_26.3_v2.6.5+26.3.jar": "ad953bdd258d23b85c6e5955d14fed89a525e50c68a80ac5cd652573068d0ca4",
     "mods/advancednetherite-fabric-2.4.4-26.3.jar": "fbe6c57b6125534562ef4067f8e19b7ff2ee313466f5e4a7d4ef7cfda1c86f9e",
@@ -79,7 +78,12 @@
     "mods/xaerominimap-fabric-26.3-26.6.2.jar": "418f8b1481cfa133d366c2224ecddec79cc466152754febcb1b386137e2d5f71",
     "mods/xaeroworldmap-fabric-26.3-1.47.2.jar": "815fbfd7da1e0c3b6a7a05227b7b342c7857fe6ab0fe42f072e14f8dfc19e1f8",
     "mods/yet_another_config_lib_v3-3.9.7+26.3-fabric.jar": "c52d41d444522d9abba994cd4c4ee2e71a065d7c31010f92a9959b80ccb4b0f5",
-    "mods/zoomify-2.17.0+mc26.3-universal.jar": "134edcc2992d2f6c3793746101dec1aba3ef02f046024fd280afb09094593027"
+    "mods/zoomify-2.17.0+mc26.3-universal.jar": "134edcc2992d2f6c3793746101dec1aba3ef02f046024fd280afb09094593027",
+    "mods/Cinematic.Interaction-Fabric-26.3-0.18.28.jar": "71ffd95cbdd3a56d5c4d381556f6cebada9af3386188290ff752c68e8092ad84",
+    "mods/entity_model_features-3.3.12-26.3-fabric.jar": "4a8b04d26c94909a3ba9f08972fb475e7d39f715f666f99a294017baaa37cb69",
+    "mods/entity_texture_features-7.2.7-26.3-fabric.jar": "3c9d7640d53e01f4f09ac10547b02bd66aaf552c49b77581de0daa214cd36223",
+    "mods/jamlib-fabric-2.3.3-26.3.x.jar": "bac9fa1b7aa0338854a5484422410ae278c21027cdd34650a3e8ac3709d8eb88",
+    "mods/rightclickharvest-fabric-4.7.1-26.3.x.jar": "7c0e24bc51d624fa98df696adc1a8b21d20bba996cec91f7ef6061aa7d634b54"
   },
   "mods": [
     {
@@ -243,6 +247,11 @@
       "version": "1.3.5"
     },
     {
+      "id": "cinematic",
+      "name": "Cinematic Interactions",
+      "version": "0.18.28"
+    },
+    {
       "id": "cloth-basic-math",
       "name": "cloth-basic-math",
       "version": "0.6.1"
@@ -381,6 +390,16 @@
       "id": "emlib",
       "name": "EmLib",
       "version": "1.0.5"
+    },
+    {
+      "id": "entity_model_features",
+      "name": "Entity Model Features",
+      "version": "3.3.12"
+    },
+    {
+      "id": "entity_texture_features",
+      "name": "Entity Texture Features",
+      "version": "7.2.7"
     },
     {
       "id": "entityculling",
@@ -718,6 +737,11 @@
       "version": "26.3.5+fabric"
     },
     {
+      "id": "jamlib",
+      "name": "JamLib",
+      "version": "2.3.3+26.3.x"
+    },
+    {
       "id": "jei",
       "name": "Just Enough Items",
       "version": "31.14.0.72"
@@ -953,14 +977,14 @@
       "version": "6.0.1"
     },
     {
+      "id": "rightclickharvest",
+      "name": "Right Click Harvest",
+      "version": "4.7.1+26.3.x"
+    },
+    {
       "id": "shatterlib",
       "name": "ShatterLib",
       "version": "0.7.0-beta.5+26.3"
-    },
-    {
-      "id": "shouldersurfing",
-      "name": "Shoulder Surfing Reloaded",
-      "version": "5.3.1"
     },
     {
       "id": "shulkerboxtooltip",

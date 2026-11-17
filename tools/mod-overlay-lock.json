@@ -1,7 +1,80 @@
 {
   "schemaVersion": 1,
-  "add": [],
+  "add": [
+    {
+      "path": "mods/Cinematic.Interaction-Fabric-26.3-0.18.28.jar",
+      "sizeBytes": 1227184,
+      "sha256": "71ffd95cbdd3a56d5c4d381556f6cebada9af3386188290ff752c68e8092ad84",
+      "modId": "cinematic",
+      "modVersion": "0.18.28",
+      "downloadUrl": "https://github.com/xiaocraftt/CinematicInteractions/releases/download/v0.18.28-fabric-26.3-beta/Cinematic.Interaction-Fabric-26.3-0.18.28.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cinematic-interactions",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/xiaocraftt/CinematicInteractions/tree/ff00fa9077470ae326bfa07b71108585bce5ad59"
+    },
+    {
+      "path": "mods/entity_model_features-3.3.12-26.3-fabric.jar",
+      "sizeBytes": 665386,
+      "sha256": "4a8b04d26c94909a3ba9f08972fb475e7d39f715f666f99a294017baaa37cb69",
+      "modId": "entity_model_features",
+      "modVersion": "3.3.12",
+      "downloadUrl": "https://cdn.modrinth.com/data/4I1XuqiY/versions/vF6qLXsA/entity_model_features-3.3.12-26.3-fabric.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/entity-model-features",
+      "license": "LGPL-3.0-only",
+      "sourceUrl": "https://github.com/Traben-0/Entity_Model_Features/tree/45b0211f22b91ef76b62f0acd30b393f536df144",
+      "correspondingSource": {
+        "url": "https://codeload.github.com/Traben-0/Entity_Model_Features/zip/45b0211f22b91ef76b62f0acd30b393f536df144",
+        "releaseAsset": "entity_model_features-source-45b0211f22b91ef76b62f0acd30b393f536df144.zip",
+        "sizeBytes": 686950,
+        "sha256": "db962b0c8b443df75d5149399a50313832aa8dbfb23dcca46c6ee05671a95aec"
+      }
+    },
+    {
+      "path": "mods/entity_texture_features-7.2.7-26.3-fabric.jar",
+      "sizeBytes": 798322,
+      "sha256": "3c9d7640d53e01f4f09ac10547b02bd66aaf552c49b77581de0daa214cd36223",
+      "modId": "entity_texture_features",
+      "modVersion": "7.2.7",
+      "downloadUrl": "https://cdn.modrinth.com/data/BVzZfTc1/versions/svwZ2o4d/entity_texture_features-7.2.7-26.3-fabric.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric",
+      "license": "LGPL-3.0-only",
+      "sourceUrl": "https://github.com/Traben-0/Entity_Texture_Features/tree/3f3a8a75138d96223f2ddfbd8bcff8327c1b7f59",
+      "correspondingSource": {
+        "url": "https://codeload.github.com/Traben-0/Entity_Texture_Features/zip/3f3a8a75138d96223f2ddfbd8bcff8327c1b7f59",
+        "releaseAsset": "entity_texture_features-source-3f3a8a75138d96223f2ddfbd8bcff8327c1b7f59.zip",
+        "sizeBytes": 8031983,
+        "sha256": "7274154a93ff31f9a72f4da348b7a7e77c8fa3e43d1a6e1dff7879ed0b951fc2"
+      }
+    },
+    {
+      "path": "mods/jamlib-fabric-2.3.3-26.3.x.jar",
+      "sizeBytes": 265518,
+      "sha256": "bac9fa1b7aa0338854a5484422410ae278c21027cdd34650a3e8ac3709d8eb88",
+      "modId": "jamlib",
+      "modVersion": "2.3.3+26.3.x",
+      "downloadUrl": "https://cdn.modrinth.com/data/IYY9Siz8/versions/nlVdNwtg/jamlib-fabric-2.3.3-26.3.x.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/jamlib",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/JamCoreModding/jam-lib/tree/57ad3b7fd7be99b756e53c350bc31e9961ed822f"
+    },
+    {
+      "path": "mods/rightclickharvest-fabric-4.7.1-26.3.x.jar",
+      "sizeBytes": 279835,
+      "sha256": "7c0e24bc51d624fa98df696adc1a8b21d20bba996cec91f7ef6061aa7d634b54",
+      "modId": "rightclickharvest",
+      "modVersion": "4.7.1+26.3.x",
+      "downloadUrl": "https://cdn.modrinth.com/data/Cnejf5xM/versions/JqbL9uGG/rightclickharvest-fabric-4.7.1-26.3.x.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/rightclickharvest",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/JamCoreModding/right-click-harvest/tree/525116a6270dde26f5e22dfca179b998d3bf3a05"
+    }
+  ],
   "remove": [
+    {
+      "path": "mods/ShoulderSurfing-Fabric-26.3-5.3.1.jar",
+      "sha256": "0f9af70b73121c65e20e5fcbffd21f46727e79039a2d87d95278e276758dc8bc",
+      "reason": "Cinematic Interactions controls the camera during workstation scenes. Shoulder Surfing Reloaded can keep its third-person camera active and obscure the scene."
+    },
     {
       "path": "mods/InventoryProfilesNext-fabric-26.3-2.3.8.jar",
       "sha256": "d7e4a0a21427db27d723a48c66af9693cb7f9eddbdcec9a8d32a6bd3dab946b3",
