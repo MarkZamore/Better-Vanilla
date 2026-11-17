@@ -1,0 +1,95 @@
+{
+  "packId": "minecraft-25",
+  "status": "PASS",
+  "releasedSourceCommit": "c7477c8e9fee29acfc74600fed8d00e87626656d",
+  "catalog": {
+    "catalogCommit": "30b5807d6c5f7938608836dd410100979f9f3ec0",
+    "catalogBlob": "ed1c77e6062e32f5b8ab8e94a736f93d47df656a",
+    "previousBlob": "689b941178e0dcfeea95fce363ee2b27022dc50d",
+    "position": 17,
+    "entry": {
+      "id": "minecraft-25",
+      "relativePath": "Better Vanilla",
+      "libraryGroup": "Мало модов",
+      "source": {
+        "owner": "MarkZamore",
+        "repo": "Better-Vanilla",
+        "tag": "pack-latest"
+      }
+    },
+    "precedingPack": "Better Than Wolves"
+  },
+  "publicInstall": {
+    "outcome": "PASS",
+    "revision": "c7477c8e9fee29acfc74600fed8d00e87626656d",
+    "manifestSha256": "ef1cb75ad18a9d93619df2b3de257a6c9dea0b33c385aa4fc20990228377e47c",
+    "librarySha256": "d0adbc5d639f1937c0c5fc91e23bf592302b1a5ccd2254ef79c4cae1254d450b",
+    "launcherAssemblySha256": "2f398ba9ff96b33221e2c177f9dd59498aaebe577aba3a0cd55e9c7912abcdbe",
+    "gameAssets": 69,
+    "gameAssetBytes": 185898207,
+    "installedFiles": 86,
+    "installedBytes": 186088887.0
+  },
+  "coldLauncher": {
+    "outcome": "PASS",
+    "computerUse": false,
+    "actualExecutableStarted": true,
+    "network": "real public GitHub",
+    "packId": "minecraft-25",
+    "revision": "c7477c8e9fee29acfc74600fed8d00e87626656d",
+    "manifestSha256": "ef1cb75ad18a9d93619df2b3de257a6c9dea0b33c385aa4fc20990228377e47c",
+    "librarySha256": "d0adbc5d639f1937c0c5fc91e23bf592302b1a5ccd2254ef79c4cae1254d450b",
+    "loadedModCount": 202,
+    "priorEntriesPreserved": 24,
+    "launcherSha256": "fc4111e8389d80e3eac087cc7669e30b401cb92010ae9f7080620d2e1e6d6a45",
+    "releaseNumber": 519,
+    "launchLog": "Launch Better Vanilla: verified startup manifest revision \"c7477c8e9fee29acfc74600fed8d00e87626656d\", SHA256 ef1cb75ad18a9d93619df2b3de257a6c9dea0b33c385aa4fc20990228377e47c.",
+    "title": "Better Vanilla",
+    "catalogEntries": 25,
+    "elapsedMilliseconds": 21742
+  },
+  "nativeClient": {
+    "minecraftVersion": "26.3",
+    "fabricLoader": "0.20.1",
+    "java": "Temurin 25.0.4.1+1",
+    "lockedAuthorJars": 76,
+    "fabricLoadedPackModIds": 202,
+    "entryCount": 2,
+    "savedAndReopened": true,
+    "quitExitCode": 0,
+    "shaderPacksVisible": 3,
+    "renderedShader": "Complementary Reimagined r5.9.3",
+    "steamConnection": "NOT RUN",
+    "blissAndMakeUpRendering": "NOT RUN",
+    "loggedErrors": [
+      "Failed to fetch user properties",
+      "Failed to fetch Realms feature flags",
+      "Couldn't connect to realms"
+    ],
+    "worldUsesExperimentalWorldgen": true
+  },
+  "preset": {
+    "verification": "Static inspection of key registrations and configuration inputs. Native client was not used for preset checks.",
+    "mappings": 76,
+    "sha256": "c437c6cee502cb7520c304462ffcfac1d254ec671e6d9f7a08f23c849c64f462",
+    "scope": "62 vanilla mappings and 14 opt-in overrides. Vanilla debug chords and context-specific mod defaults are preserved."
+  },
+  "skipMultiplayerWarning": true,
+  "shaders": [
+    {
+      "path": "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip",
+      "sizeBytes": 1791406,
+      "sha256": "f41db92acc585fe9ffe0cc124d6ecaea27cef9ded91129ebc2a8e60226947b2c"
+    },
+    {
+      "path": "shaderpacks/ComplementaryReimagined_r5.9.3.zip",
+      "sizeBytes": 553397,
+      "sha256": "fed6c879e732cf7fc7bc6570ebb1def43235aa7e96f62859fbdbdbfa0b484b38"
+    },
+    {
+      "path": "shaderpacks/MakeUp-UltraFast-9.6.zip",
+      "sizeBytes": 406830,
+      "sha256": "71319ea5d0ad114143ef1c334890e315dbf1eeb2318d6bc35f3e5021fb3c8ba8"
+    }
+  ]
+}
