@@ -49,6 +49,8 @@ def payload_files(pack: Path) -> dict:
 
 
 def verify(pack: Path, output: Path, manifest: dict, library) -> None:
+    require(manifest["schemaVersion"] == 1 and "requiredLauncherFeatures" not in manifest,
+            "Better Vanilla uses the schema 1 launcher contract")
     expected = payload_files(pack)
     require({row["path"]: {k: row[k] for k in ("sizeBytes", "sha256")}
              for row in manifest["files"]} == expected, "Manifest files differ from the locks")
@@ -107,7 +109,7 @@ def main() -> None:
         with zipfile.ZipFile(assets / library["name"]) as archive:
             card = json.loads(archive.read("library.json"))
         manifest = {
-            "schemaVersion": 2, "packId": card["id"], "revision": revision,
+            "schemaVersion": 1, "packId": card["id"], "revision": revision,
             "generatedAtUtc": subprocess.check_output(
                 ["git", "-C", str(SOURCE), "show", "-s", "--format=%cI", revision], text=True).strip(),
             "minecraftVersion": runtime["minecraftVersion"], "loader": runtime["loader"],
