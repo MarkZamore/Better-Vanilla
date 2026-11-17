@@ -1,2 +1,3 @@
 config/log4j2.xml
 config/better-vanilla/inventory-defaults.jar
+config/lanminecraft/experimental-world-confirmation.jar
