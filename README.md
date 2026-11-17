@@ -34,3 +34,5 @@ python -B tools/network_logging_policy.py prepare --pack .
 ## Изменения состава
 
 Inventory Profiles Next и его отдельная библиотека libIPN исключены по запросу пользователя. Также исключён Shoulder Surfing Reloaded для работы камеры Cinematic Interactions. Точные исключённые SHA-256 закреплены в tools/mod-overlay-lock.json. Исходный архив и upstream-lock.json сохраняют авторский состав. Материализация и генератор выпуска проверяют слой исключений. Поставка содержит 73 исходных JAR и пять добавлений, всего 78 JAR и 204 фактически загружаемых компонента Fabric.
+
+Полная проверка опубликованной поставки выполняется инструментом tools/verify_public_release.py с аргументами --staged <dist>/pack-manifest.json и --out <new-public-check-path>. Инструмент скачивает игровые файлы, библиотеку, исходники ETF/EMF и лицензии, затем сверяет размеры и SHA-256. Отчёт приёмки сохранён в tools/mod-additions-qa.json.
