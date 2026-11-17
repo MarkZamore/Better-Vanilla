@@ -17,7 +17,7 @@
   "computerUse": false,
   "visualVerification": "Not run",
   "launcherChanges": false,
-  "baseline": "d027c2a61ce86adfeb9579b41958a0d732189b27",
+  "baseline": "bababd40e6cfc396ed360e3791f73f38d4739e12",
   "fabricResolution": {
     "status": "PASS",
     "minecraftMainExecuted": false,
@@ -26,5 +26,6 @@
     "logSha256": "4105be8786c3b30599e97344227f56c1cb6c67eb1450f6490d8980e03642ed74"
   },
   "rootJars": 85,
-  "loadedPackComponents": 212
+  "loadedPackComponents": 212,
+  "preservedConcurrentPolicy": "tools/experimental-warnings/policy.json"
 }
