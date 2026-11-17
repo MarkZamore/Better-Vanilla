@@ -25,10 +25,11 @@
       "license": "GPL-3.0-only",
       "sourceUrl": "https://codeberg.org/enjarai/do-a-barrel-roll/src/commit/642378fde4eb5edc562db7e7dde4f1c33a4e6d6b",
       "correspondingSource": {
-        "url": "https://codeberg.org/enjarai/do-a-barrel-roll/archive/642378fde4eb5edc562db7e7dde4f1c33a4e6d6b.zip",
+        "url": "https://github.com/MarkZamore/Better-Vanilla/releases/download/pack-latest/do-a-barrel-roll-source-642378fde4eb5edc562db7e7dde4f1c33a4e6d6b.zip",
         "releaseAsset": "do-a-barrel-roll-source-642378fde4eb5edc562db7e7dde4f1c33a4e6d6b.zip",
         "sizeBytes": 60496437,
-        "sha256": "129d3125cb3a79b643e79fa6e8526de4fc20d14dc0483d10150c94b46d17392c"
+        "sha256": "129d3125cb3a79b643e79fa6e8526de4fc20d14dc0483d10150c94b46d17392c",
+        "upstreamArchiveUrl": "https://codeberg.org/enjarai/do-a-barrel-roll/archive/642378fde4eb5edc562db7e7dde4f1c33a4e6d6b.zip"
       }
     },
     {
